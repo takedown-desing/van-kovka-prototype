@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип: Корзина. Элементы со склада и изделия на расчёт, скидка от суммы, доставка, оформление без регистрации. Ван-Ковка</title>
+<meta name="description" content="Прототип корзины van-kovka.ru: элементы с остатком и количеством, изделия на заказ как заявка на расчёт, прогресс до оптовой скидки, доставка, оформление без регистрации, сопутствующие товары.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23B4622A%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EВ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/styles.css?v=1">
+</head>
+<body>
+
+<!-- Панель прототипа -->
+<div class="proto-bar">
+  <span class="pb-title">Прототип «Ван-Ковка»</span>
+  <nav>
+    <a href="../index.html">Обзор</a>
+    <a href="home.html">Главная</a><a href="catalog.html">Каталог</a><a href="product.html">Карточка</a><a href="portfolio.html">Наши работы</a><a href="project.html">Объект</a><a href="about.html">О производстве</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a><a href="cart.html" class="active">Корзина</a><a href="account.html">Кабинет</a>
+  </nav>
+  <div class="pb-legend">
+    <span><i style="background:#6B7280"></i>Существующий блок</span>
+    <span><i style="background:#15803D"></i>Новый: по исследованию</span>
+    <button class="pb-toggle" data-toggle-tags>Скрыть пометки</button>
+  </div>
+</div>
+
+<!-- Верхняя полоса -->
+<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. Город, режим и главные условия одной строкой до прокрутки (kovka-na-zakaz, kovkadvor, kovart)">
+  <div class="container">
+    <span>Подольск, Московская область. Своё производство и склад-магазин</span>
+    <span class="hide-m">Ежедневно 9:00-21:00</span>
+    <span class="grow"></span>
+    <a class="hide-m" href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+    <span class="direct">Замер по Москве и области бесплатно при заказе</span>
+  </div>
+</div>
+
+<!-- Шапка -->
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по типам изделий вместо трёх копий каталога, телефон с подписью, мессенджеры, «Рассчитать стоимость», корзина и кабинет (kovka-na-zakaz, kovart, doorinhome)">
+  <div class="container">
+    <a class="logo" href="home.html"><img src="../assets/img/logo.webp" alt="Ван-Ковка"><span class="lg-txt"><b>Ван-Ковка</b><span>художественная ковка и элементы, Подольск</span></span></a>
+    <nav class="hnav"><a href="catalog.html">Каталог изделий</a><a href="catalog.html#elements">Элементы ковки</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a></nav>
+    <div class="hdr-phone"><b>+7 (495) 134-55-06</b><span>ежедневно 9:00-21:00, перезвоним за 15 минут</span></div>
+    <div class="msgs">
+      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
+      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
+    </div>
+    <div class="hdr-icons">
+      <a class="msg" href="account.html" title="Личный кабинет"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
+      <a class="msg" href="cart.html" title="Корзина"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="cnt">3</span></a>
+    </div>
+    <a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость изделия" data-ask-sub="Опишите, что нужно, и приложите фото или эскиз. Менеджер пришлёт расчёт в течение рабочего дня">Рассчитать стоимость</a>
+    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<div class="catbar blk" data-tag="res" data-label="Новый блок: по результатам исследования. Полоса категорий по типу изделия вместо 45 пунктов левой колонки (kovka-na-zakaz, kovkadvor, kovkadizain)">
+  <div class="container"><a class="all" href="catalog.html">Все изделия</a><a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы</a><a href="catalog.html">Мебель и интерьер</a><a href="catalog.html#elements">Элементы для кузнецов</a></div>
+</div>
+
+<!-- Мобильное меню -->
+<div class="drawer">
+  <div class="panel">
+    <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Изделия на заказ</h4>
+    <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки на окна</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+    <h4>Магазин элементов</h4>
+    <a href="catalog.html#elements">Балясины</a><a href="catalog.html#elements">Пики и наконечники</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Все 27 разделов</a>
+    <h4>Компания</h4>
+    <a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать, замер, доставка, монтаж</a><a href="contacts.html">Контакты</a><a href="account.html">Личный кабинет</a><a href="cart.html">Корзина</a>
+    <h4>Связь</h4>
+    <a href="tel:+74951345506">+7 (495) 134-55-06</a><a href="tel:+79770007400">+7 (977) 000-74-00</a><a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a><a href="#">WhatsApp</a><a href="#">Telegram</a><a href="#">MAX</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="crumbs blk blk-inline" data-tag="old" data-label="Существующие хлебные крошки"><a href="home.html">Главная</a><span class="sep">/</span><span>Корзина</span></div>
+  <div class="cat-head blk blk-inline" data-tag="mix" data-label="Существующая корзина Битрикс («Ваша корзина пуста»), переработана: два типа позиций (элементы с ценой и изделие на расчёт), прогресс до скидки, доставка, оформление без регистрации (doorinhome «В корзину», studiakovki, kovkaprom)">
+    <div><h1>Корзина<span class="cnt"><span data-cart-cnt>3</span> позиции</span></h1><p>Элементы со склада оплачиваются сразу, изделия на заказ уходят на расчёт: менеджер пришлёт цену после уточнения размеров.</p></div>
+    <a class="btn btn-outline" href="catalog.html#elements">Продолжить покупки</a>
+  </div>
+
+  <div class="cart-layout">
+    <div>
+      <div class="blk blk-inline" data-tag="mix" data-label="Существующие строки корзины, дополнены: остаток на складе, срок, изменение количества, «сохранить на потом»">
+        <h3 style="margin-bottom:10px">Элементы со склада</h3>
+        <div class="cart-item" data-price="570">
+          <div class="pic"><img src="../assets/img/baluster-2.jpg" alt=""></div>
+          <div class="nm"><b>Балясина 5379</b><span>900 мм, труба ø30, 1 кг. Артикул 5379</span><br><span class="chip ok" style="margin-top:4px">В наличии 240 шт</span></div>
+          <div class="qty"><button data-dir="-">−</button><input value="24"><button data-dir="+">+</button></div>
+          <div class="sum">13 680 ₽</div>
+          <button class="del" title="Удалить">✕</button>
+        </div>
+        <div class="cart-item" data-price="1092">
+          <div class="pic"><img src="../assets/img/baluster-3.jpg" alt=""></div>
+          <div class="nm"><b>Начальный столб, балясина 5818</b><span>1000 мм, проф. труба 50 × 50, 2,04 кг. Артикул 5818</span><br><span class="chip ok" style="margin-top:4px">В наличии 64 шт</span></div>
+          <div class="qty"><button data-dir="-">−</button><input value="2"><button data-dir="+">+</button></div>
+          <div class="sum">2 184 ₽</div>
+          <button class="del" title="Удалить">✕</button>
+        </div>
+        <div class="cart-item" data-price="95">
+          <div class="pic"><img src="../assets/img/pike-1.jpg" alt=""></div>
+          <div class="nm"><b>Пика А9/12</b><span>110 × 25 мм, отв. кв. 12. Артикул А9/12</span><br><span class="chip ok" style="margin-top:4px">В наличии 1 200 шт</span></div>
+          <div class="qty"><button data-dir="-">−</button><input value="40"><button data-dir="+">+</button></div>
+          <div class="sum"><span class="fill">3 800 ₽</span></div>
+          <button class="del" title="Удалить">✕</button>
+        </div>
+      </div>
+
+      <div class="blk blk-inline" data-tag="res" data-label="Новый блок: по исследованию. Изделие на заказ в той же корзине как «заявка на расчёт», а не товар с ценой (сейчас ворота за 99 000 ₽ кладутся «В корзину» как балясина)" style="margin-top:18px">
+        <h3 style="margin-bottom:10px">Изделия на заказ: на расчёт</h3>
+        <div class="cart-item req">
+          <div class="pic"><img src="../assets/img/gates-1.jpg" alt=""></div>
+          <div class="nm"><b>Кованые ворота AV-026, распашные с калиткой</b><span>Проём 4,2 м, ажур, порошок чёрный, патина «медь». Ориентир <span class="fill">от 105 000 ₽</span> без монтажа</span><br><span class="chip" style="margin-top:4px">Цена после замера</span></div>
+          <div style="display:grid;gap:6px"><a class="btn btn-primary btn-sm" href="#" data-ask data-ask-title="Отправить ворота на расчёт" data-ask-sub="Укажите адрес и удобное время замера" data-ask-product="Ворота AV-026">Отправить на расчёт</a><button class="btn btn-ghost btn-sm">Убрать</button></div>
+        </div>
+      </div>
+
+      <div class="blk blk-inline" data-tag="res" data-label="Новый блок: по исследованию. Часто докупают к выбранному: элементы к балясинам (kovka-na-zakaz «Рекомендуем также», подсказка «сколько балясин на метр»)" style="margin-top:18px">
+        <h3 style="margin-bottom:10px">К балясинам обычно берут</h3>
+        <div class="el-grid">
+          <div class="el"><div class="pic"><img src="../assets/img/baluster-9.jpg" alt="" loading="lazy"></div><b>Основание балясины 4809</b><span class="sz">под трубу ø30</span><div class="p"><span class="price"><span class="fill">120 ₽</span></span><span class="qty"><button data-dir="-">−</button><input value="24"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="#">В корзину</a></div>
+          <div class="el"><div class="pic"><img src="../assets/img/baluster-8.jpg" alt="" loading="lazy"></div><b>Поручень 40 × 8, 3 м</b><span class="sz">полоса, окончание в комплекте</span><div class="p"><span class="price"><span class="fill">1 450 ₽</span></span><span class="qty"><button data-dir="-">−</button><input value="4"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="#">В корзину</a></div>
+          <div class="el"><div class="pic"><img src="../assets/img/pike-4.jpg" alt="" loading="lazy"></div><b>Патина «медь», 0,25 л</b><span class="sz">на 8-10 м² элементов</span><div class="p"><span class="price"><span class="fill">890 ₽</span></span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="#">В корзину</a></div>
+          <div class="el"><div class="pic"><img src="../assets/img/baluster-1.jpg" alt="" loading="lazy"></div><b>Грунт-эмаль чёрная, 1 кг</b><span class="sz">по металлу, 3 в 1</span><div class="p"><span class="price"><span class="fill">640 ₽</span></span><span class="qty"><button data-dir="-">−</button><input value="2"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="#">В корзину</a></div>
+          <div class="el info accent" style="justify-content:center"><b>Сколько балясин нужно?</b><span class="sz">На 1 пог. м перил 6-8 шт. Пришлите чертёж, посчитаем спецификацию.</span><a class="btn btn-outline btn-sm" href="#" data-ask data-ask-title="Посчитать спецификацию" data-ask-sub="Прикрепите чертёж или размеры лестницы">Посчитать</a></div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="summary blk" data-tag="res" data-label="Новый блок: по исследованию. Итог с прогрессом до оптовой скидки, доставкой и оформлением без регистрации (сейчас скидки описаны только на странице «Скидки»)">
+      <h3>Итого</h3>
+      <div class="kv"><span>Элементы, <span data-cart-cnt>66</span> шт</span><b data-cart-total>19 664 ₽</b></div>
+      <div class="kv"><span>Скидка от суммы</span><b data-cart-discount>−983 ₽ (5%)</b></div>
+      <div class="kv"><span>Доставка</span><b data-delivery-out>самовывоз, бесплатно</b></div>
+      <div class="kv total"><span>К оплате</span><b data-cart-grand>18 681 ₽</b></div>
+      <div class="progress"><i></i></div>
+      <div class="small muted" data-cart-next>До скидки 10% не хватает 25 336 ₽</div>
+      <div class="checkout" style="grid-template-columns:1fr;margin:14px 0">
+        <div class="delivery-opt on" data-cost="самовывоз, бесплатно"><b>Самовывоз в Подольске</b><span>сегодня после оплаты, 9:00-21:00</span></div>
+        <div class="delivery-opt" data-cost="от 1 500 ₽"><b>Доставка по Москве и МО</b><span>завтра, от 1 500 ₽</span></div>
+        <div class="delivery-opt" data-cost="по тарифу ТК"><b>Транспортная компания</b><span>ПЭК, Деловые Линии, СДЭК, 2-7 дней</span></div>
+      </div>
+      <form data-done="Заказ принят, менеджер подтвердит за 15 минут">
+        <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+        <label class="field"><span>Имя или компания</span><input type="text" placeholder="Для чека или счёта"></label>
+        <label class="field"><span>Оплата</span><select><option>Картой онлайн</option><option>На складе: карта или наличные</option><option>Счёт для юрлица</option></select></label>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Оформить заказ</button>
+        <div class="consent">Без регистрации. Ворота из корзины уйдут на расчёт отдельно.</div>
+      </form>
+      <div class="guarantee" style="margin-top:12px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span>Остаток на складе резервируется на 24 часа после оформления.</span></div>
+    </aside>
+  </div>
+</div>
+<section class="section alt blk" id="opt" data-tag="res" data-label="Новый блок: по исследованию. Условия для оптовиков и повтор заказа через кабинет (studiakovki «оптовые цены», podkova)">
+
+  <div class="container">
+    <div class="info-grid">
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>Оптовые скидки</h3><div class="kv"><span>От 10 000 ₽</span><b>5%</b></div><div class="kv"><span>От 45 000 ₽</span><b>10%</b></div><div class="kv"><span>Постоянным мастерским</span><b><span class="fill">индивидуально</span></b></div></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><h3>Личный кабинет</h3><p>История заказов, повтор заказа в один клик, документы, статус изделия на заказ. Создаётся автоматически по номеру телефона.</p><a class="btn btn-outline btn-sm" href="account.html">Открыть кабинет</a></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></div><h3>Юрлицам</h3><p>Счёт по реквизитам, УПД, договор поставки для регулярных отгрузок. Отгрузка после поступления оплаты.</p><a class="btn btn-outline btn-sm" href="#" data-ask data-ask-title="Запросить счёт" data-ask-sub="Укажите ИНН и почту, счёт пришлём за 15 минут">Запросить счёт</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer blk" data-tag="mix" data-label="Существующий подвал, дополнен: каталог по типам изделий, условия, реквизиты, документы, мессенджеры">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Ван-Ковка</h4>
+        <p>ООО «Ван-Упак», ИНН 5074054514, ОГРН 1165074051680. Производство и склад-магазин кованых изделий и элементов холодной ковки в Подольске с <span class="fill">2016</span> года.</p>
+        <a href="tel:+74951345506">+7 (495) 134-55-06</a>
+        <a href="tel:+79770007400">+7 (977) 000-74-00, WhatsApp</a>
+        <a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+        <p style="margin-top:8px">142116, Московская область, г.о. Подольск, пос. Сельхозтехника, ул. Промзона, д. 1а, стр. 1. Ежедневно 9:00-21:00</p>
+      </div>
+      <div>
+        <h4>Изделия на заказ</h4>
+        <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+      </div>
+      <div>
+        <h4>Элементы и материалы</h4>
+        <a href="catalog.html#elements">Балясины и столбы</a><a href="catalog.html#elements">Пики, наконечники, заглушки</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Декоративные панели</a><a href="catalog.html#elements">Краски и патина</a><a href="catalog.html#elements">Прайс-лист в Excel</a>
+      </div>
+      <div>
+        <h4>Покупателю</h4>
+        <a href="order.html">Как заказать</a><a href="order.html#zamer">Замер</a><a href="order.html#dostavka">Доставка и оплата</a><a href="order.html#montazh">Монтаж и гарантия</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="contacts.html">Контакты и реквизиты</a><a href="account.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2016-2026 Ван-Ковка. Цены на сайте не являются публичной офертой.</span>
+      <span>Политика обработки персональных данных. Договор оферты для интернет-магазина.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Липкая панель на мобильном -->
+<div class="sticky-bar blk" data-tag="res" data-label="Новый блок: по исследованию. Телефон и заявка всегда под пальцем на телефоне (kovka-na-zakaz, kovart)">
+  <div class="price-mini"><b>18 681 ₽</b><span>к оплате, 66 шт</span></div>
+  <a class="btn btn-outline" href="tel:+74951345506">Позвонить</a>
+  <a class="btn btn-primary" href="#" data-ask data-ask-title="Оформить заказ" data-ask-sub="Оставьте телефон, менеджер перезвонит за 15 минут">Оформить заказ</a>
+</div>
+
+<!-- Модальное окно заявки -->
+<div class="modal">
+  <div class="box">
+    <button class="x" data-close-modal aria-label="Закрыть">✕</button>
+    <h3>Рассчитать стоимость</h3>
+    <div class="sub">Опишите, что нужно. Менеджер пришлёт расчёт в течение рабочего дня</div>
+    <div class="prod-line" style="display:none"><b>Изделие:</b> <span></span></div>
+    <form data-done="Принято, менеджер свяжется за 15 минут">
+      <div class="row2">
+        <label class="field"><span>Имя</span><input type="text" placeholder="Как к вам обращаться"></label>
+        <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+      </div>
+      <label class="field"><span>Что нужно</span><textarea placeholder="Например: распашные ворота 4 × 2 м с калиткой, участок в Домодедово, есть фото забора"></textarea></label>
+      <div class="upload"><b>Прикрепить фото или эскиз</b>jpg, png, pdf до 20 МБ. Можно фото из интернета «хочу так же»</div>
+      <button class="btn btn-primary btn-block btn-lg" type="submit" style="margin-top:12px">Получить расчёт</button>
+      <div class="consent">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</div>
+    </form>
+  </div>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

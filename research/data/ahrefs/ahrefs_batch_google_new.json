@@ -1,0 +1,60 @@
+{
+  "targets": [
+    {
+      "url": "kovkadvor.ru/",
+      "domain_rating": 16.0,
+      "org_traffic": 655,
+      "org_keywords": 162,
+      "refdomains": 430
+    },
+    {
+      "url": "kovkadizain.ru/",
+      "domain_rating": 1.4,
+      "org_traffic": 331,
+      "org_keywords": 129,
+      "refdomains": 378
+    },
+    {
+      "url": "rt-kovka.ru/",
+      "domain_rating": 0.2,
+      "org_traffic": 1319,
+      "org_keywords": 239,
+      "refdomains": 385
+    },
+    {
+      "url": "kovka-deshevo.ru/",
+      "domain_rating": 0.1,
+      "org_traffic": 110,
+      "org_keywords": 64,
+      "refdomains": 378
+    },
+    {
+      "url": "podkova.ru/",
+      "domain_rating": 0.2,
+      "org_traffic": 88,
+      "org_keywords": 42,
+      "refdomains": 397
+    },
+    {
+      "url": "zaborkin.ru/",
+      "domain_rating": 55.0,
+      "org_traffic": 51908,
+      "org_keywords": 5436,
+      "refdomains": 729
+    },
+    {
+      "url": "kovkaprom.ru/",
+      "domain_rating": 4.8,
+      "org_traffic": 482,
+      "org_keywords": 103,
+      "refdomains": 415
+    },
+    {
+      "url": "van-kovka.ru/",
+      "domain_rating": 0.0,
+      "org_traffic": 0,
+      "org_keywords": 0,
+      "refdomains": 355
+    }
+  ]
+}

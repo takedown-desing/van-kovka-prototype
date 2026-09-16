@@ -1,0 +1,1692 @@
+{
+ "code": "TASK_RESULT",
+ "task_id": "31359633",
+ "result": {
+  "request": {
+   "queries": [
+    "художественная ковка",
+    "кованые ворота",
+    "кованые перила",
+    "кованые ограждения",
+    "кованые решетки",
+    "кованые заборы",
+    "кованые лестницы",
+    "кованые козырьки",
+    "кованые навесы",
+    "кованые мангалы",
+    "кованые элементы",
+    "кованые балясины",
+    "кованые калитки",
+    "ковка на заказ",
+    "кованые изделия",
+    "кузница",
+    "кованая мебель",
+    "кованые заборы и ворота",
+    "кованые беседки",
+    "кованые фонари"
+   ],
+   "depth": 10,
+   "ss": [
+    {
+     "ss": 2,
+     "region": 213
+    },
+    {
+     "ss": 11,
+     "region": 1011969
+    }
+   ],
+   "is_deny": false,
+   "is_snippet": false,
+   "is_noreask": true
+  },
+  "result": {
+   "ads": [
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "middle",
+      "middle",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "middle",
+      "middle"
+     ]
+    ],
+    [
+     [
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "top",
+      "bottom",
+      "bottom"
+     ]
+    ],
+    [
+     [
+      "top",
+      "top",
+      "top",
+      "middle",
+      "middle",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom",
+      "bottom"
+     ]
+    ]
+   ],
+   "collect": [
+    [
+     [
+      "https://www.mki-kovka.ru/ru/products/",
+      "https://www.kovart.ru/",
+      "https://www.avito.ru/moskva_i_mo/predlozheniya_uslug?q=%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0",
+      "https://uslugi.yandex.ru/213-moscow/category?text=%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0",
+      "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0",
+      "https://zaborkin.ru/kovka/",
+      "https://www.kovkaprom.ru/",
+      "https://kovka-na-zakaz.ru/",
+      "https://www.studiakovki.ru/",
+      "https://www.ironwork.moscow/"
+     ],
+     [
+      "https://www.kovart.ru/",
+      "https://kovkadizain.ru/",
+      "https://kovka-na-zakaz.ru/",
+      "https://www.kovka-metalla.ru/",
+      "https://www.profdver.ru/kovka/",
+      "https://www.studiakovki.ru/",
+      "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0",
+      "https://www.ironwork.moscow/",
+      "https://academycrafts.ru/info/articles/dizayn-v-khudozhestvennoy-kovke--vdokhnovenie-dlya-sozdaniya-unikalnykh-izdeliy/",
+      "https://www.kovkaelit.ru/"
+     ]
+    ],
+    [
+     [
+      "https://kovtorg.ru/",
+      "https://kovtorg.ru/vorota",
+      "https://gruppa-masterov.ru/vorota/otkatnye/kovanye/",
+      "https://km-n.ru/s-vorota",
+      "https://km-n.ru/vorota",
+      "https://www.zabor-profi.ru/vorota/kovanye-vorota/",
+      "https://www.kovart.ru/catalog/eskizi-kovanih-vorot/",
+      "https://magazinkovka.ru/products/vorota-i-kalitki-kovanye-metallicheskie-f3295238/",
+      "https://dor-m.ru/catalog/blagoustroystvo/kovanye_izdeliya/kovanye_vorota/",
+      "https://market.yandex.ru/card/kovanyye-vorota-s-kalitkoy-dlya-doma-i-dachi-raspashnyye-model-8/102744290942"
+     ],
+     [
+      "https://zaborkin.ru/vorota/kovanie-vorota/",
+      "https://automaticheskie-vorota.ru/kovanye-vorota",
+      "https://www.createmet.ru/catalog/vorota-kovanie/",
+      "https://kovtorg.ru/vk-17",
+      "https://kovkadvor.ru/",
+      "https://ru.pinterest.com/aloiskovka/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%B0-%D0%B8-%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%BA%D0%B8/",
+      "https://www.luxkoff.ru/catalog/kovanye-vorota",
+      "https://zavodzaborov.ru/kovanye-vorota-i-kalitki/",
+      "https://www.ufa-kovka.ru/foto/vorota.html",
+      "https://www.ozon.ru/product/vorota-raspashnye-metallicheskie-kovanye-3391729543/"
+     ]
+    ],
+    [
+     [
+      "https://www.kovka-metalla.ru/kovanye-perila-dlya-krylca/",
+      "https://www.mki-kovka.ru/ru/products/.list/id/lesnici/",
+      "https://www.doorinhome.ru/catalog/kovka/kovanie-perila/",
+      "https://metall-kovka24.ru/perila/po-izgotovleniyu/kovanye-na-krylczo",
+      "https://fastrailings.ru/",
+      "https://dacha-kovka.ru/p/132268563-kovanye-perila-dlya-lestnic/",
+      "https://kovka-stroy.ru/catalog/kovanye-perila/",
+      "https://stalivan.ru/kovanye-izdeliya/perila-lestnichnye-ograzhdeniya/?page=0"
+     ],
+     [
+      "https://www.kovka-metalla.ru/perila-kovanye/",
+      "https://kovanyeperila.ru/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/metallicheskoe-kryltso/kovanye-perila/",
+      "https://kovkadizain.ru/category/kovanye-perila/",
+      "https://www.createmet.ru/catalog/kovanye_perila_dlya_lestnitsy_v_chastnom_dome/",
+      "https://www.perilaglavsnab.ru/stati/kovanye_perila_vidy_osobennosti_i_primenenie/",
+      "https://ru.pinterest.com/aloiskovka/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D0%BF%D0%B5%D1%80%D0%B8%D0%BB%D0%B0/",
+      "https://www.doorinhome.ru/catalog/kovka/kovanie-perila/",
+      "https://www.kovart.ru/catalog/eskizi-kovannih-lestnic-i-peril/",
+      "https://kovka-na-zakaz.ru/knowledge/kovanye-izdeliya-kovanye-perila-dlya-lestnicz-i-balkonov"
+     ]
+    ],
+    [
+     [
+      "https://www.doorinhome.ru/catalog/kovka/kovanie-perila/",
+      "https://dacha-kovka.ru/p/27544470-kovanye-ograzhdeniya/",
+      "https://perila-metall.ru/tag/kovanye-perila",
+      "https://www.mki-kovka.ru/ru/products/.list/id/lesnici/",
+      "https://kovka-moscow.ru/kovanye-ograzhdeniya/v-stile-modern",
+      "https://kovka-stroy.ru/catalog/kovanye-perila/",
+      "https://stalivan.ru/kovanye-izdeliya/perila-lestnichnye-ograzhdeniya/?page=0",
+      "https://www.kovart.ru/catalog/kovanye-perila/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/metallicheskoe-kryltso/kovanye-perila/",
+      "https://kovkadvor.ru/kovanye-perila/kovanye-perila-art-pkhk-09"
+     ],
+     [
+      "https://www.doorinhome.ru/catalog/kovka/kovanie-ograzhdeniya/",
+      "https://kovka-moscow.ru/kovanye-ograzhdeniya",
+      "https://www.kovka-metalla.ru/perila-kovanye/",
+      "https://yandex.ru/maps/213/moscow/search/%D0%9A%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5%20%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%8B/",
+      "https://www.luxkoff.ru/catalog/perila/kovanye-ograjdenia-lestnic",
+      "https://kovanyeperila.ru/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/metallicheskoe-kryltso/kovanye-perila/",
+      "https://ru.pinterest.com/kuznicabr/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/",
+      "https://kovka-na-zakaz.ru/knowledge/kovanye-ograzhdeniya-dlya-balkona-chto-vazhno-znat-pri-vybore",
+      "https://pod-kova.ru/catalog/ograzhdeniya"
+     ]
+    ],
+    [
+     [
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/reshyetki-na-okna/kovannye-reshetki/",
+      "https://reshetki-na-okna.ru/",
+      "https://rd-moskva.ru/reshetki-na-okna/kovanyie/r-903",
+      "https://www.kovart.ru/catalog/kovanye-reshetki/",
+      "https://market-reshetok.ru/product/kovanaya-svarnaya-reshetka-na-okno-ksr-2/",
+      "https://stalivan.ru/kovanye-izdeliya/kovanye-reshetki-na-okna/",
+      "https://z-mk.ru/reshetki/kovanye-reshetki/",
+      "https://ar-dveri.ru/",
+      "https://profmosreshetka.ru/product-category/reshetki-na-okna-kovanye/",
+      "https://svarnik.ru/reshetki-na-okna/kovanye-reshetki-na-okna/"
+     ],
+     [
+      "https://svarnik.ru/reshetki-na-okna/kovanye-reshetki-na-okna/",
+      "https://aristmet.ru/kovanye-reshetki/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/reshyetki-na-okna/kovannye-reshetki/15921/",
+      "https://kovka177.ru/kovanye-reshetki-na-okna/",
+      "https://kovkadizain.ru/category/kovanye-izdeliya-dlya-doma/kovanye-reshetki/",
+      "https://kovkamoskva.ru/reshetki.html",
+      "https://metalius.ru/catalog/reshetki/kovanie/3842/",
+      "https://www.dveri-alliance.ru/catalog/metallokonstruktsii/reshetki/kovanye-reshetki/",
+      "https://kuznya-metall.ru/info/articles/2022/kovanye_reshetki_na_okna_vidy_osobennosti_izgotovlenie_montazh/",
+      "https://ru.pinterest.com/irinarymuantseva/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B8/"
+     ]
+    ],
+    [
+     [
+      "https://www.zabor-profi.ru/zabory/kovanye/",
+      "https://good-zabor.ru/catalog/kovanye-zabory.html",
+      "https://www.stroyzabor.ru/kovanye-zabory/",
+      "https://stalruz.ru/produkcziya/sekczionnyie-zaboryi/kovano-svarnie-zabory",
+      "https://rovand.ru/catalog/kovanye-zabory/",
+      "https://www.oblzabor.ru/zabory/kovannye/",
+      "https://www.all-zabor.ru/kovanye_zabory/",
+      "https://akovka.com/type/zabory/page/2/",
+      "https://metzabor.ru/katalog/kovanaya-zabornaya-sekciya-artikul-1116/",
+      "https://kovka-prezident.ru/catalog/zabory/sekcionnye"
+     ],
+     [
+      "https://zabory-msk.ru/kovanye-zabory",
+      "https://www.kovka-metalla.ru/kovanye-zabory/",
+      "https://dveri-best.ru/catalog/kovanye-zabori",
+      "https://www.createmet.ru/catalog/kovanie-zabori/",
+      "https://www.kovanie-ogrady.ru/catalog/kovanye-zabory/?view=list",
+      "https://zavodzaborov.ru/kovanye-zabory/",
+      "https://www.rus-zabor.ru/zabory/kovanye/",
+      "https://vestametall.ru/uslugi/kovka-na-zakaz/zaboryi/",
+      "https://zaborkin.ru/catalog/zabor/kovanye-s-proflistom/",
+      "https://akovka.com/type/zabory/"
+     ]
+    ],
+    [
+     [
+      "https://metall-kovka24.ru/lestniczy/po-izgotovleniyu/kovanye-na-ulicze",
+      "https://lestnicy-na-karkase.ru/stairs/kovanye/",
+      "https://zakazkrovli.ru/catalog/ulichnye-lestnitsy-iz-dpk/kovanie-lestnici-krilca/",
+      "https://www.mki-kovka.ru/ru/products/.list/id/lesnici/",
+      "https://vorota750.ru/katalog/hudozhestvennaya-kovka/kovanye-lestnicy/na-vtoroj-etazh",
+      "https://www.livemaster.ru/catalogue/tag/2901-kovanye-lestnitsy",
+      "https://aristmet.ru/kovanye-lestnitsy/",
+      "https://salon-kovki.ru/catalog/lestnitsy/kovanye-lestnitsy/",
+      "https://kovka-prezident.ru/catalog/lestnicy/sovremennye",
+      "https://kovkadizain.ru/category/kovanye-izdeliya-dlya-doma/kovanye-lestnitsy/"
+     ],
+     [
+      "https://kovkadizain.ru/category/kovanye-izdeliya-dlya-doma/kovanye-lestnitsy/",
+      "https://kovka-moscow.ru/kovanye-lestnicy",
+      "https://kovka177.ru/kovanye-lestnitsy/",
+      "https://www.luxkoff.ru/catalog/lestnitsy",
+      "https://www.kovka-metalla.ru/perila-kovanye/",
+      "https://krasnojarsk.kovkaprom.ru/info/kovanye_lestnicy_dlya_doma/",
+      "https://www.createmet.ru/catalog/kovanye_perila_dlya_lestnitsy_v_chastnom_dome/",
+      "https://ligneus.ru/pub/kovanye-lestnitsy-v-sovremennom-interere/",
+      "https://kovka-g.ru/kovanyie-lestniczyi/",
+      "https://lestnicy-na-karkase.ru/stairs/kovanye/"
+     ]
+    ],
+    [
+     [
+      "https://www.ozon.ru/category/kozyrek-arochnyy/",
+      "https://metall-kovka24.ru/kozyrki/po-izgotovleniyu/kovanyj-nad-krylczom",
+      "https://www.mki-kovka.ru/ru/products/.list/id/navesi/",
+      "https://msk-mangal.ru/catalog/category/kozyrki/",
+      "https://www.kovka-metalla.ru/kovanye-kozyrki/kovanye-kozyrki-nad-vhodom/",
+      "https://stalivan.ru/kovanye-izdeliya/kovanye-kozyrki/",
+      "https://aristmet.ru/kozyirki/kovanyie-dvuxskatnyie-kozyirki/",
+      "https://kovkar.ru/kovka_kozyrek/",
+      "https://www.livemaster.ru/item/23762451-dacha-i-sad-kovanyj-kozyrek",
+      "https://www.wildberries.ru/catalog/tags/kovanyi-kozyrek"
+     ],
+     [
+      "https://www.rammetall.ru/catalog/k-4833762-navesy_i_kozyrki",
+      "https://www.createmet.ru/catalog/kozyrek-kovanniy/",
+      "https://www.kovart.ru/catalog/kovanye-kozyrek/",
+      "https://kuznya-metall.ru/info/articles/2022/kovanyie-kozyirki-vidyi,-proektirovanie,-osobennosti-izgotovleniya,-montazh/",
+      "https://www.козырьки.shop/",
+      "https://dveri-2000.ru/catalog/kovanie-kozirki/",
+      "https://arhi-m.ru/katalog/kovanye-kozyrki-i-navesy",
+      "https://ru.pinterest.com/mikheev6199/%D0%BA%D0%BE%D0%B7%D1%8B%D1%80%D1%8C%D0%BA%D0%B8-%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0/",
+      "https://msk-mangal.ru/catalog/category/kozyrki/",
+      "https://www.amarant.ru/kovanyj-kozyrek"
+     ]
+    ],
+    [
+     [
+      "https://stalivan.ru/kovanye-izdeliya/kovanye-kozyrki/?page=4",
+      "https://navesm.ru/navesy/kovanyi-naves-vo-dvore-arochnyi",
+      "https://vip-naves.ru/kovanyj-naves-dlya-avtomobilya/",
+      "https://msk-mangal.ru/catalog/category/kozyrki/",
+      "https://metall-kovka24.ru/kozyrki/po-izgotovleniyu/kovanyj-nad-krylczom",
+      "https://www.livemaster.ru/item/23762451-dacha-i-sad-kovanyj-kozyrek",
+      "https://aristmet.ru/navesyi/",
+      "https://magazinkovka.ru/products/kozyrki-kovanye-f3295198/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/besedki-i-navesy/",
+      "https://kovka-moscow.ru/kovanye-kozyrki/arochnye"
+     ],
+     [
+      "https://zaborkin.ru/navesi/kovanie/",
+      "https://kovkadizain.ru/category/kovka-dlya-sada/navesy/",
+      "https://www.sklevsha.ru/kovanye-navesy",
+      "https://www.kozyrki.ru/navesy/kovanye/",
+      "https://шатура.умныетеплицы.рф/catalog/navesy-i-kozyriki/naves-s-kovkoy/",
+      "https://st-naves.ru/katalog-navesov/s-kovanymi-elementami/",
+      "https://stalivan.ru/kovanye-izdeliya/navesy/",
+      "https://vsemnavesi.ru/gryazy/kovanye-navesy/",
+      "https://www.kovart.ru/catalog/eskizi-navesov/",
+      "https://kovkahome.ru/kovanye-kozyrki-i-navesy-tipy-i-osobennosti"
+     ]
+    ],
+    [
+     [
+      "https://metkof.ru/catalog/product/kovanyy-mangal-vegas/",
+      "https://msk-mangal.ru/",
+      "https://mangaliero.ru/product-category/mangaly-dlya-dachi/",
+      "https://www.vseinstrumenti.ru/tag-page/mangaly-kovanye-685262/",
+      "https://shelkoviyput.ru/catalog/mangaly-dachnye-i-aksessuary-kovanye/",
+      "https://kovkagrad.ru/",
+      "https://supermangal.ru/12-kovanye-mangaly"
+     ],
+     [
+      "https://mangalplus.ru/mangaly/kovanye/",
+      "https://shelkoviyput.ru/catalog/mangaly-dachnye-i-aksessuary-kovanye/",
+      "https://lider-mangal.ru/",
+      "https://мангалбарбекю.рф/category/kovanye-mangaly/",
+      "https://www.ufa-kovka.ru/foto/mangaly.html",
+      "https://bestmebelik.ru/mangaly-kovanye.html",
+      "https://www.kovart.ru/catalog/mangal/",
+      "https://artli-kovka.ru/catalog/kovanye_mangaly/",
+      "https://kovka177.ru/kovanie-mangaly/",
+      "https://supermangal.ru/12-kovanye-mangaly"
+     ]
+    ],
+    [
+     [
+      "https://www.ozon.ru/category/kovanye-elementy-38770/",
+      "https://www.kovkaprom.ru/element/",
+      "https://www.studiakovki.ru/catalog/",
+      "https://www.wildberries.ru/catalog/tags/kovanye-elementy-dekora",
+      "https://ковка-торг.рф/",
+      "https://bulatt.ru/catalog/kovanyie-elementyi",
+      "https://tehnolux.ru/kovanye-elementy/"
+     ],
+     [
+      "https://www.studiakovki.ru/catalog/",
+      "https://ковка-торг.рф/tovaryi_i_uslugi/kovanye-elementy/kovanye-elementy.html",
+      "https://www.kovkaprom.ru/",
+      "https://robmetalstal.ru/kovanye-elementy",
+      "https://yandex.ru/maps/213/moscow/search/%D0%9A%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/",
+      "https://covali.ru/dekor/kovanye-izdeliya/",
+      "https://www.podkova.ru/element.htm",
+      "https://lemanapro.ru/catalogue/kovanye-elementy/",
+      "https://www.vseinstrumenti.ru/category/kovanye-elementy-174974/",
+      "https://arhemet.ru/"
+     ]
+    ],
+    [
+     [
+      "https://www.ozon.ru/category/balyasina-kovanaya/",
+      "https://www.studiakovki.ru/catalog/balyasini/",
+      "https://tehnolux.ru/kovanye-balyasiny/",
+      "https://skladdereva.ru/katalog/materials-for-stears/kov-bal/",
+      "https://www.kovkaprom.ru/element/balyasiny/",
+      "https://superlestnica.com/metallicheskie-balyasiny/balyasinapraymay-czvet-alyuminievyj-metallik/",
+      "https://www.wildberries.ru/catalog/165613908/detail.aspx",
+      "https://www.studiakovki.ru/catalog/balyasini/sk50_09_1_balyasina/",
+      "https://samen-kovka.ru/balyasiny?page=10",
+      "https://market.yandex.ru/search?text=%D0%B1%D0%B0%D0%BB%D1%8F%D1%81%D0%B8%D0%BD%D0%B0+%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0%D1%8F+%D0%B4%D0%BB%D1%8F+%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D1%8B"
+     ],
+     [
+      "https://www.studiakovki.ru/catalog/balyasini/",
+      "https://www.ozon.ru/category/balyasina-kovanaya/",
+      "https://www.kovkaprom.ru/element/balyasiny/",
+      "https://эталон-лестниц.рф/catalog/kovanye-balyasiny/",
+      "https://www.podkova.ru/element/stoyka_kovanaya_1.htm",
+      "https://kovkanw.ru/category/balyasiny/",
+      "https://magazinmetalla.ru/49-balyasiny-kovanye",
+      "https://arhemet.ru/catalog/kovanye_elementy/balyasiny/",
+      "http://skladlestnic.ru/kovanye-izdeliya",
+      "https://samenferforge.ru/kovanaya-balyasina-399-90-sm/"
+     ]
+    ],
+    [
+     [
+      "https://www.ozon.ru/category/kalitka-kovanaya/",
+      "https://kuznecdanila.ru/kovanie-vorota-kalitki/",
+      "https://www.kovart.ru/",
+      "https://aristmet.ru/dveri-i-kalitki/kovanye-kalitki/",
+      "https://km-n.ru/vorota",
+      "https://dor-m.ru/catalog/blagoustroystvo/kovanye_izdeliya/kovanye_kalitki/"
+     ],
+     [
+      "https://zaborkin.ru/catalog/drugie-kalitki/kovanye/",
+      "https://kovka-moscow.ru/kovanye-kalitki",
+      "https://www.ufa-kovka.ru/foto/kalitki.html",
+      "https://www.ozon.ru/category/kalitka-kovanaya/",
+      "https://ковка-торг.рф/tovaryi_i_uslugi/kovanye-vorota-i-kalitki/kovanye-kalitki/",
+      "https://www.kovart.ru/catalog/eskizi-kovanih-kalitok/",
+      "https://www.pinterest.com/gercogkg/%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%BA%D0%B8-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5/",
+      "https://www.luxkoff.ru/catalog/kovanye-vorota/kovanye-kalitki",
+      "https://zavodzaborov.ru/kovanye-vorota-i-kalitki/",
+      "https://good-zabor.ru/catalog/kovanye-kalitki.html"
+     ]
+    ],
+    [
+     [
+      "https://www.avito.ru/moskva?q=%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5+%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F+%D0%BD%D0%B0+%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7",
+      "https://www.kovart.ru/",
+      "https://kovke.ru/",
+      "https://kovka-na-zakaz.ru/",
+      "https://www.mki-kovka.ru/ru/products/",
+      "https://kovka-g.ru/",
+      "https://uslugi.yandex.ru/213-moscow/category?text=%D0%B8%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D1%85+%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D0%B9",
+      "https://kovka-moscow.ru/",
+      "https://salon-kovki.ru/catalog/",
+      "https://kuznica-msk.ru/"
+     ],
+     [
+      "https://kovka-na-zakaz.ru/",
+      "https://www.studiakovki.ru/",
+      "https://kovka177.ru/",
+      "https://www.kovart.ru/",
+      "https://www.luxkoff.ru/",
+      "https://zaborkin.ru/kovka/",
+      "https://yandex.ru/maps/213/moscow/search/%D0%9A%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/",
+      "https://sorokovka.ru/",
+      "https://www.kovka-metalla.ru/",
+      "https://latuns.ru/services/kovka/"
+     ]
+    ],
+    [
+     [
+      "https://www.studiakovki.ru/",
+      "https://dymovceramic.ru/catalog/dekor/kovannye-izdeliya/dekor1/",
+      "https://metkof.ru/catalog/category/products/",
+      "https://www.kovkaprom.ru/",
+      "https://www.ozon.ru/category/kovanye-elementy-38770/",
+      "https://covali.ru/dekor/kovanye-izdeliya/",
+      "https://www.mki-kovka.ru/ru/products/",
+      "https://ковка-торг.рф/",
+      "https://www.kovart.ru/",
+      "https://msk-mangal.ru/"
+     ],
+     [
+      "https://www.studiakovki.ru/catalog/",
+      "https://www.kovkaprom.ru/",
+      "https://ковка-торг.рф/tovaryi_i_uslugi/kovanye-elementy/kovanye-elementy.html",
+      "https://www.kovart.ru/",
+      "https://yandex.ru/maps/213/moscow/category/wrought_iron/184107695/",
+      "https://robmetalstal.ru/kovanye-elementy",
+      "https://kovka-na-zakaz.ru/",
+      "https://covali.ru/dekor/kovanye-izdeliya/",
+      "https://kovkadvor.ru/",
+      "https://lemanapro.ru/catalogue/kovanye-elementy/"
+     ]
+    ],
+    [
+     [
+      "https://kusnica.ru/?yqpil=9074297683595493375",
+      "https://bsmith.ru/",
+      "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://yandex.ru/maps/213/moscow/category/smithy/96333316901/",
+      "https://znanierussia.ru/articles/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://www.avito.ru/moskva_i_mo/predlozheniya_uslug?q=%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://ru.wiktionary.org/wiki/%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://gramota.ru/poisk?query=%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0&mode=all",
+      "https://2gis.ru/moscow/search/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://vk.ru/bsmithru"
+     ],
+     [
+      "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0",
+      "https://bsmith.ru/catalog",
+      "https://www.kuznitsa.ru/",
+      "https://yandex.ru/maps/org/kuznitsa/241888223845/",
+      "https://fk-edu.mipt.ru/",
+      "https://1кузня.рф/",
+      "https://kusnica.ru/",
+      "https://vk.ru/bsmithru",
+      "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_(%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)",
+      "https://bsmith.ru/"
+     ]
+    ],
+    [
+     [
+      "https://metalldecor.ru/",
+      "https://idyllmetal.ru/",
+      "https://www.ozon.ru/category/mebel-kovannaya/",
+      "https://kovkagrad.ru/catalog/vse-dlya-dachi/kovanyy-mebel/",
+      "https://stalivan.ru/kovanaya-mebel/",
+      "https://kovkastali.ru/",
+      "https://royally.ru/",
+      "https://hitsad.ru/categories/interernaya-kovka",
+      "https://www.livemaster.ru/catalogue/tag/2257-kovanaya-mebel",
+      "https://market.yandex.ru/search?text=%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0%D1%8F+%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C"
+     ],
+     [
+      "https://kovka-moscow.ru/kovanaya-mebel",
+      "https://stalivan.ru/kovanaya-mebel/",
+      "https://www.ozon.ru/category/mebel-kovanaya/",
+      "https://www.mebelion.ru/mebel/dlia-spalni/kovannaia/",
+      "https://akovka.com/type/mebel/",
+      "https://www.wikipro.ru/wiki/izyashchestvo-i-elegantnost-kovanoj-mebeli/",
+      "https://www.kovart.ru/catalog/eskizi-kovanoy-mebeli/",
+      "https://yandex.ru/maps/org/kovanaya_mebel_kovkastali/177896754412/",
+      "https://hitsad.ru/categories/kovanaya-sadovaya-mebel-1",
+      "https://persey-kovka.ru/blog/kovanaya-mebel-v-interere.html"
+     ]
+    ],
+    [
+     [
+      "https://kovtorg.ru/",
+      "https://kovke.ru/",
+      "https://www.studiakovki.ru/",
+      "https://www.doorinhome.ru/",
+      "https://www.kovart.ru/",
+      "https://km-n.ru/vorota",
+      "https://www.ozon.ru/product/vorota-s-kalitkoy-metallicheskie-raspashnye-kovanye-12-3-3-1407322118/",
+      "https://ковка-торг.рф/",
+      "https://msk-mangal.ru/catalog/category/kovanye-vorota-i-zabory/"
+     ],
+     [
+      "https://www.stroyzabor.ru/kovanye-zabory/",
+      "https://zabory-msk.ru/kovanye-zabory",
+      "https://dveri-best.ru/catalog/kovanye-zabori",
+      "https://zaborkin.ru/vorota/kovanie-vorota/",
+      "https://www.createmet.ru/catalog/kovanie-zabori/",
+      "https://www.kovka-metalla.ru/kovanye-zabory/",
+      "https://www.rus-zabor.ru/zabory/kovanye/",
+      "https://www.avito.ru/moskva/remont_i_stroitelstvo/vorota_zabory_i_ograzhdeniya/zabory/kovannye-ASgBAgICA0RYkpmPA6DnFP6MkAOm5xScjZAD",
+      "https://mskovka.ru/katalog/zabory/kovanye-zabory/",
+      "https://zavodzaborov.ru/kovanye-zabory/"
+     ]
+    ],
+    [
+     [
+      "https://metall-kovka24.ru/besedki/po-izgotovleniyu/kovanye",
+      "https://kovka-prezident.ru/catalog/besedki/sadovye",
+      "https://kovkagrad.ru/catalog/mangaly/mangaly-kryshey/kollektsiya-siti/17163/",
+      "https://kovka-moscow.ru/kovanye-besedki",
+      "https://msk-mangal.ru/catalog/product/besedka-s-mangalom-florenciya-delyuks-so-skameykoy-v-komplekte/",
+      "https://aristmet.ru/kovanye-besedki/",
+      "https://www.ozon.ru/product/besedka-kovanaya-verona-lavochka-iz-terrasnoy-doski-300-h-260-h-240-sm-dhshhv-v-sbore-1680147101/",
+      "https://stalivan.ru/kovka-dlya-sada/kovanye-besedki/"
+     ],
+     [
+      "https://kovka-moscow.ru/kovanye-besedki",
+      "https://mangaliero.ru/product-tag/kovanye-besedki/",
+      "https://www.luxkoff.ru/catalog/kovanie-besedki",
+      "https://kovkadizain.ru/category/kovka-dlya-sada/kovanye-besedki/",
+      "https://satom.ru/k/kovanye-besedki/",
+      "https://ru.pinterest.com/kovkaotkadirova/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B8/",
+      "https://www.kovart.ru/catalog/besedki-s-mangalom-kovanye/",
+      "https://www.ufa-kovka.ru/foto/besedki.html",
+      "https://www.ozon.ru/category/besedka-kovanaya/",
+      "https://kuznya-metall.ru/info/articles/2022/kovanyie-besedki-raznovidnosti/"
+     ]
+    ],
+    [
+     [
+      "https://lu.ru/kovanye/ulichnye/",
+      "https://topdiod.ru/catalog/kovanye_ulichnye_fonari/",
+      "https://decoriko.ru/kovanye_izdeliya/osveshchenie/",
+      "https://topsvet.ru/catalog/ulichnye-svetilniki/v-stile-zamkovyy-kovanye-gotika/",
+      "https://www.ozon.ru/category/kovanye-ulichnye-svetilniki/",
+      "https://www.avito.ru/all?q=%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B9+%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D1%8C",
+      "https://www.kovart.ru/catalog/kovaniy-fonar/",
+      "https://www.ams-kovka.ru/",
+      "https://covali.ru/elitnye-svetilnikii/ulichnie-svetilniki/",
+      "https://stalivan.ru/kovka-dlya-sada/kovanye-fonari/"
+     ],
+     [
+      "https://kovka-moscow.ru/kovanye-fonari",
+      "https://decoriko.ru/kovanye_izdeliya/osveshchenie/fonari/",
+      "https://www.ozon.ru/category/kovanye-ulichnye-svetilniki/",
+      "https://www.pinterest.com/fenikspik/%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%D0%B5-%D1%81%D0%B2%D0%B5%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B8/",
+      "https://lampaexpert.ru/osveschenie/kovanye-fonari-svoimi-rukami-dekorativnye-dlya-ulitsy-chertezhi",
+      "https://nlmz.ru/kovka/kovka_lustra/",
+      "https://persey-kovka.ru/kovanyie-elementyi/iranskaya-kovka/kovanyie-ulichnyie-stalnyie-chugunnyie-lityie-fonari-iranskaya-kovka/",
+      "https://stalivan.ru/kovka-dlya-sada/kovanye-fonari/",
+      "https://www.kovart.ru/catalog/eskizi-kovanih-fonarey/",
+      "https://svetguru.com/stili/kovka/"
+     ]
+    ]
+   ],
+   "main": {
+    "0": [
+     {
+      "1": true,
+      "6": true,
+      "7": true,
+      "8": true,
+      "9": true
+     },
+     {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "5": true,
+      "7": true,
+      "9": true
+     }
+    ],
+    "1": [
+     [
+      true
+     ],
+     {
+      "4": true
+     }
+    ],
+    "2": [
+     {
+      "4": true
+     },
+     {
+      "1": true
+     }
+    ],
+    "4": [
+     {
+      "1": true,
+      "7": true
+     }
+    ],
+    "9": [
+     {
+      "1": true,
+      "5": true
+     },
+     {
+      "2": true
+     }
+    ],
+    "10": [
+     {
+      "4": true
+     },
+     {
+      "2": true,
+      "9": true
+     }
+    ],
+    "12": [
+     {
+      "2": true
+     }
+    ],
+    "13": [
+     {
+      "1": true,
+      "2": true,
+      "3": true,
+      "5": true,
+      "7": true,
+      "9": true
+     },
+     {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "7": true,
+      "8": true
+     }
+    ],
+    "14": [
+     {
+      "0": true,
+      "3": true,
+      "7": true,
+      "8": true,
+      "9": true
+     },
+     {
+      "1": true,
+      "3": true,
+      "6": true,
+      "8": true
+     }
+    ],
+    "15": [
+     {
+      "1": true
+     },
+     {
+      "2": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "9": true
+     }
+    ],
+    "16": [
+     {
+      "0": true,
+      "1": true,
+      "5": true,
+      "6": true
+     }
+    ],
+    "17": [
+     {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "7": true
+     }
+    ],
+    "19": [
+     {
+      "7": true
+     }
+    ],
+    "3": {
+     "1": {
+      "5": true
+     }
+    },
+    "7": {
+     "1": {
+      "4": true
+     }
+    }
+   },
+   "agregators": {
+    "0": [
+     {
+      "2": true
+     }
+    ],
+    "13": [
+     [
+      true
+     ]
+    ],
+    "15": [
+     {
+      "5": true,
+      "8": true
+     }
+    ],
+    "19": [
+     {
+      "5": true
+     }
+    ],
+    "17": {
+     "1": {
+      "7": true
+     }
+    }
+   },
+   "repeatUrl": {
+    "https://www.kovart.ru/": 8,
+    "https://www.studiakovki.ru/": 5,
+    "https://kovka-na-zakaz.ru/": 5,
+    "https://www.kovkaprom.ru/": 4,
+    "https://www.mki-kovka.ru/ru/products/": 3,
+    "https://ковка-торг.рф/": 3,
+    "https://www.kovka-metalla.ru/perila-kovanye/": 3,
+    "https://msk-mangal.ru/catalog/category/kozyrki/": 3,
+    "https://www.doorinhome.ru/catalog/kovka/kovanie-perila/": 3,
+    "https://www.mki-kovka.ru/ru/products/.list/id/lesnici/": 3,
+    "https://km-n.ru/vorota": 3,
+    "https://www.studiakovki.ru/catalog/": 3,
+    "https://kovkagrad.ru/catalog/vse-dlya-dachi/metallicheskoe-kryltso/kovanye-perila/": 3,
+    "https://covali.ru/dekor/kovanye-izdeliya/": 3,
+    "https://ковка-торг.рф/tovaryi_i_uslugi/kovanye-elementy/kovanye-elementy.html": 2,
+    "https://www.ozon.ru/category/kovanye-elementy-38770/": 2,
+    "https://supermangal.ru/12-kovanye-mangaly": 2,
+    "https://shelkoviyput.ru/catalog/mangaly-dachnye-i-aksessuary-kovanye/": 2,
+    "https://robmetalstal.ru/kovanye-elementy": 2,
+    "https://msk-mangal.ru/": 2,
+    "https://www.kovkaprom.ru/element/balyasiny/": 2,
+    "https://lemanapro.ru/catalogue/kovanye-elementy/": 2,
+    "https://www.ozon.ru/category/balyasina-kovanaya/": 2,
+    "https://www.studiakovki.ru/catalog/balyasini/": 2,
+    "https://www.ozon.ru/category/kalitka-kovanaya/": 2,
+    "https://kovke.ru/": 2,
+    "https://bsmith.ru/": 2,
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0": 2,
+    "https://vk.ru/bsmithru": 2,
+    "https://stalivan.ru/kovanaya-mebel/": 2,
+    "https://kovka-moscow.ru/kovanye-besedki": 2,
+    "https://www.ozon.ru/category/kovanye-ulichnye-svetilniki/": 2,
+    "https://www.livemaster.ru/item/23762451-dacha-i-sad-kovanyj-kozyrek": 2,
+    "https://zavodzaborov.ru/kovanye-zabory/": 2,
+    "https://metall-kovka24.ru/kozyrki/po-izgotovleniyu/kovanyj-nad-krylczom": 2,
+    "https://stalivan.ru/kovanye-izdeliya/perila-lestnichnye-ograzhdeniya/?page=0": 2,
+    "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0": 2,
+    "https://zaborkin.ru/kovka/": 2,
+    "https://www.ironwork.moscow/": 2,
+    "https://www.kovka-metalla.ru/": 2,
+    "https://kovtorg.ru/": 2,
+    "https://zaborkin.ru/vorota/kovanie-vorota/": 2,
+    "https://kovkadvor.ru/": 2,
+    "https://zavodzaborov.ru/kovanye-vorota-i-kalitki/": 2,
+    "https://kovka-stroy.ru/catalog/kovanye-perila/": 2,
+    "https://kovanyeperila.ru/": 2,
+    "https://kovkadizain.ru/category/kovanye-izdeliya-dlya-doma/kovanye-lestnitsy/": 2,
+    "https://www.createmet.ru/catalog/kovanye_perila_dlya_lestnitsy_v_chastnom_dome/": 2,
+    "https://svarnik.ru/reshetki-na-okna/kovanye-reshetki-na-okna/": 2,
+    "https://www.stroyzabor.ru/kovanye-zabory/": 2
+   },
+   "repeatHost": {
+    "kovart.ru": 20,
+    "ozon.ru": 15,
+    "studiakovki.ru": 11,
+    "stalivan.ru": 11,
+    "kovka-moscow.ru": 10,
+    "kovkagrad.ru": 9,
+    "kovka-metalla.ru": 9,
+    "kovkadizain.ru": 7,
+    "mki-kovka.ru": 7,
+    "yandex.ru": 7,
+    "kovka-na-zakaz.ru": 7,
+    "kovkaprom.ru": 7,
+    "zaborkin.ru": 7,
+    "msk-mangal.ru": 7,
+    "ru.pinterest.com": 6,
+    "ковка-торг.рф": 6,
+    "luxkoff.ru": 6,
+    "aristmet.ru": 6,
+    "createmet.ru": 6,
+    "ru.wikipedia.org": 5,
+    "avito.ru": 5,
+    "doorinhome.ru": 5,
+    "metall-kovka24.ru": 5,
+    "livemaster.ru": 4,
+    "zavodzaborov.ru": 4,
+    "ufa-kovka.ru": 4,
+    "covali.ru": 4,
+    "km-n.ru": 4,
+    "kovtorg.ru": 4,
+    "kovka177.ru": 4,
+    "kovkadvor.ru": 3,
+    "kovka-prezident.ru": 3,
+    "akovka.com": 3,
+    "kuznya-metall.ru": 3,
+    "wildberries.ru": 3,
+    "market.yandex.ru": 3,
+    "bsmith.ru": 3,
+    "vseinstrumenti.ru": 2,
+    "pinterest.com": 2,
+    "kovke.ru": 2,
+    "lemanapro.ru": 2,
+    "podkova.ru": 2,
+    "kusnica.ru": 2,
+    "vk.ru": 2,
+    "robmetalstal.ru": 2,
+    "hitsad.ru": 2,
+    "tehnolux.ru": 2,
+    "persey-kovka.ru": 2,
+    "supermangal.ru": 2,
+    "shelkoviyput.ru": 2
+   },
+   "repeatUrlSS": {
+    "https://www.mki-kovka.ru/ru/products/": [
+     3
+    ],
+    "https://www.kovart.ru/": [
+     5,
+     3
+    ],
+    "https://ru.wikipedia.org/wiki/%D0%A5%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D0%B2%D0%BA%D0%B0": [
+     1,
+     1
+    ],
+    "https://zaborkin.ru/kovka/": [
+     1,
+     1
+    ],
+    "https://www.kovkaprom.ru/": [
+     2,
+     2
+    ],
+    "https://kovka-na-zakaz.ru/": [
+     2,
+     3
+    ],
+    "https://www.studiakovki.ru/": [
+     3,
+     2
+    ],
+    "https://www.ironwork.moscow/": [
+     1,
+     1
+    ],
+    "https://www.kovka-metalla.ru/": {
+     "1": 2
+    },
+    "https://kovtorg.ru/": [
+     2
+    ],
+    "https://km-n.ru/vorota": [
+     3
+    ],
+    "https://zaborkin.ru/vorota/kovanie-vorota/": {
+     "1": 2
+    },
+    "https://kovkadvor.ru/": {
+     "1": 2
+    },
+    "https://zavodzaborov.ru/kovanye-vorota-i-kalitki/": {
+     "1": 2
+    },
+    "https://www.mki-kovka.ru/ru/products/.list/id/lesnici/": [
+     3
+    ],
+    "https://www.doorinhome.ru/catalog/kovka/kovanie-perila/": [
+     2,
+     1
+    ],
+    "https://kovka-stroy.ru/catalog/kovanye-perila/": [
+     2
+    ],
+    "https://stalivan.ru/kovanye-izdeliya/perila-lestnichnye-ograzhdeniya/?page=0": [
+     2
+    ],
+    "https://www.kovka-metalla.ru/perila-kovanye/": {
+     "1": 3
+    },
+    "https://kovanyeperila.ru/": {
+     "1": 2
+    },
+    "https://kovkagrad.ru/catalog/vse-dlya-dachi/metallicheskoe-kryltso/kovanye-perila/": {
+     "1": 2,
+     "0": 1
+    },
+    "https://www.createmet.ru/catalog/kovanye_perila_dlya_lestnitsy_v_chastnom_dome/": {
+     "1": 2
+    },
+    "https://svarnik.ru/reshetki-na-okna/kovanye-reshetki-na-okna/": [
+     1,
+     1
+    ],
+    "https://www.stroyzabor.ru/kovanye-zabory/": [
+     1,
+     1
+    ],
+    "https://zabory-msk.ru/kovanye-zabory": {
+     "1": 2
+    },
+    "https://www.kovka-metalla.ru/kovanye-zabory/": {
+     "1": 2
+    },
+    "https://dveri-best.ru/catalog/kovanye-zabori": {
+     "1": 2
+    },
+    "https://www.createmet.ru/catalog/kovanie-zabori/": {
+     "1": 2
+    },
+    "https://zavodzaborov.ru/kovanye-zabory/": {
+     "1": 2
+    },
+    "https://www.rus-zabor.ru/zabory/kovanye/": {
+     "1": 2
+    },
+    "https://lestnicy-na-karkase.ru/stairs/kovanye/": [
+     1,
+     1
+    ],
+    "https://kovkadizain.ru/category/kovanye-izdeliya-dlya-doma/kovanye-lestnitsy/": [
+     1,
+     1
+    ],
+    "https://metall-kovka24.ru/kozyrki/po-izgotovleniyu/kovanyj-nad-krylczom": [
+     2
+    ],
+    "https://msk-mangal.ru/catalog/category/kozyrki/": [
+     2,
+     1
+    ],
+    "https://www.livemaster.ru/item/23762451-dacha-i-sad-kovanyj-kozyrek": [
+     2
+    ],
+    "https://msk-mangal.ru/": [
+     2
+    ],
+    "https://shelkoviyput.ru/catalog/mangaly-dachnye-i-aksessuary-kovanye/": [
+     1,
+     1
+    ],
+    "https://supermangal.ru/12-kovanye-mangaly": [
+     1,
+     1
+    ],
+    "https://www.ozon.ru/category/kovanye-elementy-38770/": [
+     2
+    ],
+    "https://www.studiakovki.ru/catalog/": [
+     1,
+     2
+    ],
+    "https://ковка-торг.рф/": [
+     3
+    ],
+    "https://ковка-торг.рф/tovaryi_i_uslugi/kovanye-elementy/kovanye-elementy.html": {
+     "1": 2
+    },
+    "https://robmetalstal.ru/kovanye-elementy": {
+     "1": 2
+    },
+    "https://covali.ru/dekor/kovanye-izdeliya/": {
+     "1": 2,
+     "0": 1
+    },
+    "https://lemanapro.ru/catalogue/kovanye-elementy/": {
+     "1": 2
+    },
+    "https://www.ozon.ru/category/balyasina-kovanaya/": [
+     1,
+     1
+    ],
+    "https://www.studiakovki.ru/catalog/balyasini/": [
+     1,
+     1
+    ],
+    "https://www.kovkaprom.ru/element/balyasiny/": [
+     1,
+     1
+    ],
+    "https://www.ozon.ru/category/kalitka-kovanaya/": [
+     1,
+     1
+    ],
+    "https://kovke.ru/": [
+     2
+    ],
+    "https://bsmith.ru/": [
+     1,
+     1
+    ],
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B7%D0%BD%D0%B8%D1%86%D0%B0": [
+     1,
+     1
+    ],
+    "https://vk.ru/bsmithru": [
+     1,
+     1
+    ],
+    "https://stalivan.ru/kovanaya-mebel/": [
+     1,
+     1
+    ],
+    "https://kovka-moscow.ru/kovanye-besedki": [
+     1,
+     1
+    ],
+    "https://www.ozon.ru/category/kovanye-ulichnye-svetilniki/": [
+     1,
+     1
+    ],
+    "https://stalivan.ru/kovka-dlya-sada/kovanye-fonari/": [
+     1,
+     1
+    ]
+   },
+   "repeatHostSS": {
+    "mki-kovka.ru": [
+     7
+    ],
+    "kovart.ru": [
+     9,
+     11
+    ],
+    "avito.ru": [
+     4,
+     1
+    ],
+    "uslugi.yandex.ru": [
+     2
+    ],
+    "ru.wikipedia.org": [
+     2,
+     3
+    ],
+    "zaborkin.ru": [
+     1,
+     6
+    ],
+    "kovkaprom.ru": [
+     4,
+     3
+    ],
+    "kovka-na-zakaz.ru": [
+     2,
+     5
+    ],
+    "studiakovki.ru": [
+     6,
+     5
+    ],
+    "ironwork.moscow": [
+     1,
+     1
+    ],
+    "kovkadizain.ru": {
+     "1": 6,
+     "0": 1
+    },
+    "kovka-metalla.ru": {
+     "1": 7,
+     "0": 2
+    },
+    "kovtorg.ru": [
+     3,
+     1
+    ],
+    "km-n.ru": [
+     4
+    ],
+    "zabor-profi.ru": [
+     2
+    ],
+    "magazinkovka.ru": [
+     2
+    ],
+    "dor-m.ru": [
+     2
+    ],
+    "market.yandex.ru": [
+     3
+    ],
+    "createmet.ru": {
+     "1": 6
+    },
+    "kovkadvor.ru": {
+     "1": 2,
+     "0": 1
+    },
+    "ru.pinterest.com": {
+     "1": 6
+    },
+    "luxkoff.ru": {
+     "1": 6
+    },
+    "zavodzaborov.ru": {
+     "1": 4
+    },
+    "ufa-kovka.ru": {
+     "1": 4
+    },
+    "ozon.ru": {
+     "1": 6,
+     "0": 9
+    },
+    "doorinhome.ru": [
+     3,
+     2
+    ],
+    "metall-kovka24.ru": [
+     5
+    ],
+    "dacha-kovka.ru": [
+     2
+    ],
+    "kovka-stroy.ru": [
+     2
+    ],
+    "stalivan.ru": [
+     8,
+     3
+    ],
+    "kovanyeperila.ru": {
+     "1": 2
+    },
+    "kovkagrad.ru": {
+     "1": 3,
+     "0": 6
+    },
+    "kovka-moscow.ru": [
+     4,
+     6
+    ],
+    "yandex.ru": {
+     "1": 6,
+     "0": 1
+    },
+    "svarnik.ru": [
+     1,
+     1
+    ],
+    "aristmet.ru": {
+     "1": 1,
+     "0": 5
+    },
+    "kovka177.ru": {
+     "1": 4
+    },
+    "kuznya-metall.ru": {
+     "1": 3
+    },
+    "good-zabor.ru": [
+     1,
+     1
+    ],
+    "stroyzabor.ru": [
+     1,
+     1
+    ],
+    "akovka.com": [
+     1,
+     2
+    ],
+    "kovka-prezident.ru": [
+     3
+    ],
+    "zabory-msk.ru": {
+     "1": 2
+    },
+    "dveri-best.ru": {
+     "1": 2
+    },
+    "rus-zabor.ru": {
+     "1": 2
+    },
+    "lestnicy-na-karkase.ru": [
+     1,
+     1
+    ],
+    "livemaster.ru": [
+     4
+    ],
+    "salon-kovki.ru": [
+     2
+    ],
+    "kovka-g.ru": {
+     "1": 1,
+     "0": 1
+    },
+    "msk-mangal.ru": [
+     6,
+     1
+    ],
+    "wildberries.ru": [
+     3
+    ],
+    "metkof.ru": [
+     2
+    ],
+    "mangaliero.ru": [
+     1,
+     1
+    ],
+    "vseinstrumenti.ru": [
+     1,
+     1
+    ],
+    "shelkoviyput.ru": [
+     1,
+     1
+    ],
+    "supermangal.ru": [
+     1,
+     1
+    ],
+    "ковка-торг.рф": [
+     3,
+     3
+    ],
+    "tehnolux.ru": [
+     2
+    ],
+    "robmetalstal.ru": {
+     "1": 2
+    },
+    "covali.ru": {
+     "1": 2,
+     "0": 2
+    },
+    "podkova.ru": {
+     "1": 2
+    },
+    "lemanapro.ru": {
+     "1": 2
+    },
+    "arhemet.ru": {
+     "1": 2
+    },
+    "pinterest.com": {
+     "1": 2
+    },
+    "kovke.ru": [
+     2
+    ],
+    "kusnica.ru": [
+     1,
+     1
+    ],
+    "bsmith.ru": [
+     1,
+     2
+    ],
+    "vk.ru": [
+     1,
+     1
+    ],
+    "hitsad.ru": [
+     1,
+     1
+    ],
+    "persey-kovka.ru": {
+     "1": 2
+    },
+    "decoriko.ru": [
+     1,
+     1
+    ]
+   },
+   "repeatHostSecond": {
+    "kovart.ru": 20,
+    "ozon.ru": 15,
+    "yandex.ru": 12,
+    "stalivan.ru": 11,
+    "studiakovki.ru": 11,
+    "kovka-moscow.ru": 10,
+    "kovkagrad.ru": 9,
+    "kovka-metalla.ru": 9,
+    "kovkaprom.ru": 8,
+    "pinterest.com": 8,
+    "mki-kovka.ru": 7,
+    "zaborkin.ru": 7,
+    "kovka-na-zakaz.ru": 7,
+    "kovkadizain.ru": 7,
+    "msk-mangal.ru": 7,
+    "luxkoff.ru": 6,
+    "ковка-торг.рф": 6,
+    "createmet.ru": 6,
+    "aristmet.ru": 6,
+    "metall-kovka24.ru": 5,
+    "wikipedia.org": 5,
+    "avito.ru": 5,
+    "doorinhome.ru": 5,
+    "livemaster.ru": 4,
+    "covali.ru": 4,
+    "kovka177.ru": 4,
+    "km-n.ru": 4,
+    "ufa-kovka.ru": 4,
+    "zavodzaborov.ru": 4,
+    "kovtorg.ru": 4,
+    "kuznya-metall.ru": 3,
+    "wildberries.ru": 3,
+    "kovka-prezident.ru": 3,
+    "akovka.com": 3,
+    "kovkadvor.ru": 3,
+    "bsmith.ru": 3,
+    "vk.ru": 2,
+    "kusnica.ru": 2,
+    "kovke.ru": 2,
+    "vseinstrumenti.ru": 2,
+    "hitsad.ru": 2,
+    "arhemet.ru": 2,
+    "lemanapro.ru": 2,
+    "podkova.ru": 2,
+    "ironwork.moscow": 2,
+    "robmetalstal.ru": 2,
+    "tehnolux.ru": 2,
+    "supermangal.ru": 2,
+    "persey-kovka.ru": 2,
+    "shelkoviyput.ru": 2
+   },
+   "repeatHostSecondColors": {
+    "kovart.ru": 0,
+    "ozon.ru": 1,
+    "yandex.ru": 2,
+    "stalivan.ru": 3,
+    "studiakovki.ru": 4,
+    "kovka-moscow.ru": 5,
+    "kovkagrad.ru": 6,
+    "kovka-metalla.ru": 7,
+    "kovkaprom.ru": 8,
+    "pinterest.com": 9,
+    "mki-kovka.ru": 10,
+    "zaborkin.ru": 11,
+    "kovka-na-zakaz.ru": 12,
+    "kovkadizain.ru": 13,
+    "msk-mangal.ru": 14,
+    "luxkoff.ru": 15,
+    "ковка-торг.рф": 16,
+    "createmet.ru": 17,
+    "aristmet.ru": 18,
+    "metall-kovka24.ru": 19,
+    "wikipedia.org": 20,
+    "avito.ru": 21,
+    "doorinhome.ru": 22,
+    "livemaster.ru": 23,
+    "covali.ru": 24,
+    "kovka177.ru": 25,
+    "km-n.ru": 26,
+    "ufa-kovka.ru": 27,
+    "zavodzaborov.ru": 28,
+    "kovtorg.ru": 29,
+    "kuznya-metall.ru": 30,
+    "wildberries.ru": 31,
+    "kovka-prezident.ru": 32,
+    "akovka.com": 33,
+    "kovkadvor.ru": 34,
+    "bsmith.ru": 35,
+    "vk.ru": 36,
+    "kusnica.ru": 37,
+    "kovke.ru": 38,
+    "vseinstrumenti.ru": 39,
+    "hitsad.ru": 40,
+    "arhemet.ru": 41,
+    "lemanapro.ru": 42,
+    "podkova.ru": 43,
+    "ironwork.moscow": 44,
+    "robmetalstal.ru": 45,
+    "tehnolux.ru": 46,
+    "supermangal.ru": 47,
+    "persey-kovka.ru": 48,
+    "shelkoviyput.ru": 49,
+    "dacha-kovka.ru": 50,
+    "mangaliero.ru": 51,
+    "zabory-msk.ru": 52,
+    "kovanyeperila.ru": 53,
+    "svarnik.ru": 54,
+    "dor-m.ru": 55,
+    "magazinkovka.ru": 56,
+    "good-zabor.ru": 57,
+    "stroyzabor.ru": 58,
+    "dveri-best.ru": 59,
+    "metkof.ru": 60,
+    "rus-zabor.ru": 61,
+    "lestnicy-na-karkase.ru": 62,
+    "zabor-profi.ru": 63,
+    "salon-kovki.ru": 64,
+    "kovka-g.ru": 65,
+    "kovka-stroy.ru": 66,
+    "decoriko.ru": 67
+   }
+  }
+ },
+ "created_at": "2026-09-16 13:20:28",
+ "finished_at": "2026-09-16 13:25:03"
+}

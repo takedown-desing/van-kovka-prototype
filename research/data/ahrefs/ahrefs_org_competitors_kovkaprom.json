@@ -1,0 +1,144 @@
+{
+  "competitors": [
+    {
+      "competitor_domain": "studiakovki.ru",
+      "keywords_common": 45,
+      "keywords_competitor": 39,
+      "traffic": 447,
+      "domain_rating": 13.0
+    },
+    {
+      "competitor_domain": "kovka-na-zakaz.ru",
+      "keywords_common": 29,
+      "keywords_competitor": 448,
+      "traffic": 2460,
+      "domain_rating": 21.0
+    },
+    {
+      "competitor_domain": "urres.ru",
+      "keywords_common": 27,
+      "keywords_competitor": 292,
+      "traffic": 764,
+      "domain_rating": 8.0
+    },
+    {
+      "competitor_domain": "ams-kovka.ru",
+      "keywords_common": 20,
+      "keywords_competitor": 31,
+      "traffic": 71,
+      "domain_rating": 2.0
+    },
+    {
+      "competitor_domain": "kovart.ru",
+      "keywords_common": 19,
+      "keywords_competitor": 283,
+      "traffic": 894,
+      "domain_rating": 7.0
+    },
+    {
+      "competitor_domain": "createmet.ru",
+      "keywords_common": 15,
+      "keywords_competitor": 389,
+      "traffic": 1761,
+      "domain_rating": 14.0
+    },
+    {
+      "competitor_domain": "kovka-metalla.ru",
+      "keywords_common": 14,
+      "keywords_competitor": 245,
+      "traffic": 993,
+      "domain_rating": 4.3
+    },
+    {
+      "competitor_domain": "akovka.com",
+      "keywords_common": 14,
+      "keywords_competitor": 144,
+      "traffic": 428,
+      "domain_rating": 3.6
+    },
+    {
+      "competitor_domain": "vira-kovka.ru",
+      "keywords_common": 13,
+      "keywords_competitor": 29,
+      "traffic": 121,
+      "domain_rating": 0.3
+    },
+    {
+      "competitor_domain": "ковка-торг.рф",
+      "keywords_common": 12,
+      "keywords_competitor": 11,
+      "traffic": 39,
+      "domain_rating": 0.0
+    },
+    {
+      "competitor_domain": "covali.ru",
+      "keywords_common": 11,
+      "keywords_competitor": 43,
+      "traffic": 96,
+      "domain_rating": 22.0
+    },
+    {
+      "competitor_domain": "kovkadizain.ru",
+      "keywords_common": 11,
+      "keywords_competitor": 109,
+      "traffic": 286,
+      "domain_rating": 1.4
+    },
+    {
+      "competitor_domain": "оборон-сталь.рф",
+      "keywords_common": 9,
+      "keywords_competitor": 184,
+      "traffic": 806,
+      "domain_rating": 1.4
+    },
+    {
+      "competitor_domain": "arhemet.ru",
+      "keywords_common": 9,
+      "keywords_competitor": 21,
+      "traffic": 85,
+      "domain_rating": 0.0
+    },
+    {
+      "competitor_domain": "doorinhome.ru",
+      "keywords_common": 8,
+      "keywords_competitor": 331,
+      "traffic": 1803,
+      "domain_rating": 1.3
+    },
+    {
+      "competitor_domain": "kovannie-elementi1.ru",
+      "keywords_common": 8,
+      "keywords_competitor": 16,
+      "traffic": 50,
+      "domain_rating": 0.0
+    },
+    {
+      "competitor_domain": "luxkoff.ru",
+      "keywords_common": 7,
+      "keywords_competitor": 322,
+      "traffic": 1274,
+      "domain_rating": 12.0
+    },
+    {
+      "competitor_domain": "эталон-лестниц.рф",
+      "keywords_common": 5,
+      "keywords_competitor": 454,
+      "traffic": 1404,
+      "domain_rating": 3.2
+    },
+    {
+      "competitor_domain": "kuznya-metall.ru",
+      "keywords_common": 5,
+      "keywords_competitor": 178,
+      "traffic": 515,
+      "domain_rating": 1.1
+    },
+    {
+      "competitor_domain": "masterovit.ru",
+      "keywords_common": 3,
+      "keywords_competitor": 2890,
+      "traffic": 18030,
+      "domain_rating": 26.0
+    }
+  ]
+}

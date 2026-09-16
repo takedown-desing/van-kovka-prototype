@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип: Каталог. Кованые ворота и калитки на заказ: 27 эскизов с ценой «от» за м², фильтр, расчёт. Ван-Ковка</title>
+<meta name="description" content="Прототип раздела каталога van-kovka.ru: быстрые фильтры, фильтр по параметрам, карточки с ценой «от» и кнопкой «Рассчитать стоимость», цены, этапы, установленные ворота, магазин элементов, FAQ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23B4622A%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EВ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/styles.css?v=1">
+</head>
+<body>
+
+<!-- Панель прототипа -->
+<div class="proto-bar">
+  <span class="pb-title">Прототип «Ван-Ковка»</span>
+  <nav>
+    <a href="../index.html">Обзор</a>
+    <a href="home.html">Главная</a><a href="catalog.html" class="active">Каталог</a><a href="product.html">Карточка</a><a href="portfolio.html">Наши работы</a><a href="project.html">Объект</a><a href="about.html">О производстве</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a><a href="cart.html">Корзина</a><a href="account.html">Кабинет</a>
+  </nav>
+  <div class="pb-legend">
+    <span><i style="background:#6B7280"></i>Существующий блок</span>
+    <span><i style="background:#15803D"></i>Новый: по исследованию</span>
+    <button class="pb-toggle" data-toggle-tags>Скрыть пометки</button>
+  </div>
+</div>
+
+<!-- Верхняя полоса -->
+<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. Город, режим и главные условия одной строкой до прокрутки (kovka-na-zakaz, kovkadvor, kovart)">
+  <div class="container">
+    <span>Подольск, Московская область. Своё производство и склад-магазин</span>
+    <span class="hide-m">Ежедневно 9:00-21:00</span>
+    <span class="grow"></span>
+    <a class="hide-m" href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+    <span class="direct">Замер по Москве и области бесплатно при заказе</span>
+  </div>
+</div>
+
+<!-- Шапка -->
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по типам изделий вместо трёх копий каталога, телефон с подписью, мессенджеры, «Рассчитать стоимость», корзина и кабинет (kovka-na-zakaz, kovart, doorinhome)">
+  <div class="container">
+    <a class="logo" href="home.html"><img src="../assets/img/logo.webp" alt="Ван-Ковка"><span class="lg-txt"><b>Ван-Ковка</b><span>художественная ковка и элементы, Подольск</span></span></a>
+    <nav class="hnav"><a href="catalog.html" class="active">Каталог изделий</a><a href="catalog.html#elements" class="active">Элементы ковки</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a></nav>
+    <div class="hdr-phone"><b>+7 (495) 134-55-06</b><span>ежедневно 9:00-21:00, перезвоним за 15 минут</span></div>
+    <div class="msgs">
+      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
+      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
+    </div>
+    <div class="hdr-icons">
+      <a class="msg" href="account.html" title="Личный кабинет"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
+      <a class="msg" href="cart.html" title="Корзина"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="cnt">3</span></a>
+    </div>
+    <a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость изделия" data-ask-sub="Опишите, что нужно, и приложите фото или эскиз. Менеджер пришлёт расчёт в течение рабочего дня">Рассчитать стоимость</a>
+    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<div class="catbar blk" data-tag="res" data-label="Новый блок: по результатам исследования. Полоса категорий по типу изделия вместо 45 пунктов левой колонки (kovka-na-zakaz, kovkadvor, kovkadizain)">
+  <div class="container"><a class="all" href="catalog.html">Все изделия</a><a href="catalog.html" class="active">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы</a><a href="catalog.html">Мебель и интерьер</a><a href="catalog.html#elements">Элементы для кузнецов</a></div>
+</div>
+
+<!-- Мобильное меню -->
+<div class="drawer">
+  <div class="panel">
+    <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Изделия на заказ</h4>
+    <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки на окна</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+    <h4>Магазин элементов</h4>
+    <a href="catalog.html#elements">Балясины</a><a href="catalog.html#elements">Пики и наконечники</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Все 27 разделов</a>
+    <h4>Компания</h4>
+    <a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать, замер, доставка, монтаж</a><a href="contacts.html">Контакты</a><a href="account.html">Личный кабинет</a><a href="cart.html">Корзина</a>
+    <h4>Связь</h4>
+    <a href="tel:+74951345506">+7 (495) 134-55-06</a><a href="tel:+79770007400">+7 (977) 000-74-00</a><a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a><a href="#">WhatsApp</a><a href="#">Telegram</a><a href="#">MAX</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="crumbs blk blk-inline" data-tag="old" data-label="Существующие хлебные крошки"><a href="home.html">Главная</a><span class="sep">/</span><a href="catalog.html">Каталог изделий</a><span class="sep">/</span><span>Кованые ворота и калитки</span></div>
+
+  <div class="cat-head blk blk-inline" data-tag="mix" data-label="Существующий заголовок («Художественная ковка на заказ» у всех 6 подразделов), переработан: свой H1, число эскизов, цена «от» за м², срок, описание и кнопки (kovka-na-zakaz «88 изделий, от 261 900 ₽, цены на сентябрь 2026», kovkadvor, kovkadizain)">
+    <div>
+      <h1>Кованые ворота и калитки на заказ<span class="cnt">27 эскизов</span></h1>
+      <p>Распашные и откатные ворота с калиткой или без, полностью кованые или сварные с кованым декором. Изготавливаем под размеры вашего проёма в Подольске, красим, привозим и устанавливаем по Москве и области.</p>
+      <div class="from"><span><b><span class="fill">от 8 900 ₽</span></b> за м² с покраской</span><span><b>от 16 дней</b> изготовление</span><span><b>5 лет</b> гарантия</span><span class="muted">цены на сентябрь 2026</span></div>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать ворота" data-ask-sub="Укажите ширину проёма, нужна ли калитка и автоматика">Рассчитать по размерам</a><a class="btn btn-outline" href="#" data-ask data-ask-title="Вызвать замерщика" data-ask-sub="Оставьте адрес, согласуем время выезда">Вызвать замерщика</a></div>
+  </div>
+
+  <div class="tabs blk blk-inline" data-tag="res" data-label="Новый блок: по результатам исследования. Быстрые фильтры по назначению с числом эскизов (kovka-na-zakaz «Откатные 26, Распашные 62, С калиткой 45», kovkadvor, kovkadizain)" data-tabs="#gates">
+    <a href="#" class="active" data-filter="all">Все ворота <small>27</small></a><a href="#" data-filter="all">Распашные <small>18</small></a><a href="#" data-filter="all">Откатные <small>9</small></a><a href="#" data-filter="all">С калиткой <small>15</small></a><a href="#" data-filter="all">С профлистом <small>11</small></a><a href="#" data-filter="all">Современные, лофт <small>6</small></a><a href="#" data-filter="all">Только калитки <small>12</small></a>
+  </div>
+
+  <div class="catalog-layout">
+    <aside class="filters blk" data-tag="res" data-label="Новый блок: по исследованию. Фильтр по параметрам (kovka-na-zakaz: стиль, заполнение, исполнение, комплектация; doorinhome: цена, метод; сейчас на сайте фильтров нет)">
+      <div class="f-head"><h3>Фильтр</h3><a href="#">Сбросить</a></div>
+      <div class="fgroup"><b>Тип ворот</b>
+        <label><input type="checkbox" checked> Распашные <small>18</small></label>
+        <label><input type="checkbox"> Откатные <small>9</small></label>
+        <label><input type="checkbox"> Гаражные <small>3</small></label>
+      </div>
+      <div class="fgroup"><b>Калитка</b>
+        <label><input type="checkbox"> Отдельная <small>12</small></label>
+        <label><input type="checkbox"> Встроенная <small>3</small></label>
+        <label><input type="checkbox"> Без калитки <small>12</small></label>
+      </div>
+      <div class="fgroup"><b>Исполнение</b>
+        <label><input type="checkbox"> Полностью кованые <small>14</small></label>
+        <label><input type="checkbox"> Сварные с кованым декором <small>13</small></label>
+      </div>
+      <div class="fgroup"><b>Заполнение</b>
+        <label><input type="checkbox"> Открытое, ажур <small>10</small></label>
+        <label><input type="checkbox"> Профлист <small>11</small></label>
+        <label><input type="checkbox"> Поликарбонат <small>4</small></label>
+        <label><input type="checkbox"> Листовой металл <small>2</small></label>
+      </div>
+      <div class="fgroup"><b>Стиль</b>
+        <label><input type="checkbox"> Классика <small>16</small></label>
+        <label><input type="checkbox"> Растительный орнамент <small>7</small></label>
+        <label><input type="checkbox"> Современный, лофт <small>4</small></label>
+      </div>
+      <div class="fgroup"><b>Цена за м², ₽</b>
+        <div class="range"><input type="text" placeholder="от 8 900"><input type="text" placeholder="до 25 000"></div>
+        <div class="hint">С покраской, без монтажа</div>
+      </div>
+      <div class="fgroup"><b>Опции</b>
+        <label><input type="checkbox"> Под автоматику</label>
+        <label><input type="checkbox"> Фонари на столбах</label>
+        <label><input type="checkbox"> Есть готовый объект в портфолио</label>
+      </div>
+      <div class="apply"><button class="btn btn-outline" data-close-filters>Закрыть</button><button class="btn btn-primary" data-close-filters>Показать 18</button></div>
+    </aside>
+
+    <div>
+      <div class="toolbar blk blk-inline" data-tag="res" data-label="Новый блок: по исследованию. Счётчик, сортировка по цене и популярности (kovart, kovkadizain, doorinhome)">
+        <span class="muted">Показано 9 из 27 эскизов</span>
+        <div class="sort">Сначала: <a href="#" class="active">популярные</a><a href="#">дешевле</a><a href="#">дороже</a><a href="#">новые</a><button class="btn btn-outline btn-sm filter-btn" data-open-filters>Фильтр</button></div>
+      </div>
+      <div class="active-filters blk blk-inline" data-tag="res" data-label="Выбранные фильтры чипами"><span class="chip">Распашные <b>×</b></span><span class="chip">Москва и область <b>×</b></span></div>
+
+      <div class="prod-grid blk" id="gates" data-tag="mix" data-label="Существующие карточки («Кованые ворота AV-026, размеры под заказ, 99 000 ₽, В корзину»), переработаны: тип, рисунок, цена «от» за м² и ориентир за типовые 4 × 2 м, срок, «Рассчитать стоимость» вместо корзины (kovart, kovkadvor, akovka, kovkadizain: цена за м² у 7 из 10 конкурентов)">
+        
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-1.jpg" alt="Кованые ворота AV-026" loading="lazy"><div class="badges"><span class="chip">Распашные, с калиткой</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-026</h3>
+          <span class="art">Эскиз AV-026. виноградная лоза, фонари на столбах</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 20 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 12 500 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">100 000</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-026">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-2.jpg" alt="Кованые ворота AV-025" loading="lazy"><div class="badges"><span class="chip">Распашные</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-025</h3>
+          <span class="art">Эскиз AV-025. классический рисунок, глухой низ</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 18 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 9 800 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">78 400</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-025">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-3.jpg" alt="Кованые ворота AV-024" loading="lazy"><div class="badges"><span class="chip">Распашные, с калиткой</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-024</h3>
+          <span class="art">Эскиз AV-024. ажурный верх, профлист</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 16 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 8 900 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">71 200</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-024">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-4.jpg" alt="Кованые ворота AV-023" loading="lazy"><div class="badges"><span class="chip">Откатные</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-023</h3>
+          <span class="art">Эскиз AV-023. полностью кованое полотно</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 22 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 15 400 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">123 200</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-023">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-5.jpg" alt="Кованые ворота AV-022" loading="lazy"><div class="badges"><span class="chip">Распашные</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-022</h3>
+          <span class="art">Эскиз AV-022. растительный орнамент, поликарбонат</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 20 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 11 300 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">90 400</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-022">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-6.jpg" alt="Кованые ворота AV-021" loading="lazy"><div class="badges"><span class="chip">Распашные, с калиткой</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-021</h3>
+          <span class="art">Эскиз AV-021. современный стиль, лофт</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 20 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 13 700 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">109 600</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-021">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+        <div class="lead-card blk" data-tag="res" data-label="Новый блок: по исследованию. Заявка внутри выбора: свой эскиз (kovka-na-zakaz «Не нашли подходящий вариант?», luxkoff «присылайте ваши эскизы»)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5M12 3v12"/></svg></div><h3>Не нашли свой вариант?</h3><p>Пришлите фото понравившихся ворот или набросок. Нарисуем эскиз под ваш проём и посчитаем за рабочий день.</p><a class="btn" href="#" data-ask data-ask-title="Рассчитать по своему эскизу" data-ask-sub="Прикрепите фото или набросок и укажите размеры проёма">Отправить эскиз</a></div>
+        
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-7.jpg" alt="Кованые ворота AV-020" loading="lazy"><div class="badges"><span class="chip">Откатные, с калиткой</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-020</h3>
+          <span class="art">Эскиз AV-020. пики и кольца, профлист</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 18 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 10 200 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">81 600</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-020">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-8.jpg" alt="Кованые ворота AV-019" loading="lazy"><div class="badges"><span class="chip">Распашные</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-019</h3>
+          <span class="art">Эскиз AV-019. арочный верх, монограмма</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 20 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 12 100 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">96 800</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-019">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+      <div class="prod" data-type="all">
+        <div class="pic"><img src="../assets/img/gates-9.jpg" alt="Кованые ворота AV-018" loading="lazy"><div class="badges"><span class="chip">Распашные, с калиткой</span></div><a class="fav" href="#" title="В избранное"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></a></div>
+        <div class="body">
+          <h3>Кованые ворота AV-018</h3>
+          <span class="art">Эскиз AV-018. глухие, с кованым декором</span>
+          <div class="meta"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg> под ваши размеры</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg> порошок, патина</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> от 24 дней</span></div>
+          <div class="p-row"><div class="price"><span class="fill">от 17 000 ₽</span><small>за м² с покраской</small></div><span class="term">ворота 4 × 2 м<br>от <span class="fill">136 000</span> ₽</span></div>
+          <div class="actions"><a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Укажите размеры проёма и нужна ли калитка, пришлём расчёт за рабочий день" data-ask-product="Кованые ворота AV-018">Рассчитать стоимость</a><a class="btn btn-outline" href="product.html">Подробнее</a></div>
+        </div>
+      </div>
+        <div class="lead-card dark blk" data-tag="res" data-label="Новый блок: по исследованию. Замер как отдельное действие в сетке (luxkoff «Вызов замерщика», kovka-metalla «бесплатный выезд мастера»)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg></div><h3>Не знаете размеры?</h3><p>Замерщик приедет по Москве и области, снимет проём, привезёт образцы покрытий и назовёт цену на месте. Бесплатно при заказе.</p><a class="btn" href="#" data-ask data-ask-title="Вызвать замерщика" data-ask-sub="Оставьте адрес и телефон, согласуем время">Вызвать замерщика</a></div>
+      </div>
+      <div class="pager"><a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">→</a></div>
+    </div>
+  </div>
+</div>
+<section class="section alt blk" id="prices" data-tag="res" data-label="Новый блок: по результатам исследования. Из чего складывается цена и что входит: таблица ориентиров за м², монтаж, доставка, опции (kovka-na-zakaz «Цены и сроки», luxkoff, kovart и kovkadizain «Цены на кованые изделия»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Цены</span><h2>Из чего складывается стоимость ворот</h2><p>Ориентиры для расчёта до замера. Точная цена после замера фиксируется в договоре и не меняется.</p></div></div>
+    <div class="info-grid">
+      <div class="info"><h3>Изделие, за м² полотна</h3><div class="kv"><span>Сварные с кованым верхом, профлист</span><b><span class="fill">от 8 900 ₽</span></b></div><div class="kv"><span>Ажурные кованые, открытое заполнение</span><b><span class="fill">от 12 500 ₽</span></b></div><div class="kv"><span>Полностью кованые с растительным орнаментом</span><b><span class="fill">от 25 000 ₽</span></b></div><div class="kv"><span>Калитка отдельная, за шт</span><b><span class="fill">от 28 000 ₽</span></b></div><p class="small muted" style="margin-top:6px">В цену входят металл, элементы, зачистка, грунт и покраска в чёрный, коричневый или графит.</p></div>
+      <div class="info"><h3>Работы и доставка</h3><div class="kv"><span>Замер по Москве и МО</span><b>бесплатно при договоре</b></div><div class="kv"><span>Монтаж распашных ворот</span><b><span class="fill">от 12 000 ₽</span></b></div><div class="kv"><span>Монтаж откатных с фундаментом</span><b><span class="fill">от 25 000 ₽</span></b></div><div class="kv"><span>Доставка по Москве и МО</span><b><span class="fill">от 3 000 ₽</span></b></div><div class="kv"><span>Отправка в регионы ТК</span><b>по тарифу ТК, упаковка бесплатно</b></div></div>
+      <div class="info"><h3>Опции</h3><div class="kv"><span>Патина «медь», «золото», «серебро»</span><b><span class="fill">+ 900 ₽ за м²</span></b></div><div class="kv"><span>Цвет по RAL</span><b><span class="fill">+ 10%</span></b></div><div class="kv"><span>Автоматика для распашных, комплект</span><b><span class="fill">от 32 000 ₽</span></b></div><div class="kv"><span>Автоматика для откатных</span><b><span class="fill">от 28 000 ₽</span></b></div><div class="kv"><span>Фонари на столбы, за пару</span><b><span class="fill">от 9 000 ₽</span></b></div></div>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="how" data-tag="res" data-label="Новый блок: по исследованию. Короткие этапы заказа ворот и что нужно от клиента (kovka-na-zakaz, akovka, doorinhome)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Как заказать</span><h2>Ворота за 4 шага</h2></div><a class="btn btn-outline" href="order.html">Подробно: замер, доставка, монтаж</a></div>
+    <div class="steps four">
+      <div class="step"><b>Выберите эскиз или пришлите свой</b><span>Из 27 эскизов ворот или фото из интернета. Рисунок и высоту меняем под вас.</span><div class="t">сегодня</div></div>
+      <div class="step"><b>Замер и договор</b><span>Замерщик снимает проём и уровень, показывает образцы. Цена и срок в договоре, аванс <span class="fill">50%</span>.</span><div class="t">1-3 дня</div></div>
+      <div class="step"><b>Изготовление и покраска</b><span>Сварка из собственных элементов, зачистка, грунт, порошковая покраска. Присылаем фото из цеха.</span><div class="t">10-15 дней</div></div>
+      <div class="step"><b>Доставка и монтаж</b><span>Столбы, петли, замок, автоматика. Акт и гарантия 5 лет, доплата после установки.</span><div class="t">1-2 дня</div></div>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="related" data-tag="res" data-label="Новый блок: по исследованию. Установленные ворота с местом и ценой внутри раздела (kovka-na-zakaz: карточки-объекты с адресом «КП Барский Луг, 640 700 ₽», kovkadvor «Наши работы»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Установлено</span><h2>Ворота, которые мы поставили рядом с вами</h2></div><a class="btn btn-outline" href="portfolio.html">Все работы: ворота</a></div>
+    <div class="work-grid">
+      <a class="work" href="project.html"><div class="pic"><img src="../assets/img/gates-1.jpg" alt="" loading="lazy"><span class="chip">Домодедово</span></div><div class="body"><h3>Распашные ворота с калиткой, эскиз AV-026</h3><div class="facts"><span>4,2 × 2,1 м</span><span>порошок, чёрный</span><span><b><span class="fill">168 000 ₽</span></b></span><span><span class="fill">18 дней</span></span></div></div></a>
+      <a class="work" href="project.html"><div class="pic"><img src="../assets/img/gates-6.jpg" alt="" loading="lazy"><span class="chip">Чехов</span></div><div class="body"><h3>Откатные ворота с профлистом и кованым верхом</h3><div class="facts"><span>4,5 × 2,0 м</span><span>патина «медь»</span><span><b><span class="fill">142 000 ₽</span></b></span><span><span class="fill">21 день</span></span></div></div></a>
+      <a class="work" href="project.html"><div class="pic"><img src="../assets/img/gates-9.jpg" alt="" loading="lazy"><span class="chip">Подольск</span></div><div class="body"><h3>Глухие распашные ворота с калиткой и фонарями</h3><div class="facts"><span>4,0 × 2,2 м</span><span>графит RAL 7024</span><span><b><span class="fill">215 000 ₽</span></b></span><span><span class="fill">24 дня</span></span></div></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section blk" id="elements" data-tag="mix" data-label="Существующий блок (каталог элементов: 27 разделов, карточки с ценой и «В корзину»), переработан: отдельная витрина для кузнецов с фильтром по типу, размеру и наличию, оптовыми скидками и прайсом (studiakovki, kovkaprom, podkova)">
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Магазин элементов</span><h2>Элементы холодной ковки со склада</h2><p>27 разделов, 1 400+ позиций в наличии в Подольске. Розница и опт: 5% от 10 000 ₽, 10% от 45 000 ₽. Отгрузка в день оплаты, отправка ТК по России.</p></div><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-outline" href="#">Прайс в Excel</a><a class="btn btn-dark" href="cart.html">Корзина: 3 позиции</a></div></div>
+    <div class="tabs">
+      <a href="#" class="active">Балясины <small>93</small></a><a href="#">Основания балясин <small>79</small></a><a href="#">Вставки в балясины <small>80</small></a><a href="#">Пики <small>42</small></a><a href="#">Наконечники <small>35</small></a><a href="#">Листья <small>242</small></a><a href="#">Цветы и накладки <small>235</small></a><a href="#">Кованый виноград <small>24</small></a><a href="#">Элементы орнамента <small>76</small></a><a href="#">Декоративные панели <small>23</small></a><a href="#">Заглушки на столбы <small>83</small></a><a href="#">Шары и полусферы <small>48</small></a><a href="#">Художественный прокат <small>62</small></a><a href="#">Краски и патина <small>17</small></a><a href="#">Ещё 13 разделов</a>
+    </div>
+    <div class="toolbar"><span class="muted">Балясины: 93 позиции, в наличии 81</span><div class="sort">Высота: <a href="#" class="active">все</a><a href="#">до 700 мм</a><a href="#">700-950</a><a href="#">950-1200</a><span style="margin-left:10px">Сечение:</span><a href="#">12 × 12</a><a href="#">14 × 14</a><a href="#">15 × 15</a><a href="#">труба</a></div></div>
+    <div class="el-grid">
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-2.jpg" alt="" loading="lazy"></div><b>Балясина 5379</b><span class="sz">900 мм, труба ø30, осн. ø16, 1 кг</span><span class="chip ok">В наличии 240 шт</span><div class="p"><span class="price">570 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-1.jpg" alt="" loading="lazy"></div><b>Балясина 11.002</b><span class="sz">950 мм, кв. 14 × 14, 1,3 кг</span><span class="chip ok">В наличии 510 шт</span><div class="p"><span class="price">470 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-3.jpg" alt="" loading="lazy"></div><b>Начальный столб 5818</b><span class="sz">1000 мм, проф. труба 50 × 50, 2,04 кг</span><span class="chip ok">В наличии 64 шт</span><div class="p"><span class="price">1 092 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-4.jpg" alt="" loading="lazy"></div><b>Балясина композиционная 4823</b><span class="sz">855 × 300 мм, труба 15 × 15, 1,95 кг</span><span class="chip ok">В наличии 120 шт</span><div class="p"><span class="price">540 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-5.jpg" alt="" loading="lazy"></div><b>Балясина композиционная 4822</b><span class="sz">720 × 245 мм, труба 15 × 15, 1,17 кг</span><span class="chip ok">В наличии 96 шт</span><div class="p"><span class="price">540 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-6.jpg" alt="" loading="lazy"></div><b>Балясина композиционная 4813</b><span class="sz">720 × 315 мм, труба 15 × 15, 1,51 кг</span><span class="chip ok">В наличии 180 шт</span><div class="p"><span class="price">487 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-7.jpg" alt="" loading="lazy"></div><b>Балясина 4813.03</b><span class="sz">715 × 240 мм, труба 15 × 15, 1,2 кг</span><span class="chip">Под заказ, 5 дней</span><div class="p"><span class="price">360 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-8.jpg" alt="" loading="lazy"></div><b>Балясина композиционная 4825</b><span class="sz">860 × 330 мм, труба 15 × 15, 1,66 кг</span><span class="chip ok">В наличии 74 шт</span><div class="p"><span class="price">780 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-9.jpg" alt="" loading="lazy"></div><b>Балясина композиционная 4809</b><span class="sz">860 × 260 мм, труба 15 × 15, 1,85 кг</span><span class="chip ok">В наличии 150 шт</span><div class="p"><span class="price">522 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-10.jpg" alt="" loading="lazy"></div><b>Балясина с виноградом 4811</b><span class="sz">1000 × 300 мм, ø12, 4,5 кг</span><span class="chip ok">В наличии 22 шт</span><div class="p"><span class="price">3 240 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+    </div>
+    <div class="info-grid" style="margin-top:18px">
+      <div class="info accent"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>Сколько балясин нужно</h3><p>На 1 пог. м перил обычно 6-8 балясин с шагом 120-150 мм. Для лестницы 4 м: 24-32 шт плюс 2 начальных столба. Менеджер посчитает спецификацию по вашему чертежу.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><h3>Самовывоз и отправка</h3><p>Со склада в Подольске в день оплаты, ежедневно 9:00-21:00. По России через ПЭК, Деловые Линии, СДЭК: упаковка и доставка до терминала ТК бесплатно.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></div><h3>Оптовикам и мастерским</h3><p>Скидки 5% от 10 000 ₽ и 10% от 45 000 ₽. Счёт для юрлиц, личный кабинет с историей заказов и повтором заказа в один клик.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="faq" data-tag="res" data-label="Новый блок: по исследованию. FAQ раздела: калитка, автоматика, откатные или распашные, покрытие (kovka-na-zakaz, doorinhome)">
+
+  <div class="container">
+    <div class="faq-2">
+      <div><span class="eyebrow">Вопросы про ворота</span><h2>Что уточнить до заказа</h2><p style="color:var(--ink-2)">Ответы на частые вопросы о воротах. Остальное: на странице «Как заказать» или у менеджера.</p></div>
+      <div class="faq">
+        <details open><summary>Распашные или откатные?</summary><div class="a">Распашные дешевле и проще в монтаже, нужно место для открывания створок внутрь участка. Откатные не занимают место перед проёмом, но требуют фундамент под направляющую и свободное место вдоль забора на ширину проёма плюс 40-50%.</div></details>
+        <details><summary>Можно ли поставить ворота на существующие столбы?</summary><div class="a">Да, если столбы ровные и выдержат вес створок. Замерщик проверит вертикаль и основание. Для кирпичных столбов делаем закладные.</div></details>
+        <details><summary>Ставите автоматику?</summary><div class="a">Да, комплекты для распашных и откатных ворот, подготовка полотна под привод входит в изготовление. Можно поставить позже: закладные делаем сразу.</div></details>
+        <details><summary>Какая покраска лучше для улицы?</summary><div class="a">Порошковое напыление в камере: держится дольше, не боится ультрафиолета. Патину наносим поверх порошка. Нитроэмаль дешевле, но требует обновления через 2-3 года.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="seo" data-tag="mix" data-label="Существующий блок (описание раздела пустое, у всех подразделов один Title), переработан: короткий текст по запросам «кованые ворота с калиткой», «распашные», «откатные», «цена», без полотна">
+
+  <div class="container">
+    <div class="info-grid">
+      <div class="info"><h3>Кованые ворота с калиткой для частного дома</h3><p>Изготавливаем распашные и откатные кованые ворота под размер проёма: с отдельной или встроенной калиткой, с профлистом, поликарбонатом или открытым ажуром. Все ворота красим порошковой краской, по желанию патинируем.</p></div>
+      <div class="info"><h3>Цена кованых ворот</h3><p>Стоимость зависит от площади полотна, рисунка и заполнения: от 8 900 ₽ за м² для сварных ворот с кованым верхом до 25 000 ₽ за м² для полностью кованого орнамента. Монтаж, автоматика и фонари считаются отдельно.</p></div>
+      <div class="info"><h3>Ворота на заказ в Подольске и Москве</h3><p>Производство в Подольске, замер и монтаж по Москве и Московской области своей бригадой. В другие регионы отправляем готовые ворота транспортной компанией.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer blk" data-tag="mix" data-label="Существующий подвал, дополнен: каталог по типам изделий, условия, реквизиты, документы, мессенджеры">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Ван-Ковка</h4>
+        <p>ООО «Ван-Упак», ИНН 5074054514, ОГРН 1165074051680. Производство и склад-магазин кованых изделий и элементов холодной ковки в Подольске с <span class="fill">2016</span> года.</p>
+        <a href="tel:+74951345506">+7 (495) 134-55-06</a>
+        <a href="tel:+79770007400">+7 (977) 000-74-00, WhatsApp</a>
+        <a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+        <p style="margin-top:8px">142116, Московская область, г.о. Подольск, пос. Сельхозтехника, ул. Промзона, д. 1а, стр. 1. Ежедневно 9:00-21:00</p>
+      </div>
+      <div>
+        <h4>Изделия на заказ</h4>
+        <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+      </div>
+      <div>
+        <h4>Элементы и материалы</h4>
+        <a href="catalog.html#elements">Балясины и столбы</a><a href="catalog.html#elements">Пики, наконечники, заглушки</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Декоративные панели</a><a href="catalog.html#elements">Краски и патина</a><a href="catalog.html#elements">Прайс-лист в Excel</a>
+      </div>
+      <div>
+        <h4>Покупателю</h4>
+        <a href="order.html">Как заказать</a><a href="order.html#zamer">Замер</a><a href="order.html#dostavka">Доставка и оплата</a><a href="order.html#montazh">Монтаж и гарантия</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="contacts.html">Контакты и реквизиты</a><a href="account.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2016-2026 Ван-Ковка. Цены на сайте не являются публичной офертой.</span>
+      <span>Политика обработки персональных данных. Договор оферты для интернет-магазина.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Липкая панель на мобильном -->
+<div class="sticky-bar blk" data-tag="res" data-label="Новый блок: по исследованию. Телефон и заявка всегда под пальцем на телефоне (kovka-na-zakaz, kovart)">
+  <div class="price-mini"><b>от 8 900 ₽</b><span>за м² с покраской</span></div>
+  <a class="btn btn-outline" href="tel:+74951345506">Позвонить</a>
+  <a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость" data-ask-sub="Оставьте телефон, менеджер перезвонит за 15 минут">Рассчитать стоимость</a>
+</div>
+
+<!-- Модальное окно заявки -->
+<div class="modal">
+  <div class="box">
+    <button class="x" data-close-modal aria-label="Закрыть">✕</button>
+    <h3>Рассчитать стоимость</h3>
+    <div class="sub">Опишите, что нужно. Менеджер пришлёт расчёт в течение рабочего дня</div>
+    <div class="prod-line" style="display:none"><b>Изделие:</b> <span></span></div>
+    <form data-done="Принято, менеджер свяжется за 15 минут">
+      <div class="row2">
+        <label class="field"><span>Имя</span><input type="text" placeholder="Как к вам обращаться"></label>
+        <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+      </div>
+      <label class="field"><span>Что нужно</span><textarea placeholder="Например: распашные ворота 4 × 2 м с калиткой, участок в Домодедово, есть фото забора"></textarea></label>
+      <div class="upload"><b>Прикрепить фото или эскиз</b>jpg, png, pdf до 20 МБ. Можно фото из интернета «хочу так же»</div>
+      <button class="btn btn-primary btn-block btn-lg" type="submit" style="margin-top:12px">Получить расчёт</button>
+      <div class="consent">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</div>
+    </form>
+  </div>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,590 @@
+{
+ "code": "TASK_RESULT",
+ "task_id": "31360338",
+ "result": {
+  "words": null,
+  "mode": "url",
+  "result": [
+   [
+    {
+     "num": 0,
+     "kw": "0",
+     "query": "http://van-kovka.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 3,
+      "rating": "",
+      "sqi": 90,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 1,
+     "kw": "0",
+     "query": "http://kovkaprom.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 49,
+      "rating": "",
+      "sqi": 510,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 2,
+     "kw": "0",
+     "query": "http://samen-kovka.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 20,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 3,
+     "kw": "0",
+     "query": "http://kovart.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 160,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 4,
+     "kw": "0",
+     "query": "http://kovka-na-zakaz.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 130,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 5,
+     "kw": "0",
+     "query": "http://luxkoff.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 50,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 6,
+     "kw": "0",
+     "query": "http://kovka-metalla.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 70,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 7,
+     "kw": "0",
+     "query": "http://akovka.com",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 120,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 8,
+     "kw": "0",
+     "query": "http://doorinhome.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 70,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 9,
+     "kw": "0",
+     "query": "http://kovkadvor.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 150,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 10,
+     "kw": "0",
+     "query": "http://kovkadizain.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 2,
+      "rating": "",
+      "sqi": 40,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 11,
+     "kw": "0",
+     "query": "http://createmet.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 60,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 12,
+     "kw": "0",
+     "query": "http://studiakovki.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 71,
+      "rating": "",
+      "sqi": 660,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 13,
+     "kw": "0",
+     "query": "http://stalivan.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 70,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 14,
+     "kw": "0",
+     "query": "http://mki-kovka.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 230,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 15,
+     "kw": "0",
+     "query": "http://kovkagrad.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 6,
+      "rating": "",
+      "sqi": 190,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 16,
+     "kw": "0",
+     "query": "http://metall-kovka24.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 70,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 17,
+     "kw": "0",
+     "query": "http://aristmet.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 50,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 18,
+     "kw": "0",
+     "query": "http://km-n.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 50,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 19,
+     "kw": "0",
+     "query": "http://kovka-moscow.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 15,
+      "rating": "",
+      "sqi": 150,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 20,
+     "kw": "0",
+     "query": "http://kovtorg.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 16,
+      "rating": "",
+      "sqi": 270,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 21,
+     "kw": "0",
+     "query": "http://kovka-prezident.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 3,
+      "rating": "",
+      "sqi": 150,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 22,
+     "kw": "0",
+     "query": "http://msk-mangal.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 1,
+      "rating": "",
+      "sqi": 100,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 23,
+     "kw": "0",
+     "query": "http://zaborkin.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 26,
+      "rating": "",
+      "sqi": 230,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 24,
+     "kw": "0",
+     "query": "http://masterovit.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 120,
+      "rating": "",
+      "sqi": 1030,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 25,
+     "kw": "0",
+     "query": "http://urres.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 10,
+      "rating": "",
+      "sqi": 260,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 26,
+     "kw": "0",
+     "query": "http://podkova.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 2,
+      "rating": "",
+      "sqi": 330,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 27,
+     "kw": "0",
+     "query": "http://covali.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 2,
+      "rating": "",
+      "sqi": 310,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 28,
+     "kw": "0",
+     "query": "http://kovka-stroy.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 10,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 29,
+     "kw": "0",
+     "query": "http://salon-kovki.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 10,
+      "rating": "",
+      "sqi": 60,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 30,
+     "kw": "0",
+     "query": "http://magazinkovka.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 10,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 31,
+     "kw": "0",
+     "query": "http://dacha-kovka.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 10,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 32,
+     "kw": "0",
+     "query": "http://metkof.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 2,
+      "rating": "",
+      "sqi": 140,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 33,
+     "kw": "0",
+     "query": "http://kovke.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 0,
+      "rating": "",
+      "sqi": 50,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 34,
+     "kw": "0",
+     "query": "http://zabor-profi.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 3,
+      "rating": "",
+      "sqi": 150,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    },
+    {
+     "num": 35,
+     "kw": "0",
+     "query": "http://dor-m.ru",
+     "res": {
+      "https": "none",
+      "popular": "",
+      "ratingsCount": "",
+      "reviews": 9,
+      "rating": "",
+      "sqi": 260,
+      "user_choice": "",
+      "turbo": "none",
+      "official": 0
+     }
+    }
+   ]
+  ]
+ },
+ "created_at": "2026-09-16 14:07:09",
+ "finished_at": "2026-09-16 14:10:01"
+}

@@ -1,0 +1,554 @@
+{
+ "code": "TASK_RESULT",
+ "task_id": "31360282",
+ "result": [
+  {
+   "query": "кованые ворота",
+   "localization": 50,
+   "geo": true,
+   "commerce": 79
+  },
+  {
+   "query": "кованые перила",
+   "localization": 33,
+   "geo": true,
+   "commerce": 84
+  },
+  {
+   "query": "кованый забор",
+   "localization": 57,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые элементы",
+   "localization": 40,
+   "geo": true,
+   "commerce": 89
+  },
+  {
+   "query": "кованая лестница",
+   "localization": 22,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые изделия",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованая решетка",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ограждения",
+   "localization": 67,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованый мангал",
+   "localization": 60,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованые калитки",
+   "localization": 63,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "художественная ковка",
+   "localization": 60,
+   "geo": true,
+   "commerce": 80
+  },
+  {
+   "query": "кованые козырьки",
+   "localization": 30,
+   "geo": true,
+   "commerce": 96
+  },
+  {
+   "query": "кованые перила для лестницы",
+   "localization": 40,
+   "geo": true,
+   "commerce": 85
+  },
+  {
+   "query": "кованая мебель",
+   "localization": 70,
+   "geo": true,
+   "commerce": 88
+  },
+  {
+   "query": "купить кованые ворота",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кузница ковка",
+   "localization": 63,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые беседки",
+   "localization": 14,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "оформлены коваными решетками",
+   "localization": 0,
+   "geo": false,
+   "commerce": 40
+  },
+  {
+   "query": "кованые балясины",
+   "localization": 40,
+   "geo": true,
+   "commerce": 81
+  },
+  {
+   "query": "кованые элементы купить",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованый мангал с крышей",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые перила на крыльцо",
+   "localization": 40,
+   "geo": true,
+   "commerce": 99
+  },
+  {
+   "query": "ворота кованые решетка",
+   "localization": 70,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованый навес",
+   "localization": 13,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "кованые решетки на окна",
+   "localization": 63,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "кованые перила цена",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "купить кованый мангал",
+   "localization": 88,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые перила в дом",
+   "localization": 50,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "кованые ворота с калиткой",
+   "localization": 50,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованые ворота цена",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые перила в частном доме",
+   "localization": 60,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованые фонари",
+   "localization": 38,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "узоры кованых решеток",
+   "localization": 0,
+   "geo": false,
+   "commerce": 72
+  },
+  {
+   "query": "калитка кованая купить",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ворота и въезды",
+   "localization": 100,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые изделия из металла",
+   "localization": 40,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ограждения лестницы",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые откатные ворота",
+   "localization": 40,
+   "geo": true,
+   "commerce": 72
+  },
+  {
+   "query": "кованые изделия купить",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые заборы цена",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "угловой узор на ворота кованый",
+   "localization": 0,
+   "geo": false,
+   "commerce": 93
+  },
+  {
+   "query": "кованые ворота для частного",
+   "localization": 63,
+   "geo": true,
+   "commerce": 77
+  },
+  {
+   "query": "кованые лестницы купить",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "мангалы кованые с печкой",
+   "localization": 33,
+   "geo": true,
+   "commerce": 84
+  },
+  {
+   "query": "кованые калитки для частного",
+   "localization": 40,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "ковка на заказ",
+   "localization": 70,
+   "geo": true,
+   "commerce": 97
+  },
+  {
+   "query": "лестница кованая в дом",
+   "localization": 75,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ворота москва",
+   "localization": 89,
+   "geo": false,
+   "commerce": 100
+  },
+  {
+   "query": "заборы кованые для частного",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "купить кованый забор",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ворота с калиткой для частного",
+   "localization": 63,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "кованые балясины для лестницы",
+   "localization": 50,
+   "geo": true,
+   "commerce": 82
+  },
+  {
+   "query": "купить кованые ворота с калиткой",
+   "localization": 40,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "подкова кованые элементы",
+   "localization": 40,
+   "geo": true,
+   "commerce": 86
+  },
+  {
+   "query": "распашные кованые ворота",
+   "localization": 30,
+   "geo": true,
+   "commerce": 78
+  },
+  {
+   "query": "куплю кованые решетки",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые перила на заказ",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "купить кованый козырек",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые элементы москва",
+   "localization": 38,
+   "geo": false,
+   "commerce": 100
+  },
+  {
+   "query": "купить кованые перила",
+   "localization": 90,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые мангалы с крышей и печкой",
+   "localization": 20,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованый козырек над крыльцом",
+   "localization": 40,
+   "geo": true,
+   "commerce": 96
+  },
+  {
+   "query": "кованые лестницы в частном",
+   "localization": 60,
+   "geo": true,
+   "commerce": 88
+  },
+  {
+   "query": "кованые лестницы в частном доме",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованый забор ворота",
+   "localization": 56,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "показать кованые ворота",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые ограждения для балкона",
+   "localization": 30,
+   "geo": true,
+   "commerce": 89
+  },
+  {
+   "query": "купить кованый мангал ковбой",
+   "localization": 44,
+   "geo": true,
+   "commerce": 92
+  },
+  {
+   "query": "кованые буквы на ворота",
+   "localization": 50,
+   "geo": true,
+   "commerce": 99
+  },
+  {
+   "query": "кованые перила для лестницы в частном",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "купить кованые ограждения",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые козырьки дверей",
+   "localization": 22,
+   "geo": true,
+   "commerce": 99
+  },
+  {
+   "query": "кованые балясины купить",
+   "localization": 30,
+   "geo": true,
+   "commerce": 89
+  },
+  {
+   "query": "кованые ворота в москве купить",
+   "localization": 90,
+   "geo": false,
+   "commerce": 100
+  },
+  {
+   "query": "кованые элементы ру",
+   "localization": 50,
+   "geo": true,
+   "commerce": 86
+  },
+  {
+   "query": "подкова ру кованые элементы",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "художественная ковка москва",
+   "localization": 70,
+   "geo": false,
+   "commerce": 93
+  },
+  {
+   "query": "магазин кованые изделия",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кузница кованая",
+   "localization": 40,
+   "geo": true,
+   "commerce": 79
+  },
+  {
+   "query": "кованая садовая мебель",
+   "localization": 20,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "калитка кованая цена",
+   "localization": 67,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые беседки для дачи",
+   "localization": 22,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые элементы из металла",
+   "localization": 30,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые беседки цена",
+   "localization": 63,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованый уличный фонарь",
+   "localization": 30,
+   "geo": true,
+   "commerce": 82
+  },
+  {
+   "query": "кованые решетки",
+   "localization": 70,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые заборы",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые лестницы",
+   "localization": 30,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые навесы",
+   "localization": 40,
+   "geo": true,
+   "commerce": 91
+  },
+  {
+   "query": "кованые мангалы",
+   "localization": 50,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые заборы и ворота",
+   "localization": 60,
+   "geo": true,
+   "commerce": 84
+  }
+ ],
+ "created_at": "2026-09-16 14:04:51",
+ "finished_at": "2026-09-16 14:09:58"
+}

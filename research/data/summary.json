@@ -1,0 +1,185 @@
+{
+ "queries": 176,
+ "sum_base_msk": 19239,
+ "sum_base_mo": 41419,
+ "with_serp": 176,
+ "van_ya_top10": 0,
+ "van_g_top10": 0,
+ "kovkaprom_ya_top10": 40,
+ "kovkaprom_g_top10": 33,
+ "agg_share_ya": 21,
+ "agg_share_g": 16,
+ "avg_commerce": 92,
+ "geo_share": 89,
+ "top_ya": [
+  [
+   "kovart.ru",
+   50
+  ],
+  [
+   "stalivan.ru",
+   56
+  ],
+  [
+   "createmet.ru",
+   0
+  ],
+  [
+   "studiakovki.ru",
+   42
+  ],
+  [
+   "kovkaprom.ru",
+   40
+  ],
+  [
+   "ковка-торг.рф",
+   36
+  ],
+  [
+   "kovka-moscow.ru",
+   26
+  ],
+  [
+   "mki-kovka.ru",
+   61
+  ],
+  [
+   "kovka-metalla.ru",
+   21
+  ],
+  [
+   "kovkagrad.ru",
+   30
+  ],
+  [
+   "aristmet.ru",
+   20
+  ],
+  [
+   "zaborkin.ru",
+   3
+  ],
+  [
+   "kovtorg.ru",
+   27
+  ],
+  [
+   "luxkoff.ru",
+   5
+  ],
+  [
+   "kovka-na-zakaz.ru",
+   9
+  ]
+ ],
+ "top_g": [
+  [
+   "createmet.ru",
+   78
+  ],
+  [
+   "zaborkin.ru",
+   45
+  ],
+  [
+   "kovart.ru",
+   43
+  ],
+  [
+   "kovka-moscow.ru",
+   41
+  ],
+  [
+   "kovka-metalla.ru",
+   41
+  ],
+  [
+   "stalivan.ru",
+   37
+  ],
+  [
+   "luxkoff.ru",
+   37
+  ],
+  [
+   "studiakovki.ru",
+   36
+  ],
+  [
+   "kovkaprom.ru",
+   33
+  ],
+  [
+   "ковка-торг.рф",
+   33
+  ],
+  [
+   "kovka-na-zakaz.ru",
+   32
+  ],
+  [
+   "kovkadizain.ru",
+   30
+  ],
+  [
+   "aristmet.ru",
+   28
+  ],
+  [
+   "dveri-best.ru",
+   26
+  ],
+  [
+   "kovka177.ru",
+   25
+  ]
+ ],
+ "themes": {
+  "Ворота и калитки": {
+   "n": 40,
+   "sum": 3842,
+   "comm": 95
+  },
+  "Перила и лестницы": {
+   "n": 33,
+   "sum": 4413,
+   "comm": 94
+  },
+  "Заборы и ограждения": {
+   "n": 17,
+   "sum": 2852,
+   "comm": 97
+  },
+  "Решётки": {
+   "n": 8,
+   "sum": 1737,
+   "comm": 87
+  },
+  "Козырьки и навесы": {
+   "n": 15,
+   "sum": 895,
+   "comm": 95
+  },
+  "Мангалы, беседки, сад": {
+   "n": 20,
+   "sum": 1886,
+   "comm": 80
+  },
+  "Элементы ковки": {
+   "n": 22,
+   "sum": 1513,
+   "comm": 95
+  },
+  "Мебель и интерьер": {
+   "n": 4,
+   "sum": 303,
+   "comm": 86
+  },
+  "Ковка общие и бренд": {
+   "n": 17,
+   "sum": 1798,
+   "comm": 89
+  }
+ }
+}

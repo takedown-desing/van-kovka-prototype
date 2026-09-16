@@ -1,0 +1,74 @@
+{
+  "targets": [
+    {
+      "url": "stalivan.ru/",
+      "domain_rating": 1.7,
+      "org_traffic": 1182,
+      "org_keywords": 259,
+      "refdomains": 411
+    },
+    {
+      "url": "mki-kovka.ru/",
+      "domain_rating": 0.0,
+      "org_traffic": 99,
+      "org_keywords": 46,
+      "refdomains": 389
+    },
+    {
+      "url": "kovkagrad.ru/",
+      "domain_rating": 10.0,
+      "org_traffic": 1334,
+      "org_keywords": 303,
+      "refdomains": 967
+    },
+    {
+      "url": "metall-kovka24.ru/",
+      "domain_rating": 0.2,
+      "org_traffic": 48,
+      "org_keywords": 29,
+      "refdomains": 364
+    },
+    {
+      "url": "aristmet.ru/",
+      "domain_rating": 3.1,
+      "org_traffic": 144,
+      "org_keywords": 46,
+      "refdomains": 414
+    },
+    {
+      "url": "km-n.ru/",
+      "domain_rating": 6.0,
+      "org_traffic": 3,
+      "org_keywords": 2,
+      "refdomains": 776
+    },
+    {
+      "url": "kovka-moscow.ru/",
+      "domain_rating": 2.4,
+      "org_traffic": 272,
+      "org_keywords": 80,
+      "refdomains": 741
+    },
+    {
+      "url": "kovtorg.ru/",
+      "domain_rating": 10.0,
+      "org_traffic": 287,
+      "org_keywords": 25,
+      "refdomains": 377
+    },
+    {
+      "url": "kovka-prezident.ru/",
+      "domain_rating": 12.0,
+      "org_traffic": 159,
+      "org_keywords": 82,
+      "refdomains": 1272
+    },
+    {
+      "url": "msk-mangal.ru/",
+      "domain_rating": 2.0,
+      "org_traffic": 764,
+      "org_keywords": 51,
+      "refdomains": 401
+    }
+  ]
+}

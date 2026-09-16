@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Прототип: Главная. Ван-Ковка: кованые ворота, заборы, перила, козырьки на заказ и элементы ковки, Подольск</title>
+<meta name="description" content="Прототип главной страницы van-kovka.ru: предложение и форма замера на первом экране, категории с ценой «от», работы, элементы для кузнецов, преимущества, этапы, производство, отзывы, FAQ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23B4622A%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2716%27 font-family=%27Arial%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EВ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/styles.css?v=1">
+</head>
+<body>
+
+<!-- Панель прототипа -->
+<div class="proto-bar">
+  <span class="pb-title">Прототип «Ван-Ковка»</span>
+  <nav>
+    <a href="../index.html">Обзор</a>
+    <a href="home.html" class="active">Главная</a><a href="catalog.html">Каталог</a><a href="product.html">Карточка</a><a href="portfolio.html">Наши работы</a><a href="project.html">Объект</a><a href="about.html">О производстве</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a><a href="cart.html">Корзина</a><a href="account.html">Кабинет</a>
+  </nav>
+  <div class="pb-legend">
+    <span><i style="background:#6B7280"></i>Существующий блок</span>
+    <span><i style="background:#15803D"></i>Новый: по исследованию</span>
+    <button class="pb-toggle" data-toggle-tags>Скрыть пометки</button>
+  </div>
+</div>
+
+<!-- Верхняя полоса -->
+<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. Город, режим и главные условия одной строкой до прокрутки (kovka-na-zakaz, kovkadvor, kovart)">
+  <div class="container">
+    <span>Подольск, Московская область. Своё производство и склад-магазин</span>
+    <span class="hide-m">Ежедневно 9:00-21:00</span>
+    <span class="grow"></span>
+    <a class="hide-m" href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+    <span class="direct">Замер по Москве и области бесплатно при заказе</span>
+  </div>
+</div>
+
+<!-- Шапка -->
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: меню по типам изделий вместо трёх копий каталога, телефон с подписью, мессенджеры, «Рассчитать стоимость», корзина и кабинет (kovka-na-zakaz, kovart, doorinhome)">
+  <div class="container">
+    <a class="logo" href="home.html"><img src="../assets/img/logo.webp" alt="Ван-Ковка"><span class="lg-txt"><b>Ван-Ковка</b><span>художественная ковка и элементы, Подольск</span></span></a>
+    <nav class="hnav"><a href="catalog.html">Каталог изделий</a><a href="catalog.html#elements">Элементы ковки</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a></nav>
+    <div class="hdr-phone"><b>+7 (495) 134-55-06</b><span>ежедневно 9:00-21:00, перезвоним за 15 минут</span></div>
+    <div class="msgs">
+      <a class="msg wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+      <a class="msg tg" href="#" title="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.9 4.6 18.7 19.5c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9.1-8.2c.4-.4-.1-.5-.6-.2L6.2 13.2 1.4 11.7c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.6z"/></svg></a>
+      <a class="msg mx" href="#" title="MAX"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M4 19V5l8 9 8-9v14"/></svg></a>
+    </div>
+    <div class="hdr-icons">
+      <a class="msg" href="account.html" title="Личный кабинет"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
+      <a class="msg" href="cart.html" title="Корзина"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="cnt">3</span></a>
+    </div>
+    <a class="btn btn-primary" href="#" data-ask data-ask-title="Рассчитать стоимость изделия" data-ask-sub="Опишите, что нужно, и приложите фото или эскиз. Менеджер пришлёт расчёт в течение рабочего дня">Рассчитать стоимость</a>
+    <button class="burger" data-open-menu aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+
+<div class="catbar blk" data-tag="res" data-label="Новый блок: по результатам исследования. Полоса категорий по типу изделия вместо 45 пунктов левой колонки (kovka-na-zakaz, kovkadvor, kovkadizain)">
+  <div class="container"><a class="all" href="catalog.html">Все изделия</a><a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы</a><a href="catalog.html">Мебель и интерьер</a><a href="catalog.html#elements">Элементы для кузнецов</a></div>
+</div>
+
+<!-- Мобильное меню -->
+<div class="drawer">
+  <div class="panel">
+    <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Изделия на заказ</h4>
+    <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки на окна</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+    <h4>Магазин элементов</h4>
+    <a href="catalog.html#elements">Балясины</a><a href="catalog.html#elements">Пики и наконечники</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Все 27 разделов</a>
+    <h4>Компания</h4>
+    <a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать, замер, доставка, монтаж</a><a href="contacts.html">Контакты</a><a href="account.html">Личный кабинет</a><a href="cart.html">Корзина</a>
+    <h4>Связь</h4>
+    <a href="tel:+74951345506">+7 (495) 134-55-06</a><a href="tel:+79770007400">+7 (977) 000-74-00</a><a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a><a href="#">WhatsApp</a><a href="#">Telegram</a><a href="#">MAX</a>
+  </div>
+</div>
+
+<!-- Первый экран -->
+<section class="hero blk" id="hero" data-tag="mix" data-label="Существующий блок (H1 «КОВАНЫЕ ИЗДЕЛИЯ» и текст про историю ковки), переработан: предложение, три факта, кнопка действия и форма «вызвать замерщика / загрузить эскиз» (kovka-na-zakaz, kovkadvor, kovart, luxkoff)">
+  <div class="container">
+    <div>
+      <span class="geo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg> Подольск, выезд замерщика по Москве и области, доставка по России</span>
+      <h1>Кованые ворота, заборы, перила и козырьки на заказ. Своё производство в Подольске</h1>
+      <p class="lead">Изготавливаем по вашим размерам и эскизу, красим порошковой краской или патиной, привозим и монтируем. Кузнецам и мастерским продаём элементы холодной ковки со склада: более 1 400 позиций в наличии.</p>
+      <div class="bullets">
+        <div class="bullet"><b>Замер и расчёт бесплатно</b><span>Выезд по Москве и области при заказе, цена фиксируется в договоре</span></div>
+        <div class="bullet"><b>Срок от <span class="fill">14 дней</span></b><span>Типовые изделия из каталога, индивидуальные от 20 рабочих дней</span></div>
+        <div class="bullet"><b>Гарантия <span class="fill">5 лет</span></b><span>На конструкцию и сварные швы, 1 год на покрытие</span></div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="catalog.html">Смотреть каталог</a>
+        <a class="btn btn-outline btn-lg on-dark" href="portfolio.html">Наши работы</a>
+        <span class="note">Или напишите в WhatsApp, ответим в течение 15 минут в рабочее время</span>
+      </div>
+    </div>
+    <form class="hero-form" data-done="Принято, менеджер свяжется за 15 минут">
+      <div class="form-tabs">
+        <button type="button" class="active" data-form="zamer">Вызвать замерщика</button>
+        <button type="button" data-form="eskiz">Загрузить эскиз</button>
+      </div>
+      <div data-form-panel="zamer">
+        <h3>Вызвать замерщика</h3>
+        <div class="sub">Приедем, снимем размеры, покажем образцы покрытий и назовём цену на месте</div>
+        <label class="field"><span>Что нужно</span><select><option>Ворота или калитка</option><option>Забор или ограждение участка</option><option>Перила или лестница</option><option>Козырёк или навес</option><option>Решётки на окна</option><option>Мангал, мебель, интерьер</option><option>Другое, опишу в комментарии</option></select></label>
+        <div class="row2">
+          <label class="field"><span>Город или посёлок</span><input type="text" placeholder="Подольск, Домодедово, Москва"></label>
+          <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+        </div>
+      </div>
+      <div data-form-panel="eskiz" style="display:none">
+        <h3>Рассчитать по эскизу или фото</h3>
+        <div class="sub">Подойдёт фото понравившихся ворот из интернета, набросок от руки или чертёж</div>
+        <div class="upload"><b>Прикрепить файл</b>jpg, png, pdf, dwg до 20 МБ</div>
+        <div class="row2" style="margin-top:10px">
+          <label class="field"><span>Размеры, если знаете</span><input type="text" placeholder="4 × 2 м"></label>
+          <label class="field"><span>Телефон</span><input type="tel" placeholder="+7"></label>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-block btn-lg" type="submit">Получить расчёт</button>
+      <div class="guarantee"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Цена не меняется после замера.</b> Материалы, покраска, доставка и монтаж прописаны в договоре.</span></div>
+      <div class="reply-note"><i></i>Перезвоним за 15 минут ежедневно с 9:00 до 21:00</div>
+    </form>
+  </div>
+</section>
+
+<!-- Полоса цифр -->
+<div class="trust-strip blk" id="trust" data-tag="res" data-label="Новый блок: по результатам исследования. Цифры компании на первом экране (kovka-na-zakaz «13 лет, 5.0, 1500+ работ», kovart, kovka-metalla «20 лет»)">
+  <div class="container">
+    <div class="item"><b>с 2016 года</b><span>производство и склад-магазин в Подольске, ООО «Ван-Упак»</span></div>
+    <div class="item"><b>1 400+</b><span>элементов холодной ковки в наличии на складе, отгрузка в день оплаты</span></div>
+    <div class="item"><b><span class="fill">350+</span></b><span>ворот, заборов, перил и козырьков установлено в Москве и области</span></div>
+    <div class="item"><b>200+</b><span>готовых эскизов ворот, заборов, лестниц, козырьков, навесов и мангалов в каталоге</span></div>
+    <div class="item"><b><span class="fill">4,9</span></b><span>рейтинг на Яндекс Картах, <span class="fill">120</span> отзывов</span></div>
+  </div>
+</div>
+<section class="section  blk" id="categories" data-tag="mix" data-label="Существующий блок (плитка из 39 разделов, половина без картинок), переработан: 8 категорий по назначению с фото, числом эскизов и ценой «от» (kovka-na-zakaz «Основные направления», kovkadvor, kovkadizain)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Что изготавливаем</span><h2>Каталог кованых изделий</h2><p>Выберите тип изделия, посмотрите эскизы с ценой «от» и отправьте понравившийся на расчёт. Или пришлите свой эскиз.</p></div><a class="btn btn-outline" href="catalog.html">Весь каталог</a></div>
+    <div class="cat-grid">
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/gates-2.jpg" alt="Кованые ворота и калитки" loading="lazy"></div>
+      <div class="body"><h3>Кованые ворота и калитки</h3><span class="sub">Распашные и откатные, с калиткой и автоматикой</span><div class="p"><span>27 эскизов</span><b><span class="fill">от 12 000 ₽ за м²</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/fence-1.jpg" alt="Кованые заборы и ограждения" loading="lazy"></div>
+      <div class="body"><h3>Кованые заборы и ограждения</h3><span class="sub">Секции, ограждения участка, французские балконы</span><div class="p"><span>54 эскизов</span><b><span class="fill">от 5 000 ₽ за м²</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/stairs-4.jpg" alt="Перила и лестницы" loading="lazy"></div>
+      <div class="body"><h3>Перила и лестницы</h3><span class="sub">Для крыльца, террасы, внутренних лестниц</span><div class="p"><span>36 эскизов</span><b><span class="fill">от 12 000 ₽ за пог. м</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/awning-3.jpg" alt="Козырьки и навесы" loading="lazy"></div>
+      <div class="body"><h3>Козырьки и навесы</h3><span class="sub">Над входом, для авто, с поликарбонатом</span><div class="p"><span>62 эскизов</span><b><span class="fill">от 15 000 ₽ за м²</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/fence-3.jpg" alt="Решётки на окна и двери" loading="lazy"></div>
+      <div class="body"><h3>Решётки на окна и двери</h3><span class="sub">Глухие и распашные, с замком</span><div class="p"><span>по эскизу</span><b><span class="fill">от 4 600 ₽ за м²</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/grill-2.jpg" alt="Мангалы и садовая ковка" loading="lazy"></div>
+      <div class="body"><h3>Мангалы и садовая ковка</h3><span class="sub">Мангалы, скамейки, качели, цветочницы</span><div class="p"><span>25 эскизов</span><b><span class="fill">от 16 000 ₽</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html">
+      <div class="pic"><img src="../assets/img/excl-1.jpg" alt="Кованая мебель и интерьер" loading="lazy"></div>
+      <div class="body"><h3>Кованая мебель и интерьер</h3><span class="sub">Столы, кровати, каминные наборы, фонари</span><div class="p"><span>8 эскизов</span><b><span class="fill">по эскизу</span></b></div></div>
+    </a>
+    <a class="cat" href="catalog.html#elements">
+      <div class="pic"><img src="../assets/img/baluster-1.jpg" alt="Кованые элементы для кузнецов" loading="lazy"></div>
+      <div class="body"><h3>Кованые элементы для кузнецов</h3><span class="sub">Балясины, пики, листья, панели, краски: 27 разделов</span><div class="p"><span>1 400+ позиций</span><b><span class="fill">от 89 ₽ за шт</span></b></div></div>
+    </a></div>
+  </div>
+</section>
+<section class="section  blk" id="works" data-tag="res" data-label="Новый блок: по результатам исследования. Готовые объекты с местом, сроком и ценой вместо абстрактных фото (kovka-na-zakaz «Уже работали рядом с вами», kovart «Портфолио», akovka «Галерея»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Наши работы</span><h2>Установлено в Подмосковье</h2><p>Каждый объект: фото, задача, размеры, покрытие, срок и стоимость. Фильтр по типу изделия и району на странице «Наши работы».</p></div><a class="btn btn-outline" href="portfolio.html">Все работы</a></div>
+    <div class="work-grid">
+      <a class="work" href="project.html">
+        <div class="pic"><img src="../assets/img/gates-1.jpg" alt="Кованые ворота с калиткой, Домодедово" loading="lazy"><span class="chip">Ворота</span></div>
+        <div class="body"><h3>Распашные ворота с калиткой и виноградной лозой</h3><div class="facts"><span><b>Домодедово</b></span><span>4,2 × 2,1 м</span><span>порошковая краска</span><span><b><span class="fill">18 дней</span></b></span></div><p>Ворота под кирпичные столбы заказчика, фонари на столбах, автоматика подготовлена.</p></div>
+      </a>
+      <a class="work" href="project.html">
+        <div class="pic"><img src="../assets/img/fence-2.jpg" alt="Кованый забор, Подольск" loading="lazy"><span class="chip">Забор</span></div>
+        <div class="body"><h3>Забор 38 метров с кованым верхом и профлистом</h3><div class="facts"><span><b>Подольск</b></span><span>секции 2,5 × 1,8 м</span><span>патина «медь»</span><span><b><span class="fill">21 день</span></b></span></div><p>Столбы 60 × 60, монтаж с фундаментом под столбы, калитка в том же рисунке.</p></div>
+      </a>
+      <a class="work" href="project.html">
+        <div class="pic"><img src="../assets/img/stairs-1.jpg" alt="Кованые перила лестницы, Москва" loading="lazy"><span class="chip">Перила</span></div>
+        <div class="body"><h3>Перила внутренней лестницы с дубовым поручнем</h3><div class="facts"><span><b>Москва, Бутово</b></span><span>11 пог. м</span><span>чёрный матовый</span><span><b><span class="fill">16 дней</span></b></span></div><p>Замер по готовым ступеням, крепление в ступень, поручень из дуба под цвет пола.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="elements" data-tag="mix" data-label="Существующий блок «Магазин ковки, лидеры продаж» (4 балясины), переработан: отдельный блок для кузнецов и мастерских с разделами, наличием, ценой и корзиной, скидками от суммы (studiakovki, kovkaprom, podkova)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Кузнецам и мастерским</span><h2>Элементы холодной ковки со склада в Подольске</h2><p>27 разделов, более 1 400 позиций в наличии. Оптовые скидки: 5% от 10 000 ₽, 10% от 45 000 ₽. Самовывоз в день оплаты, отправка транспортной компанией по России.</p></div><a class="btn btn-outline" href="catalog.html#elements">Все элементы и прайс</a></div>
+    <div class="el-grid">
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-2.jpg" alt="Балясина 5379" loading="lazy"></div><b>Балясина 5379</b><span class="sz">900 мм, труба ø30, 1 кг</span><span class="chip ok">В наличии 240 шт</span><div class="p"><span class="price">570 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-1.jpg" alt="Балясина 11.002" loading="lazy"></div><b>Балясина 11.002</b><span class="sz">950 мм, кв. 14 × 14, 1,3 кг</span><span class="chip ok">В наличии 510 шт</span><div class="p"><span class="price">470 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-3.jpg" alt="Начальный столб 5818" loading="lazy"></div><b>Начальный столб 5818</b><span class="sz">1000 мм, осн. 53 × 53, 2,04 кг</span><span class="chip ok">В наличии 64 шт</span><div class="p"><span class="price">1 092 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/pike-1.jpg" alt="Пика А9/12" loading="lazy"></div><b>Пика А9/12</b><span class="sz">110 × 25 мм, отв. кв. 12</span><span class="chip ok">В наличии 1 200 шт</span><div class="p"><span class="price"><span class="fill">95 ₽</span></span><span class="qty"><button data-dir="-">−</button><input value="10"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+      <div class="el"><div class="pic"><img src="../assets/img/baluster-6.jpg" alt="Балясина композиционная 4813" loading="lazy"></div><b>Балясина композиционная 4813</b><span class="sz">720 × 315 мм, труба 15 × 15, 1,51 кг</span><span class="chip ok">В наличии 180 шт</span><div class="p"><span class="price">487 ₽</span><span class="qty"><button data-dir="-">−</button><input value="1"><button data-dir="+">+</button></span></div><a class="btn btn-dark btn-sm" href="cart.html">В корзину</a></div>
+    </div>
+    <div class="tabs" style="margin:18px 0 0">
+      <a href="catalog.html#elements">Балясины <small>93</small></a><a href="catalog.html#elements">Листья <small>242</small></a><a href="catalog.html#elements">Цветы и накладки <small>235</small></a><a href="catalog.html#elements">Пики <small>42</small></a><a href="catalog.html#elements">Заглушки на столбы <small>83</small></a><a href="catalog.html#elements">Вставки в балясины <small>80</small></a><a href="catalog.html#elements">Элементы орнамента <small>76</small></a><a href="catalog.html#elements">Художественный прокат <small>62</small></a><a href="catalog.html#elements">Краски и патина <small>17</small></a><a href="catalog.html#elements">Ещё 18 разделов</a>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="advantages" data-tag="res" data-label="Новый блок: по результатам исследования. Преимущества фактами, а не эпитетами: производство, гарантия, договор, покраска, монтаж (у 9 из 10 конкурентов есть блок преимуществ; luxkoff, doorinhome «Честная цена», kovka-na-zakaz «Гарантия цен»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Почему Ван-Ковка</span><h2>Своё производство, склад элементов и монтаж одной компанией</h2></div></div>
+    <div class="info-grid cols-4">
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20V9l6 4V9l6 4V9l6 4v7z"/><path d="M17 3h3v6h-3z"/></svg></div><h3>Производство в Подольске</h3><p>Цех и склад-магазин на одной площадке: собираем изделия из собственных элементов, поэтому не ждём поставок и держим цену. Можно приехать и посмотреть.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></div><h3>Договор с фиксированной ценой</h3><p>После замера цена не меняется. В договоре: размеры, эскиз, покрытие, срок, доставка и монтаж. Оплата <span class="fill">50 / 50</span>: аванс и после установки.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h1.5a4.5 4.5 0 0 0 0-9z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></svg></div><h3>Покраска и патина в цехе</h3><p>Порошковое напыление, нитроэмаль, патина «медь», «золото», «серебро». Грунт и краска входят в цену изделия.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Гарантия <span class="fill">5 лет</span></h3><p>На конструкцию и сварные швы. На покрытие 1 год на улице, 3 года в помещении. Своя монтажная бригада, а не подрядчики.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 17 14-14 4 4L7 21z"/><path d="m8 8 2 2M11 5l2 2M14 11l2 2"/></svg></div><h3>Замер бесплатно</h3><p>По Москве и области при заключении договора. Замерщик привезёт образцы элементов и покрытий, покажет похожие работы.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><h3>Доставка и монтаж</h3><p>Своим транспортом по Москве и области, по России через ПЭК, Деловые Линии и СДЭК. Упаковка и доставка до терминала ТК бесплатно.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>1 400+ элементов на складе</h3><p>Кузнецам и мастерским: балясины, пики, листья, панели, краски. Скидка 5% от 10 000 ₽ и 10% от 45 000 ₽.</p></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div><h3>Эскиз и 3D до производства</h3><p>Рисуем эскиз по вашему фото или референсу, согласовываем размеры и рисунок, только потом режем металл.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="steps" data-tag="res" data-label="Новый блок: по результатам исследования. «Как мы работаем» от заявки до монтажа со сроками каждого шага (kovka-na-zakaz «Процесс за 4 шага», akovka «Этапы работы», doorinhome «Как мы работаем»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Как мы работаем</span><h2>От выезда замерщика до установки: 6 шагов</h2><p>Средний срок для ворот и заборов <span class="fill">20 рабочих дней</span> с момента замера. Срочные заказы обсуждаем отдельно.</p></div><a class="btn btn-outline" href="order.html">Подробнее об условиях</a></div>
+    <div class="steps">
+      <div class="step"><b>Заявка</b><span>Звонок, форма или фото в WhatsApp. Менеджер уточняет размеры и называет ориентир цены.</span><div class="t">15 минут</div></div>
+      <div class="step"><b>Замер</b><span>Выезд на объект, размеры, образцы покрытий, фото похожих работ. Бесплатно при заказе.</span><div class="t">1-2 дня</div></div>
+      <div class="step"><b>Эскиз и договор</b><span>Эскиз по вашим пожеланиям, до 3 правок. Цена и срок фиксируются в договоре, аванс <span class="fill">50%</span>.</span><div class="t">2-4 дня</div></div>
+      <div class="step"><b>Производство</b><span>Сварка из собственных элементов, зачистка, грунт, покраска или патина. Фото готового изделия из цеха.</span><div class="t">10-15 дней</div></div>
+      <div class="step"><b>Доставка</b><span>Своим транспортом по Москве и области. В регионы через ТК, упаковка бесплатно.</span><div class="t">1 день</div></div>
+      <div class="step"><b>Монтаж и гарантия</b><span>Своя бригада, столбы, петли, замки, автоматика. Акт, гарантия 5 лет, доплата после установки.</span><div class="t">1-2 дня</div></div>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="production" data-tag="mix" data-label="Существующий блок (галерея 5 фото на странице «О компании»), перенесён на главную и дополнен подписями: цех, склад, образцы, мастера (kovka-na-zakaz «Приглашаем на производство», kovka-metalla «Выставочный зал», kovart)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Производство</span><h2>Цех, склад и выставочный зал в Подольске</h2><p>Приезжайте посмотреть элементы и образцы покрытий вживую: пос. Сельхозтехника, ул. Промзона, 1а, ежедневно 9:00-21:00.</p></div><a class="btn btn-outline" href="about.html">О производстве</a></div>
+    <div class="gal-grid">
+      <a href="about.html"><img src="../assets/img/showroom-1.jpg" alt="Выставочный зал элементов" loading="lazy"><span>Выставочный зал: 1 400 элементов на стендах</span></a>
+      <a href="about.html"><img src="../assets/img/showroom-2.jpg" alt="Склад" loading="lazy"><span>Склад элементов</span></a>
+      <a href="about.html"><img src="../assets/img/showroom-3.jpg" alt="Образцы" loading="lazy"><span>Образцы покрытий</span></a>
+      <a href="about.html"><img src="../assets/img/showroom-4.jpg" alt="Цех" loading="lazy"><span><span class="fill">Сварочный участок (фото цеха)</span></span></a>
+      <a href="about.html"><img src="../assets/img/showroom-5.jpg" alt="Магазин" loading="lazy"><span>Магазин при складе</span></a>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="audience" data-tag="res" data-label="Новый блок: по результатам исследования. Разводка по типам клиентов: частный дом, дизайнер или архитектор, коммерческий объект, кузнец (портрет аудитории из брифа; kovka-na-zakaz «Сотрудничество», luxkoff «частные лица и организации»)">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Для кого</span><h2>Четыре сценария заказа</h2></div></div>
+    <div class="info-grid cols-4">
+      <div class="info accent"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Для своего дома</h3><ul><li>Ворота, забор, перила, козырёк под ключ</li><li>Замер бесплатно, цена до начала работ</li><li>Рассрочка <span class="fill">0% на 6 месяцев</span></li></ul><a class="btn btn-primary btn-sm" href="#" data-ask data-ask-title="Вызвать замерщика" data-ask-sub="Оставьте адрес и телефон, согласуем время выезда">Вызвать замерщика</a></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div><h3>Дизайнерам и архитекторам</h3><ul><li>Изготовление по вашим чертежам и 3D</li><li>Образцы покрытий и элементов в студию</li><li>Партнёрское вознаграждение <span class="fill">10%</span></li></ul><a class="btn btn-outline btn-sm" href="#" data-ask data-ask-title="Сотрудничество с дизайнерами" data-ask-sub="Оставьте контакты, вышлем условия и каталог элементов">Условия партнёрства</a></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 20V9l6 4V9l6 4V9l6 4v7z"/><path d="M17 3h3v6h-3z"/></svg></div><h3>Для бизнеса и застройщиков</h3><ul><li>Ограждения, входные группы, перила для ЖК, кафе, офисов</li><li>Договор, счёт, закрывающие документы</li><li>Серийное изготовление секций</li></ul><a class="btn btn-outline btn-sm" href="#" data-ask data-ask-title="Запросить коммерческое предложение" data-ask-sub="Опишите объект и объём, пришлём КП в течение рабочего дня">Запросить КП</a></div>
+      <div class="info"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>Кузнецам и мастерским</h3><ul><li>1 400+ элементов со склада, отгрузка в день оплаты</li><li>Скидки 5% и 10% от суммы, прайс в Excel</li><li>Личный кабинет с историей заказов</li></ul><a class="btn btn-outline btn-sm" href="catalog.html#elements">Каталог элементов</a></div>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="reviews" data-tag="res" data-label="Новый блок: по результатам исследования. Отзывы с площадок с рейтингом и привязкой к объекту (kovka-na-zakaz: отзывы Яндекса с проектом, kovkadvor, doorinhome, luxkoff видеоотзывы). На сайте сейчас 4 скриншота на «О компании»">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Отзывы</span><h2>Что говорят заказчики</h2><p>Отзывы с независимых площадок: повлиять на них можно только качеством работы. Оставить отзыв можно на Яндекс Картах.</p></div><a class="btn btn-outline" href="#">Все отзывы</a></div>
+    <div class="rating-row">
+      <div class="rating-box"><b><span class="fill">4,9</span></b><div><span class="stars">★★★★★</span><span>Яндекс Карты, <span class="fill">120</span> отзывов</span></div></div>
+      <div class="rating-box"><b><span class="fill">4,8</span></b><div><span class="stars">★★★★★</span><span>2ГИС, <span class="fill">46</span> отзывов</span></div></div>
+      <div class="rating-box"><b><span class="fill">5,0</span></b><div><span class="stars">★★★★★</span><span>Авито, <span class="fill">38</span> отзывов</span></div></div>
+      <div class="rating-box"><b><span class="fill">97%</span></b><div><span>заказчиков рекомендуют нас, опрос после монтажа</span></div></div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev"><div class="stars">★★★★★</div><p>Заказывали ворота с калиткой. Замерщик приехал на следующий день, привёз образцы краски. Сделали за три недели, поставили за день, замок и петли в комплекте. Цена как в договоре.</p><div class="who"><i>ДК</i><div><b>Дмитрий К.</b><br><span class="muted small">Домодедово, Яндекс Карты</span></div></div><div class="proj">Объект: распашные ворота 4,2 × 2,1 м с калиткой</div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>Беру у Ван-Ковки элементы уже третий год: балясины, пики, листья. Всё в наличии, забираю в день оплаты, скидка 10% на объём. Удобно, что склад рядом с Симферопольским шоссе.</p><div class="who"><i>АМ</i><div><b>Андрей М.</b><br><span class="muted small">кузнечная мастерская, Чехов, 2ГИС</span></div></div><div class="proj">Постоянный покупатель элементов</div></div>
+      <div class="rev"><div class="stars">★★★★☆</div><p>Перила на лестницу в доме. Эскиз согласовали с двух правок, поручень из дуба подобрали под пол. Монтаж аккуратный, ступени не поцарапали. Минус звезда за перенос замера на день.</p><div class="who"><i>ЕВ</i><div><b>Елена В.</b><br><span class="muted small">Москва, Бутово, Яндекс Карты</span></div></div><div class="proj">Объект: перила внутренней лестницы, 11 пог. м</div></div>
+    </div>
+  </div>
+</section>
+<section class="section alt blk" id="faq" data-tag="res" data-label="Новый блок: по результатам исследования. Ответы на вопросы про цену, сроки, замер, покрытие, гарантию (kovka-na-zakaz «Частые вопросы» 5 тем, doorinhome «Вопрос-Ответ»); разметка FAQPage">
+
+  <div class="container">
+    <div class="faq-2">
+      <div><span class="eyebrow">Вопросы перед заказом</span><h2>Что спрашивают чаще всего</h2><p style="color:var(--ink-2)">Не нашли ответ: напишите в WhatsApp, менеджер ответит за 15 минут в рабочее время.</p><a class="btn btn-primary" href="#" data-ask data-ask-title="Задать вопрос" data-ask-sub="Напишите вопрос и телефон, ответим за 15 минут">Задать вопрос</a></div>
+      <div class="faq">
+        <details open><summary>Сколько стоят кованые ворота?</summary><div class="a">Ориентир: от <span class="fill">12 000 ₽ за м²</span> для сварных ворот с кованым верхом, от <span class="fill">25 000 ₽ за м²</span> для полностью кованого рисунка. Распашные ворота 4 × 2 м с калиткой обычно выходят от <span class="fill">120 000 ₽</span> с покраской. Точную цену называем после замера и фиксируем в договоре.</div></details>
+        <details><summary>Замер платный?</summary><div class="a">По Москве и области замер бесплатный при заключении договора. Если договор не заключён, выезд стоит <span class="fill">1 500 ₽</span> и вычитается из стоимости заказа при последующем оформлении.</div></details>
+        <details><summary>Какие сроки?</summary><div class="a">Типовые изделия из каталога от 14 дней, индивидуальные ворота и заборы 20 рабочих дней, лестницы и большие ограждения до 30 дней. Срок прописан в договоре.</div></details>
+        <details><summary>Чем красите и сколько держится покрытие?</summary><div class="a">Грунт и порошковое напыление в камере или нитроэмаль, патина «медь», «золото», «серебро» по каталогу. Гарантия на покрытие 1 год на улице и 3 года в помещении, на конструкцию и швы 5 лет.</div></details>
+        <details><summary>Можно ли заказать по своему эскизу или фото из интернета?</summary><div class="a">Да. Пришлите фото или набросок, мы нарисуем эскиз под ваши размеры и посчитаем. Готовые эскизы каталога тоже меняем: рисунок, высоту, наличие калитки.</div></details>
+        <details><summary>Делаете ли монтаж и что входит?</summary><div class="a">Да, своя бригада: столбы, фундамент под столбы, петли, замки, автоматика для ворот. Стоимость монтажа от <span class="fill">10%</span> стоимости изделия, называем при расчёте.</div></details>
+        <details><summary>Продаёте элементы отдельно?</summary><div class="a">Да, более 1 400 позиций на складе: балясины, пики, листья, цветы, панели, краски. Розница и опт, скидки 5% от 10 000 ₽ и 10% от 45 000 ₽, отправка ТК по России.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section  blk" id="calc" data-tag="res" data-label="Новый блок: по результатам исследования. Заявка с загрузкой эскиза внизу страницы для тех, кто долистал (kovka-na-zakaz «Закажите изделие у нас» с мессенджерами, kovkadizain «Рассчитать индивидуальный проект»)">
+
+  <div class="container">
+    <div class="calc">
+      <div>
+        <h2>Пришлите фото или эскиз, посчитаем за один рабочий день</h2>
+        <p>Подойдёт фото понравившихся ворот, набросок от руки, чертёж или ссылка. Ответим с ориентиром цены, сроком и предложим дату замера.</p>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m5 12 4 4L19 6"/></svg><span>Расчёт с материалами, покраской, доставкой и монтажом, без «уточнений потом»</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m5 12 4 4L19 6"/></svg><span>Замер по Москве и области бесплатно при договоре</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m5 12 4 4L19 6"/></svg><span>Цена фиксируется в договоре и не меняется</span></li>
+        </ul>
+        <p style="margin-top:18px"><b style="color:#fff">Или напишите сразу в мессенджер:</b> WhatsApp, Telegram, MAX: +7 (977) 000-74-00</p>
+      </div>
+      <form class="form" data-done="Принято, ответим в течение рабочего дня">
+        <h3>Расчёт по эскизу или фото</h3>
+        <div class="sub" style="color:var(--muted);font-size:13px;margin-bottom:12px">Ответ с ценой и сроком на почту или в мессенджер</div>
+        <div class="upload"><b>Прикрепить фото или эскиз</b>jpg, png, pdf, dwg до 20 МБ</div>
+        <div class="row2" style="margin-top:10px">
+          <label class="field"><span>Тип изделия</span><select><option>Ворота</option><option>Забор</option><option>Перила</option><option>Козырёк или навес</option><option>Решётки</option><option>Другое</option></select></label>
+          <label class="field"><span>Размеры, если известны</span><input type="text" placeholder="4 × 2 м"></label>
+        </div>
+        <div class="row2">
+          <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+          <label class="field"><span>Куда прислать</span><select><option>WhatsApp</option><option>Telegram</option><option>MAX</option><option>На почту</option><option>Позвонить</option></select></label>
+        </div>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Получить расчёт</button>
+        <div class="consent">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Подвал -->
+<footer class="footer blk" data-tag="mix" data-label="Существующий подвал, дополнен: каталог по типам изделий, условия, реквизиты, документы, мессенджеры">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Ван-Ковка</h4>
+        <p>ООО «Ван-Упак», ИНН 5074054514, ОГРН 1165074051680. Производство и склад-магазин кованых изделий и элементов холодной ковки в Подольске с <span class="fill">2016</span> года.</p>
+        <a href="tel:+74951345506">+7 (495) 134-55-06</a>
+        <a href="tel:+79770007400">+7 (977) 000-74-00, WhatsApp</a>
+        <a href="mailto:vankovka@yandex.ru">vankovka@yandex.ru</a>
+        <p style="margin-top:8px">142116, Московская область, г.о. Подольск, пос. Сельхозтехника, ул. Промзона, д. 1а, стр. 1. Ежедневно 9:00-21:00</p>
+      </div>
+      <div>
+        <h4>Изделия на заказ</h4>
+        <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
+      </div>
+      <div>
+        <h4>Элементы и материалы</h4>
+        <a href="catalog.html#elements">Балясины и столбы</a><a href="catalog.html#elements">Пики, наконечники, заглушки</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Декоративные панели</a><a href="catalog.html#elements">Краски и патина</a><a href="catalog.html#elements">Прайс-лист в Excel</a>
+      </div>
+      <div>
+        <h4>Покупателю</h4>
+        <a href="order.html">Как заказать</a><a href="order.html#zamer">Замер</a><a href="order.html#dostavka">Доставка и оплата</a><a href="order.html#montazh">Монтаж и гарантия</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="contacts.html">Контакты и реквизиты</a><a href="account.html">Личный кабинет</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2016-2026 Ван-Ковка. Цены на сайте не являются публичной офертой.</span>
+      <span>Политика обработки персональных данных. Договор оферты для интернет-магазина.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Липкая панель на мобильном -->
+<div class="sticky-bar blk" data-tag="res" data-label="Новый блок: по исследованию. Телефон и заявка всегда под пальцем на телефоне (kovka-na-zakaz, kovart)">
+  
+  <a class="btn btn-outline" href="tel:+74951345506">Позвонить</a>
+  <a class="btn btn-primary" href="#" data-ask data-ask-title="Вызвать замерщика" data-ask-sub="Оставьте телефон, менеджер перезвонит за 15 минут">Вызвать замерщика</a>
+</div>
+
+<!-- Модальное окно заявки -->
+<div class="modal">
+  <div class="box">
+    <button class="x" data-close-modal aria-label="Закрыть">✕</button>
+    <h3>Рассчитать стоимость</h3>
+    <div class="sub">Опишите, что нужно. Менеджер пришлёт расчёт в течение рабочего дня</div>
+    <div class="prod-line" style="display:none"><b>Изделие:</b> <span></span></div>
+    <form data-done="Принято, менеджер свяжется за 15 минут">
+      <div class="row2">
+        <label class="field"><span>Имя</span><input type="text" placeholder="Как к вам обращаться"></label>
+        <label class="field"><span>Телефон</span><input type="tel" placeholder="+7" required></label>
+      </div>
+      <label class="field"><span>Что нужно</span><textarea placeholder="Например: распашные ворота 4 × 2 м с калиткой, участок в Домодедово, есть фото забора"></textarea></label>
+      <div class="upload"><b>Прикрепить фото или эскиз</b>jpg, png, pdf до 20 МБ. Можно фото из интернета «хочу так же»</div>
+      <button class="btn btn-primary btn-block btn-lg" type="submit" style="margin-top:12px">Получить расчёт</button>
+      <div class="consent">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</div>
+    </form>
+  </div>
+</div>
+<script src="../assets/app.js"></script>
+</body>
+</html>

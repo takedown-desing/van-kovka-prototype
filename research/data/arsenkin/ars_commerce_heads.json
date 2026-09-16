@@ -1,0 +1,128 @@
+{
+ "code": "TASK_RESULT",
+ "task_id": "31359636",
+ "result": [
+  {
+   "query": "художественная ковка",
+   "localization": 60,
+   "geo": true,
+   "commerce": 80
+  },
+  {
+   "query": "кованые ворота",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые перила",
+   "localization": 40,
+   "geo": true,
+   "commerce": 86
+  },
+  {
+   "query": "кованые ограждения",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые решетки",
+   "localization": 80,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые заборы",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые лестницы",
+   "localization": 40,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые козырьки",
+   "localization": 30,
+   "geo": true,
+   "commerce": 96
+  },
+  {
+   "query": "кованые навесы",
+   "localization": 63,
+   "geo": true,
+   "commerce": 98
+  },
+  {
+   "query": "кованые мангалы",
+   "localization": 63,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые элементы",
+   "localization": 33,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кованые балясины",
+   "localization": 33,
+   "geo": true,
+   "commerce": 79
+  },
+  {
+   "query": "кованые калитки",
+   "localization": 60,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "ковка на заказ",
+   "localization": 70,
+   "geo": true,
+   "commerce": 97
+  },
+  {
+   "query": "кованые изделия",
+   "localization": 44,
+   "geo": true,
+   "commerce": 100
+  },
+  {
+   "query": "кузница",
+   "localization": 40,
+   "geo": true,
+   "commerce": 40
+  },
+  {
+   "query": "кованая мебель",
+   "localization": 70,
+   "geo": true,
+   "commerce": 89
+  },
+  {
+   "query": "кованые заборы и ворота",
+   "localization": 50,
+   "geo": true,
+   "commerce": 86
+  },
+  {
+   "query": "кованые беседки",
+   "localization": 20,
+   "geo": true,
+   "commerce": 93
+  },
+  {
+   "query": "кованые фонари",
+   "localization": 60,
+   "geo": true,
+   "commerce": 89
+  }
+ ],
+ "created_at": "2026-09-16 13:20:40",
+ "finished_at": "2026-09-16 13:21:39"
+}

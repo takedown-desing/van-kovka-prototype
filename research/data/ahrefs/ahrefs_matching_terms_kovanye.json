@@ -1,0 +1,1204 @@
+{
+  "keywords": [
+    {
+      "keyword": "кованый карбон",
+      "volume": 5000,
+      "difficulty": 0,
+      "parent_topic": "кованный карбон"
+    },
+    {
+      "keyword": "кованые диски r15",
+      "volume": 600,
+      "difficulty": 6,
+      "parent_topic": "кованые диски r15"
+    },
+    {
+      "keyword": "ковка",
+      "volume": 600,
+      "difficulty": 1,
+      "parent_topic": "ковка это"
+    },
+    {
+      "keyword": "кованый жеваный",
+      "volume": 500,
+      "difficulty": 0,
+      "parent_topic": "кованый жеваный"
+    },
+    {
+      "keyword": "кованые диски",
+      "volume": 450,
+      "difficulty": 0,
+      "parent_topic": "диски слики"
+    },
+    {
+      "keyword": "коды ковка",
+      "volume": 450,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "коды в ковка",
+      "volume": 400,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые ворота",
+      "volume": 400,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота"
+    },
+    {
+      "keyword": "кованые изделия",
+      "volume": 350,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия"
+    },
+    {
+      "keyword": "кованые диски купить",
+      "volume": 300,
+      "difficulty": 0,
+      "parent_topic": "кованые диски"
+    },
+    {
+      "keyword": "кованые диски r17",
+      "volume": 300,
+      "difficulty": 0,
+      "parent_topic": "купить кованые диски r17"
+    },
+    {
+      "keyword": "кованая кровать",
+      "volume": 300,
+      "difficulty": 0,
+      "parent_topic": "кованая кровать"
+    },
+    {
+      "keyword": "ворота кованые",
+      "volume": 300,
+      "difficulty": 0,
+      "parent_topic": "ворота кованые"
+    },
+    {
+      "keyword": "кованые диски r16",
+      "volume": 300,
+      "difficulty": 0,
+      "parent_topic": "кованые диски r16"
+    },
+    {
+      "keyword": "кованые козырьки",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые козырьки"
+    },
+    {
+      "keyword": "кованые диски r18",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые диски r18"
+    },
+    {
+      "keyword": "кованые изделия из металла",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия"
+    },
+    {
+      "keyword": "кованый забор",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые заборы цена"
+    },
+    {
+      "keyword": "кованые диски r14",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые диски r14"
+    },
+    {
+      "keyword": "ковка коды",
+      "volume": 250,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "ковка это",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "ковка"
+    },
+    {
+      "keyword": "художественная ковка металла",
+      "volume": 250,
+      "difficulty": 28,
+      "parent_topic": "художественная ковка металла"
+    },
+    {
+      "keyword": "кованые перила на крыльцо",
+      "volume": 250,
+      "difficulty": 0,
+      "parent_topic": "кованые перила на крыльцо"
+    },
+    {
+      "keyword": "кованые решетки на окна",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые решетки на окна"
+    },
+    {
+      "keyword": "красивые кованые ворота фото",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота фото"
+    },
+    {
+      "keyword": "купить кованые диски r15",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые диски r15"
+    },
+    {
+      "keyword": "кованые перила",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые перила заказать"
+    },
+    {
+      "keyword": "кованые диски на заказ",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "изготовление дисков на заказ"
+    },
+    {
+      "keyword": "кованые кресты на могилу",
+      "volume": 200,
+      "difficulty": 23,
+      "parent_topic": "заказать кованый крест"
+    },
+    {
+      "keyword": "холодная ковка",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "элементы холодной ковки"
+    },
+    {
+      "keyword": "ковка металла",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "ковка"
+    },
+    {
+      "keyword": "кованая кровать купить",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кровать с кованой спинкой"
+    },
+    {
+      "keyword": "ковка бета коды",
+      "volume": 200,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованый мангал",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованый мангал"
+    },
+    {
+      "keyword": "кованые калитки",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованая калитка"
+    },
+    {
+      "keyword": "кованые балясины",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые балясины"
+    },
+    {
+      "keyword": "кованый",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованый"
+    },
+    {
+      "keyword": "кованые ворота с калиткой",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота с калиткой"
+    },
+    {
+      "keyword": "какие диски лучше кованые или литые",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованые или литые диски"
+    },
+    {
+      "keyword": "кованые кровати",
+      "volume": 200,
+      "difficulty": 0,
+      "parent_topic": "кованая кровать"
+    },
+    {
+      "keyword": "ковка на заказ",
+      "volume": 150,
+      "difficulty": 50,
+      "parent_topic": "ковка на заказ"
+    },
+    {
+      "keyword": "кованые заборы для частного дома",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованый забор"
+    },
+    {
+      "keyword": "кованая",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованные"
+    },
+    {
+      "keyword": "кованые лестницы",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые лестницы в частном доме"
+    },
+    {
+      "keyword": "кованые перила на заказ",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые перила на заказ"
+    },
+    {
+      "keyword": "кованые",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия"
+    },
+    {
+      "keyword": "кованые ворота фото",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "художественная ковка ворота калитка"
+    },
+    {
+      "keyword": "купить кованый мангал",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованый мангал"
+    },
+    {
+      "keyword": "кованые диски r19",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые диски r19"
+    },
+    {
+      "keyword": "кованые ворота цена",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота"
+    },
+    {
+      "keyword": "художественная ковка",
+      "volume": 150,
+      "difficulty": 29,
+      "parent_topic": "художественная ковка металла"
+    },
+    {
+      "keyword": "кованые люстры",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "ковка потолочной люстры"
+    },
+    {
+      "keyword": "кованые мангалы",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые мангалы"
+    },
+    {
+      "keyword": "кованая мебель",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованая мебель"
+    },
+    {
+      "keyword": "кованые качели",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "качели садовые кованые"
+    },
+    {
+      "keyword": "кованые стулья",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые стулья"
+    },
+    {
+      "keyword": "купить кованые диски",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые диски купить"
+    },
+    {
+      "keyword": "кованые изделия на заказ",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "ковка на заказ"
+    },
+    {
+      "keyword": "кованые заборы",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "художественная ковка ворота заборы"
+    },
+    {
+      "keyword": "кованая банкетка",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованая банкетка"
+    },
+    {
+      "keyword": "кованые перила для лестницы",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые перила для лестницы"
+    },
+    {
+      "keyword": "кованые откатные ворота",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые откатные ворота цена"
+    },
+    {
+      "keyword": "кровать кованая",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованная кровать"
+    },
+    {
+      "keyword": "кованые заборы фото эскизы",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые заборы фото эскизы"
+    },
+    {
+      "keyword": "кованые перила для лестниц",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые перила для лестницы"
+    },
+    {
+      "keyword": "кованые элементы",
+      "volume": 150,
+      "difficulty": 1,
+      "parent_topic": "кованые изделия из металла"
+    },
+    {
+      "keyword": "кованые ограждения",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "кованые ограждения"
+    },
+    {
+      "keyword": "кованый мангал с крышей",
+      "volume": 150,
+      "difficulty": 0,
+      "parent_topic": "мангалы с крышей"
+    },
+    {
+      "keyword": "кованые диски r20",
+      "volume": 150,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые диски r14 на ваз цена",
+      "volume": 100,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованая кровать на заказ",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кровати кованые двуспальные каталог и цены"
+    },
+    {
+      "keyword": "кованые столы",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые столы"
+    },
+    {
+      "keyword": "мангал кованый",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "купить кованый мангал"
+    },
+    {
+      "keyword": "кованый топор",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "топор"
+    },
+    {
+      "keyword": "кованые или литые диски",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые или литые диски"
+    },
+    {
+      "keyword": "кованая решетка",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованая решетка"
+    },
+    {
+      "keyword": "кованые диски купить в москве",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "купить кованые диски"
+    },
+    {
+      "keyword": "кованые откатные ворота с калиткой",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые откатные ворота"
+    },
+    {
+      "keyword": "кованые бра",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые бра"
+    },
+    {
+      "keyword": "кованая люстра",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые люстры купить"
+    },
+    {
+      "keyword": "кованые диски r22",
+      "volume": 100,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованая лошадь",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованая лошадь"
+    },
+    {
+      "keyword": "диски кованые",
+      "volume": 100,
+      "difficulty": 1,
+      "parent_topic": "кованые диски r16"
+    },
+    {
+      "keyword": "купить кованые ворота",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "ворота кованные"
+    },
+    {
+      "keyword": "кованые кровати купить",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованая кровать цена"
+    },
+    {
+      "keyword": "кованый столик",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованый столик"
+    },
+    {
+      "keyword": "кованые диски slik",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые диски"
+    },
+    {
+      "keyword": "кованые кресты",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "заказать кованый крест"
+    },
+    {
+      "keyword": "кованые светильники",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые светильники"
+    },
+    {
+      "keyword": "как отличить кованые диски от литых",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "как отличить кованый диск от литого"
+    },
+    {
+      "keyword": "кованые навесы",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые навесы на заказ"
+    },
+    {
+      "keyword": "кованая ограда",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые оградки на кладбище"
+    },
+    {
+      "keyword": "кованый стол",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "купить кованый стол"
+    },
+    {
+      "keyword": "кованый забор фото",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые заборы для дачи"
+    },
+    {
+      "keyword": "как отличить кованый диск от литого",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "как отличить кованый диск от литого"
+    },
+    {
+      "keyword": "кованые диваны",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые диваны"
+    },
+    {
+      "keyword": "кованые изделия фото и цены",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия фото и цены"
+    },
+    {
+      "keyword": "кованые мангалы с крышей",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "мангал с крышей"
+    },
+    {
+      "keyword": "кованые беседки",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "художественная ковка беседки"
+    },
+    {
+      "keyword": "кованые перила на балкон",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые балконы"
+    },
+    {
+      "keyword": "кованые изделия для дома",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия"
+    },
+    {
+      "keyword": "кованые скамейки",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые скамейки"
+    },
+    {
+      "keyword": "кованые балконы",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые перила на балкон цены"
+    },
+    {
+      "keyword": "кованые ворота на заказ",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота купить"
+    },
+    {
+      "keyword": "кованые ограды на кладбище",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "изготовление кованых оград"
+    },
+    {
+      "keyword": "кованая мебель для сада",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованая садовая мебель"
+    },
+    {
+      "keyword": "качели садовые кованые",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "качели садовые кованые"
+    },
+    {
+      "keyword": "холодная ковка изделия",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "холодная ковка"
+    },
+    {
+      "keyword": "современный кованый забор",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые заборы"
+    },
+    {
+      "keyword": "кованые перила внутри дома",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованые ограждения для лестниц"
+    },
+    {
+      "keyword": "кованая калитка",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "кованая калитка"
+    },
+    {
+      "keyword": "люстры кованые",
+      "volume": 100,
+      "difficulty": 0,
+      "parent_topic": "ковка потолочной люстры"
+    },
+    {
+      "keyword": "перила кованые",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые перила для лестницы"
+    },
+    {
+      "keyword": "элитные кованые перила фото",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "шикарный элитные кованые перила фото"
+    },
+    {
+      "keyword": "кованые решетки",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые решетки"
+    },
+    {
+      "keyword": "купить кованые диски на авто",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые диски купить"
+    },
+    {
+      "keyword": "забор кованый",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованый забор"
+    },
+    {
+      "keyword": "современные кованые ворота",
+      "volume": 90,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "распашные кованые ворота",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "купить ворота кованые распашные"
+    },
+    {
+      "keyword": "кованые ворота с калиткой фото",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота на заказ"
+    },
+    {
+      "keyword": "кованые уличные светильники",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые уличные светильники"
+    },
+    {
+      "keyword": "кованые ворота с поликарбонатом",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота с поликарбонатом"
+    },
+    {
+      "keyword": "кованые перголы",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые перголы"
+    },
+    {
+      "keyword": "кованые перила цена",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые перила цена"
+    },
+    {
+      "keyword": "что такое ковка",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "ковка"
+    },
+    {
+      "keyword": "коды ковка бета",
+      "volume": 90,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "коды в ковка бета",
+      "volume": 90,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые лестницы в частном доме",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые лестницы в частном доме"
+    },
+    {
+      "keyword": "кованый забор цена",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованый забор"
+    },
+    {
+      "keyword": "стул кованый",
+      "volume": 90,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые цветы",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые цветы"
+    },
+    {
+      "keyword": "кованые заборы цена",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые заборы"
+    },
+    {
+      "keyword": "кованый крест на могилу",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "красивые кресты на могилу"
+    },
+    {
+      "keyword": "кованые диски 15",
+      "volume": 90,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "купить кованый забор",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованый забор"
+    },
+    {
+      "keyword": "кованые оградки на кладбище",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "оградка на кладбище цена"
+    },
+    {
+      "keyword": "кованая кровать 160х200",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованая кровать 160х200"
+    },
+    {
+      "keyword": "кованые люстры купить",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "кованые люстры"
+    },
+    {
+      "keyword": "набор для камина кованый",
+      "volume": 90,
+      "difficulty": 0,
+      "parent_topic": "набор для камина"
+    },
+    {
+      "keyword": "кованая лестница в интерьере частного дома блог про строительство",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые элементы для лестницы"
+    },
+    {
+      "keyword": "кованые лавочки",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые лавочки"
+    },
+    {
+      "keyword": "какие диски лучше литые или кованые",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые диски или литые"
+    },
+    {
+      "keyword": "кованый алюминий",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованый алюминий"
+    },
+    {
+      "keyword": "кованый меч",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "мечи"
+    },
+    {
+      "keyword": "кованые ворота купить",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "купить кованые ворота"
+    },
+    {
+      "keyword": "купить ворота кованые распашные",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "ворота распашные кованые цена"
+    },
+    {
+      "keyword": "кованые диски москва",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые перила для лестницы внутри дома",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "перила кованые"
+    },
+    {
+      "keyword": "кованые диски р19",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "купить кованые люстры",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые ворота эскизы",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые ворота эскизы"
+    },
+    {
+      "keyword": "кровать кованая белая",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кровать кованая белая купить"
+    },
+    {
+      "keyword": "кованые урны",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые урны"
+    },
+    {
+      "keyword": "железный кованый майнкрафт",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "железный кованый майнкрафт"
+    },
+    {
+      "keyword": "кованые диски r23",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "заказать кованый балкон",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые балконы"
+    },
+    {
+      "keyword": "кованая садовая мебель",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованая садовая мебель"
+    },
+    {
+      "keyword": "кованый крест на могилу цена",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованый крест цена"
+    },
+    {
+      "keyword": "кованая этажерка",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые этажерки"
+    },
+    {
+      "keyword": "мангал ковка",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые диски r21",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "ручная ковка",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "ручная ковка"
+    },
+    {
+      "keyword": "ворота кованые каталог",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "ворота распашные кованые цена"
+    },
+    {
+      "keyword": "коды ковка роблокс",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые арки",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые арки"
+    },
+    {
+      "keyword": "заказать кованый крест",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "кованые кресты"
+    },
+    {
+      "keyword": "холодная ковка станок",
+      "volume": 80,
+      "difficulty": 0,
+      "parent_topic": "станок для холодной ковки"
+    },
+    {
+      "keyword": "колун кованый",
+      "volume": 80,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые диски на газель",
+      "volume": 70,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "заказать кованый крест на могилу",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "заказать кованый крест"
+    },
+    {
+      "keyword": "кованые элементы купить",
+      "volume": 70,
+      "difficulty": 1,
+      "parent_topic": "кованые изделия"
+    },
+    {
+      "keyword": "кованые изделия для сада",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые изделия для сада"
+    },
+    {
+      "keyword": "кованые уличные фонари",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованый уличный фонарь"
+    },
+    {
+      "keyword": "диски кованые r15",
+      "volume": 70,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые изделия купить",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые элементы купить"
+    },
+    {
+      "keyword": "люстры кованые потолочные",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые люстры купить"
+    },
+    {
+      "keyword": "кованые кровати купить в москве",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованная кровать"
+    },
+    {
+      "keyword": "кованая ограда на кладбище цена",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "ограда для могилы"
+    },
+    {
+      "keyword": "художественная ковка москва",
+      "volume": 70,
+      "difficulty": 41,
+      "parent_topic": "художественная ковка от производителя"
+    },
+    {
+      "keyword": "купить кованые ворота с калиткой",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "ворота распашные кованые цена"
+    },
+    {
+      "keyword": "кованые ворота с калиткой для частного дома",
+      "volume": 70,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые заборы для дачи",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованый забор"
+    },
+    {
+      "keyword": "кованые диски r15 купить",
+      "volume": 70,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые скамейки для сада",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые скамейки на заказ"
+    },
+    {
+      "keyword": "кованые металлические ворота",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "ворота кованые"
+    },
+    {
+      "keyword": "кованые цветочницы",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые цветочницы"
+    },
+    {
+      "keyword": "кованые перила в дом",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "перила для лестницы"
+    },
+    {
+      "keyword": "кованые распашные ворота",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые распашные ворота"
+    },
+    {
+      "keyword": "кованые диски всмпо",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "всмпо"
+    },
+    {
+      "keyword": "кованые ворота с профлистом",
+      "volume": 70,
+      "difficulty": null,
+      "parent_topic": null
+    },
+    {
+      "keyword": "кованые подставки для цветов уличные",
+      "volume": 70,
+      "difficulty": 26,
+      "parent_topic": "кованые подставки для цветов"
+    },
+    {
+      "keyword": "кованые стулья для кухни",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые стулья купить"
+    },
+    {
+      "keyword": "кованая беседка",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованая беседка"
+    },
+    {
+      "keyword": "мангалы кованые",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованый мангал"
+    },
+    {
+      "keyword": "кованые шпалеры",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые шпалеры"
+    },
+    {
+      "keyword": "кованый жеваный клеваный",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованый жеваный клеваный"
+    },
+    {
+      "keyword": "кованые перила для лестницы в частном доме",
+      "volume": 70,
+      "difficulty": 1,
+      "parent_topic": "кованые перила на лестницу"
+    },
+    {
+      "keyword": "кованые двери",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые двери"
+    },
+    {
+      "keyword": "кованые диски бмв",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "кованые диски бмв"
+    },
+    {
+      "keyword": "кованая люстра купить",
+      "volume": 70,
+      "difficulty": 0,
+      "parent_topic": "ковка потолочной люстры"
+    }
+  ]
+}
