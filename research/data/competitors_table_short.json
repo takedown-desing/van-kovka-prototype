@@ -13,19 +13,6 @@
   "kw": ""
  },
  {
-  "domain": "kovart.ru",
-  "who": "Мастерская, Люберцы, изделия на заказ",
-  "ya": 50,
-  "g": 43,
-  "ya_avg": 3.6,
-  "g_avg": 5.3,
-  "iks": 160,
-  "reviews": 0,
-  "dr": 7.0,
-  "traffic": 1051,
-  "kw": 322
- },
- {
   "domain": "stalivan.ru",
   "who": "Мастерская СталИван, Клин",
   "ya": 56,
@@ -37,6 +24,19 @@
   "dr": 1.7,
   "traffic": 1182,
   "kw": 259
+ },
+ {
+  "domain": "kovart.ru",
+  "who": "Мастерская, Люберцы, изделия на заказ",
+  "ya": 50,
+  "g": 43,
+  "ya_avg": 3.6,
+  "g_avg": 5.3,
+  "iks": 160,
+  "reviews": 0,
+  "dr": 7.0,
+  "traffic": 1051,
+  "kw": 322
  },
  {
   "domain": "createmet.ru",
@@ -104,19 +104,6 @@
   "kw": ""
  },
  {
-  "domain": "kovka-moscow.ru",
-  "who": "Студия ковки, каталог",
-  "ya": 26,
-  "g": 41,
-  "ya_avg": 6.2,
-  "g_avg": 3.1,
-  "iks": 150,
-  "reviews": 15,
-  "dr": 2.4,
-  "traffic": 272,
-  "kw": 80
- },
- {
   "domain": "market.yandex.ru",
   "who": "Агрегатор, маркетплейс, видео, справочник",
   "ya": 46,
@@ -128,6 +115,19 @@
   "dr": "",
   "traffic": "",
   "kw": ""
+ },
+ {
+  "domain": "kovka-moscow.ru",
+  "who": "Студия ковки, каталог",
+  "ya": 26,
+  "g": 41,
+  "ya_avg": 6.2,
+  "g_avg": 3.1,
+  "iks": 150,
+  "reviews": 15,
+  "dr": 2.4,
+  "traffic": 272,
+  "kw": 80
  },
  {
   "domain": "mki-kovka.ru",
@@ -182,19 +182,6 @@
   "kw": 303
  },
  {
-  "domain": "aristmet.ru",
-  "who": "Изделия на заказ, Москва",
-  "ya": 20,
-  "g": 28,
-  "ya_avg": 5.1,
-  "g_avg": 5.3,
-  "iks": 50,
-  "reviews": 0,
-  "dr": 3.1,
-  "traffic": 144,
-  "kw": 46
- },
- {
   "domain": "zaborkin.ru",
   "who": "Заборы, федеральный",
   "ya": 3,
@@ -206,6 +193,19 @@
   "dr": 55.0,
   "traffic": 51908,
   "kw": 5436
+ },
+ {
+  "domain": "aristmet.ru",
+  "who": "Изделия на заказ, Москва",
+  "ya": 20,
+  "g": 28,
+  "ya_avg": 5.1,
+  "g_avg": 5.3,
+  "iks": 50,
+  "reviews": 0,
+  "dr": 3.1,
+  "traffic": 144,
+  "kw": 46
  },
  {
   "domain": "lemanapro.ru",
@@ -429,19 +429,6 @@
   "kw": 350
  },
  {
-  "domain": "msk-mangal.ru",
-  "who": "Мангалы",
-  "ya": 22,
-  "g": 3,
-  "ya_avg": 5.3,
-  "g_avg": 6.0,
-  "iks": 100,
-  "reviews": 1,
-  "dr": 2.0,
-  "traffic": 764,
-  "kw": 51
- },
- {
   "domain": "kovka177.ru",
   "who": "",
   "ya": 0,
@@ -455,17 +442,17 @@
   "kw": ""
  },
  {
-  "domain": "covali.ru",
-  "who": "Ковали",
-  "ya": 11,
-  "g": 13,
-  "ya_avg": 6.4,
-  "g_avg": 7.5,
-  "iks": 310,
-  "reviews": 2,
-  "dr": "",
-  "traffic": "",
-  "kw": ""
+  "domain": "msk-mangal.ru",
+  "who": "Мангалы",
+  "ya": 22,
+  "g": 3,
+  "ya_avg": 5.3,
+  "g_avg": 6.0,
+  "iks": 100,
+  "reviews": 1,
+  "dr": 2.0,
+  "traffic": 764,
+  "kw": 51
  },
  {
   "domain": "podkova.ru",
@@ -481,25 +468,25 @@
   "kw": 42
  },
  {
+  "domain": "covali.ru",
+  "who": "Ковали",
+  "ya": 11,
+  "g": 13,
+  "ya_avg": 6.4,
+  "g_avg": 7.5,
+  "iks": 310,
+  "reviews": 2,
+  "dr": "",
+  "traffic": "",
+  "kw": ""
+ },
+ {
   "domain": "оборон-сталь.рф",
   "who": "",
   "ya": 0,
   "g": 21,
   "ya_avg": "",
   "g_avg": 6.2,
-  "iks": "",
-  "reviews": "",
-  "dr": "",
-  "traffic": "",
-  "kw": ""
- },
- {
-  "domain": "arhemet.ru",
-  "who": "",
-  "ya": 9,
-  "g": 12,
-  "ya_avg": 7.8,
-  "g_avg": 5.4,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -520,12 +507,12 @@
   "kw": ""
  },
  {
-  "domain": "bulatt.ru",
+  "domain": "arhemet.ru",
   "who": "",
-  "ya": 18,
-  "g": 2,
-  "ya_avg": 6.5,
-  "g_avg": 6.0,
+  "ya": 9,
+  "g": 12,
+  "ya_avg": 7.8,
+  "g_avg": 5.4,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -546,12 +533,12 @@
   "kw": 165
  },
  {
-  "domain": "vorota750.ru",
+  "domain": "bulatt.ru",
   "who": "",
-  "ya": 17,
+  "ya": 18,
   "g": 2,
-  "ya_avg": 6.6,
-  "g_avg": 7.0,
+  "ya_avg": 6.5,
+  "g_avg": 6.0,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -572,12 +559,12 @@
   "kw": ""
  },
  {
-  "domain": "ams-kovka.ru",
+  "domain": "vorota750.ru",
   "who": "",
-  "ya": 6,
-  "g": 12,
-  "ya_avg": 7.7,
-  "g_avg": 8.2,
+  "ya": 17,
+  "g": 2,
+  "ya_avg": 6.6,
+  "g_avg": 7.0,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -598,12 +585,12 @@
   "kw": ""
  },
  {
-  "domain": "good-zabor.ru",
-  "who": "Заборы",
-  "ya": 10,
-  "g": 7,
-  "ya_avg": 5.4,
-  "g_avg": 7.9,
+  "domain": "ams-kovka.ru",
+  "who": "",
+  "ya": 6,
+  "g": 12,
+  "ya_avg": 7.7,
+  "g_avg": 8.2,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -624,14 +611,14 @@
   "kw": ""
  },
  {
-  "domain": "magazinkovka.ru",
-  "who": "Магазин ковки",
-  "ya": 17,
-  "g": 0,
-  "ya_avg": 6.6,
-  "g_avg": "",
-  "iks": 10,
-  "reviews": 0,
+  "domain": "good-zabor.ru",
+  "who": "Заборы",
+  "ya": 10,
+  "g": 7,
+  "ya_avg": 5.4,
+  "g_avg": 7.9,
+  "iks": "",
+  "reviews": "",
   "dr": "",
   "traffic": "",
   "kw": ""
@@ -645,6 +632,19 @@
   "g_avg": 6.7,
   "iks": "",
   "reviews": "",
+  "dr": "",
+  "traffic": "",
+  "kw": ""
+ },
+ {
+  "domain": "magazinkovka.ru",
+  "who": "Магазин ковки",
+  "ya": 17,
+  "g": 0,
+  "ya_avg": 6.6,
+  "g_avg": "",
+  "iks": 10,
+  "reviews": 0,
   "dr": "",
   "traffic": "",
   "kw": ""
@@ -728,12 +728,12 @@
   "kw": ""
  },
  {
-  "domain": "kovkahome.ru",
+  "domain": "kuznecdanila.ru",
   "who": "",
-  "ya": 0,
-  "g": 13,
-  "ya_avg": "",
-  "g_avg": 6.5,
+  "ya": 13,
+  "g": 0,
+  "ya_avg": 1.6,
+  "g_avg": "",
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -741,12 +741,12 @@
   "kw": ""
  },
  {
-  "domain": "kuznecdanila.ru",
+  "domain": "kovkahome.ru",
   "who": "",
-  "ya": 13,
-  "g": 0,
-  "ya_avg": 1.6,
-  "g_avg": "",
+  "ya": 0,
+  "g": 13,
+  "ya_avg": "",
+  "g_avg": 6.5,
   "iks": "",
   "reviews": "",
   "dr": "",
@@ -767,12 +767,12 @@
   "kw": ""
  },
  {
-  "domain": "perila-metall.ru",
+  "domain": "kovka-g.ru",
   "who": "",
-  "ya": 11,
-  "g": 1,
-  "ya_avg": 4.1,
-  "g_avg": 7.0,
+  "ya": 7,
+  "g": 5,
+  "ya_avg": 6.3,
+  "g_avg": 9.0,
   "iks": "",
   "reviews": "",
   "dr": "",
