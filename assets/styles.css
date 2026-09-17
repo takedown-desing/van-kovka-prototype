@@ -110,9 +110,15 @@ ul{margin:0}
 /* ---------- Верхняя полоса и шапка ---------- */
 .topbar{background:var(--dark);color:#B9BCC6;font-size:13px}
 .topbar .container{display:flex;gap:22px;align-items:center;height:36px}
+.topbar .container > *{white-space:nowrap}
 .topbar .grow{flex:1}
 .topbar a:hover{color:#fff}
-.topbar .direct{color:#fff;font-weight:600}
+.topbar .direct{color:#F2C98A;font-weight:600}
+.topbar .phone{color:#fff;font-weight:700;font-size:14px;white-space:nowrap}
+.topbar .tb-msgs{display:inline-flex;gap:4px}
+.topbar .tb-msgs a{width:24px;height:24px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);color:#fff}
+.topbar .tb-msgs a svg{width:14px;height:14px}
+.topbar .tb-msgs a.wa{color:#5FD38A}.topbar .tb-msgs a.tg{color:#6CC4F0}.topbar .tb-msgs a.mx{color:#B39DF0}
 .header{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:44px;z-index:500}
 .header .container{display:flex;align-items:center;gap:18px;height:78px}
 .logo{display:flex;align-items:center;gap:12px;flex:none}
@@ -121,7 +127,7 @@ ul{margin:0}
 .logo .lg-txt span{font-size:11.5px;color:var(--muted)}
 .hnav{display:flex;gap:2px;flex:1;min-width:0;overflow:auto;scrollbar-width:none}
 .hnav::-webkit-scrollbar{display:none}
-.hnav a{padding:8px 11px;border-radius:8px;font-weight:600;font-size:14px;white-space:nowrap;color:var(--ink-2)}
+.hnav a{padding:8px 10px;border-radius:8px;font-weight:600;font-size:14px;white-space:nowrap;color:var(--ink-2)}
 .hnav a:hover,.hnav a.active{background:var(--surface-2);color:var(--ink)}
 .hdr-phone{text-align:right;flex:none}
 .hdr-phone b{display:block;font-size:17px;font-family:var(--font-h)}
@@ -131,15 +137,15 @@ ul{margin:0}
 .msg:hover{border-color:var(--ink)}
 .msg svg{width:20px;height:20px}
 .msg.wa{color:#1EAA5B}.msg.tg{color:#2AA3E0}.msg.mx{color:#6B3BD6}
-.hdr-icons{display:flex;gap:6px;flex:none}
+.hdr-icons{display:flex;gap:6px;flex:none;margin-left:auto}
 .hdr-icons a{position:relative}
 .hdr-icons .cnt{position:absolute;top:-6px;right:-6px;background:var(--brand);color:#fff;font-size:11px;font-weight:700;border-radius:999px;min-width:18px;height:18px;display:flex;align-items:center;justify-content:center;padding:0 4px}
 .burger{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;align-items:center;justify-content:center}
 .burger svg{width:22px;height:22px}
 .catbar{background:var(--surface);border-bottom:1px solid var(--line)}
-.catbar .container{display:flex;gap:2px;height:46px;align-items:center;overflow:auto;scrollbar-width:none}
+.catbar .container{display:flex;gap:2px;min-height:46px;padding-top:4px;padding-bottom:4px;align-items:center;flex-wrap:wrap}
 .catbar .container::-webkit-scrollbar{display:none}
-.catbar a{padding:7px 11px;border-radius:8px;font-size:13.5px;font-weight:500;white-space:nowrap;color:var(--ink-2)}
+.catbar a{padding:7px 9px;border-radius:8px;font-size:13px;font-weight:500;white-space:nowrap;color:var(--ink-2)}
 .catbar a:hover,.catbar a.active{background:var(--brand-soft);color:var(--brand-dark)}
 .catbar a.all{font-weight:700;color:var(--ink)}
 
@@ -426,6 +432,11 @@ ul{margin:0}
 .pager a{width:38px;height:38px;border:1px solid var(--line-2);border-radius:10px;display:inline-flex;align-items:center;justify-content:center;font-weight:600;background:#fff}
 .pager a.active{background:var(--dark);color:#fff;border-color:var(--dark)}
 
+.f-empty{grid-column:1/-1;background:var(--surface);border:1px dashed var(--line-2);border-radius:var(--radius);padding:28px;text-align:center;color:var(--ink-2)}
+.f-empty b{display:block;font-family:var(--font-h);font-size:18px;color:var(--ink);margin-bottom:6px}
+.f-empty .btn{margin-top:12px}
+.toolbar .sort a{cursor:pointer}
+
 /* ---------- Карточка изделия ---------- */
 .product-top{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:32px;align-items:start;margin-top:8px}
 .gallery{position:sticky;top:140px}
@@ -577,9 +588,17 @@ ul{margin:0}
 .persona-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 
 /* ---------- Адаптив ---------- */
+@media (max-width:1300px){
+  .logo .lg-txt{display:none}
+}
+@media (max-width:1200px){
+  .hnav{display:none}
+  .burger{display:inline-flex}
+}
 @media (max-width:1100px){
   .topbar .container{height:auto;min-height:36px;padding-top:6px;padding-bottom:6px;flex-wrap:wrap;gap:4px 18px;line-height:1.35}
   .topbar .grow{display:none}
+  .topbar .direct{display:none}
   .prod-grid,.prod-grid.four,.work-grid{grid-template-columns:repeat(2,1fr)}
   .cat-grid,.cat-grid.six,.info-grid.cols-4,.rating-row{grid-template-columns:repeat(2,1fr)}
   .cat-grid.three{grid-template-columns:repeat(2,1fr)}
@@ -588,8 +607,6 @@ ul{margin:0}
   .trust-strip .container{grid-template-columns:repeat(3,1fr)}
   .trust-strip .item:nth-child(4){border-left:0}
   .cross-grid{grid-template-columns:repeat(3,1fr)}
-  .hnav{display:none}
-  .burger{display:inline-flex}
   .header .container{gap:12px}
   .photo-strip{grid-template-columns:repeat(2,1fr)}
   .lk-cards{grid-template-columns:1fr 1fr}
@@ -625,6 +642,9 @@ ul{margin:0}
   .container{padding:0 16px}
   .topbar .container{height:auto;padding:6px 16px;gap:10px;flex-wrap:wrap;font-size:12px}
   .topbar .hide-m{display:none}
+  .topbar .container{justify-content:space-between}
+  .catbar .container{flex-wrap:nowrap;overflow:auto;scrollbar-width:none;padding-top:0;padding-bottom:0;height:46px}
+  .catbar .container::-webkit-scrollbar{display:none}
   .header .container{height:64px;gap:10px}
   .logo img{height:40px}
   .logo .lg-txt{display:none}
