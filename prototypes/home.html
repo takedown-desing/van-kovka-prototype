@@ -28,12 +28,12 @@
 </div>
 
 <!-- Верхняя полоса -->
-<div class="topbar blk" id="top" data-tag="res" data-label="Новый блок: по результатам исследования. Город, режим, телефон и мессенджеры одной строкой до прокрутки (kovka-na-zakaz, kovkadvor, kovart)">
+<div class="topbar blk" id="top" data-tag="mix" data-label="Существующий блок (верхнее меню «О компании, Как заказать, Доставка, Контакты»), переработан: служебные разделы остались в верхней полосе, как на текущем сайте; добавлены режим, телефон и мессенджеры (kovka-na-zakaz, kovkadvor, kovart)">
   <div class="container">
-    <span class="hide-m">Подольск, производство и склад-магазин</span>
-    <span class="hide-m">Ежедневно 9:00-21:00</span>
+    <nav class="tb-nav"><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать</a><a href="order.html#dostavka">Доставка</a><a href="contacts.html">Контакты</a></nav>
     <span class="grow"></span>
-    <span class="direct hide-m">Замер по Москве и области бесплатно при заказе</span>
+    <span class="direct hide-m">Замер бесплатно при заказе</span>
+    <span class="hide-m">Ежедневно 9:00-21:00</span>
     <a class="phone" href="tel:+74951345506">+7 (495) 134-55-06</a>
     <span class="tb-msgs">
       <a class="wa" href="#" title="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
@@ -44,10 +44,13 @@
 </div>
 
 <!-- Шапка -->
-<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан + новое по исследованию: одно меню по типам изделий вместо трёх копий каталога, кабинет, корзина и кнопка «Рассчитать стоимость»; телефон и мессенджеры в верхней полосе (kovka-na-zakaz, kovart, doorinhome)">
+<header class="header blk" data-tag="mix" data-label="Существующий блок, переработан: логотип, поиск по каталогу и артикулу (есть на текущем сайте, сохранён и вынесен в центр), кабинет, корзина и новая кнопка «Рассчитать стоимость» (kovka-na-zakaz, kovart, doorinhome)">
   <div class="container">
     <a class="logo" href="home.html"><img src="../assets/img/logo.webp" alt="Ван-Ковка"><span class="lg-txt"><b>Ван-Ковка</b><span>ковка и элементы, Подольск</span></span></a>
-    <nav class="hnav"><a href="catalog.html">Каталог изделий</a><a href="catalog.html#elements">Элементы ковки</a><a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать</a><a href="contacts.html">Контакты</a></nav>
+    <form class="search" data-search action="catalog.html" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input type="search" placeholder="Поиск по каталогу и артикулу: ворота, балясина 5379" aria-label="Поиск по каталогу" autocomplete="off">
+      <div class="search-drop"></div>
+    </form>
     <div class="hdr-icons">
       <a class="msg" href="account.html" title="Личный кабинет"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a>
       <a class="msg" href="cart.html" title="Корзина"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="cnt">3</span></a>
@@ -57,18 +60,31 @@
   </div>
 </header>
 
-<div class="catbar blk" data-tag="res" data-label="Новый блок: по результатам исследования. Полоса категорий по типу изделия вместо 45 пунктов левой колонки (kovka-na-zakaz, kovkadvor, kovkadizain)">
-  <div class="container"><a class="all" href="catalog.html">Все изделия</a><a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы</a><a href="catalog.html">Мебель и интерьер</a><a href="catalog.html#elements">Элементы ковки</a></div>
+<!-- Меню каталога и направления -->
+<div class="catbar blk" data-tag="mix" data-label="Существующие блоки (левое меню каталога из 45 пунктов и три логотипа направлений в шапке: Иранская ковка, Интерьерный декор Glanzepol, Художественная ковка), переработаны: одна строка без дублей. Слева изделия на заказ по типам, справа три направления с логотипами; «Иранская ковка» по-прежнему ведёт на сайт samen-kovka.ru">
+  <div class="container">
+    <nav class="cat-links"><a class="all" href="catalog.html">Каталог изделий</a><a href="catalog.html" title="Кованые ворота и калитки">Ворота</a><a href="catalog.html" title="Кованые заборы и ограждения">Заборы</a><a href="catalog.html" title="Перила и лестницы">Перила</a><a href="catalog.html" title="Козырьки и навесы">Козырьки</a><a href="catalog.html" title="Решётки на окна и двери">Решётки</a><a href="catalog.html" title="Мангалы и садовая ковка">Мангалы</a><a href="catalog.html" title="Кованая мебель и интерьер">Мебель</a></nav>
+    <div class="cb-brands">
+      <a href="catalog.html#elements" title="Магазин элементов холодной ковки"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>Элементы ковки</a>
+      <a href="catalog.html#elements" title="Раздел магазина: плинтусы, молдинги, розетки, карнизы"><img src="../assets/img/logo-ganz.png" alt="">Декор Glanzepol</a>
+      <a href="https://samen-kovka.ru" target="_blank" rel="nofollow noopener" title="Откроется сайт партнёра samen-kovka.ru"><img src="../assets/img/logo-samen.png" alt="">Иранская ковка <span class="ext">↗</span></a>
+    </div>
+  </div>
 </div>
 
 <!-- Мобильное меню -->
 <div class="drawer">
   <div class="panel">
     <button class="close" data-close-menu aria-label="Закрыть">✕</button>
+    <h4>Поиск</h4>
+    <form class="search in-drawer" data-search action="catalog.html" role="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input type="search" placeholder="Поиск по каталогу и артикулу: ворота, балясина 5379" aria-label="Поиск по каталогу" autocomplete="off">
+      <div class="search-drop"></div>
+    </form>
     <h4>Изделия на заказ</h4>
     <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки на окна</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
-    <h4>Магазин элементов</h4>
-    <a href="catalog.html#elements">Балясины</a><a href="catalog.html#elements">Пики и наконечники</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Все 22 разделов</a>
+    <h4>Направления</h4>
+    <a href="catalog.html#elements">Элементы холодной ковки: 22 раздела</a><a href="catalog.html#elements">Интерьерный декор Glanzepol</a><a href="https://samen-kovka.ru" target="_blank" rel="nofollow noopener">Иранская ковка, сайт партнёра ↗</a>
     <h4>Компания</h4>
     <a href="portfolio.html">Наши работы</a><a href="about.html">Производство</a><a href="order.html">Как заказать, замер, доставка, монтаж</a><a href="contacts.html">Контакты</a><a href="account.html">Личный кабинет</a><a href="cart.html">Корзина</a>
     <h4>Связь</h4>
@@ -134,6 +150,18 @@
     <div class="item"><b><span class="fill">4,9</span></b><span>рейтинг на Яндекс Картах, <span class="fill">120</span> отзывов</span></div>
   </div>
 </div>
+<section class="section alt blk" id="directions" data-tag="mix" data-label="Существующий блок (три крупных логотипа в шапке: Иранская ковка, Интерьерный декор Glanzepol, Художественная ковка), сохранён: направления компании вынесены в отдельный блок с пояснением, что это и куда ведёт; те же направления стоят в строке меню. «Иранская ковка» по-прежнему открывает сайт samen-kovka.ru">
+
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Направления</span><h2>Четыре направления Ван-Ковки</h2><p>Изделия на заказ, магазин элементов и два партнёрских направления, которые сейчас вынесены логотипами в шапку сайта.</p></div></div>
+    <div class="dir-grid">
+      <a class="dir" href="catalog.html"><span class="lg"><img src="../assets/img/logo-orel.png" alt=""></span><h3>Художественная ковка на заказ</h3><p>Ворота, заборы, перила, козырьки, навесы, мангалы: 200+ эскизов, замер и монтаж.</p><span class="go">Каталог изделий</span></a>
+      <a class="dir" href="catalog.html#elements"><span class="lg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></span><h3>Элементы холодной ковки</h3><p>22 раздела, 1&nbsp;300+ позиций со склада в Подольске, опт и розница.</p><span class="go">Магазин элементов</span></a>
+      <a class="dir" href="catalog.html#elements"><span class="lg"><img src="../assets/img/logo-ganz.png" alt=""></span><h3>Интерьерный декор Glanzepol</h3><p>Плинтусы, молдинги, карнизы, розетки и панели из полиуретана: 227 позиций.</p><span class="go">Раздел декора</span></a>
+      <a class="dir" href="https://samen-kovka.ru" target="_blank" rel="nofollow noopener"><span class="lg"><img src="../assets/img/logo-samen.png" alt=""></span><h3>Иранская ковка Samen</h3><p>Кованые изделия и элементы ручной работы из Ирана. Отдельный сайт партнёра.</p><span class="go">samen-kovka.ru ↗</span></a>
+    </div>
+  </div>
+</section>
 <section class="section  blk" id="categories" data-tag="mix" data-label="Существующий блок (плитка из 39 разделов, половина без картинок), переработан: 8 категорий по назначению с фото, числом эскизов и ценой «от» (kovka-na-zakaz «Основные направления», kovkadvor, kovkadizain)">
 
   <div class="container">
@@ -332,7 +360,7 @@
 </section>
 
 <!-- Подвал -->
-<footer class="footer blk" data-tag="mix" data-label="Существующий подвал, дополнен: каталог по типам изделий, условия, реквизиты, документы, мессенджеры">
+<footer class="footer blk" data-tag="mix" data-label="Существующий подвал, дополнен: каталог по типам изделий, направления (элементы, Glanzepol, иранская ковка), условия, реквизиты, документы">
   <div class="container">
     <div class="cols">
       <div>
@@ -348,8 +376,8 @@
         <a href="catalog.html">Ворота и калитки</a><a href="catalog.html">Заборы и ограждения</a><a href="catalog.html">Перила и лестницы</a><a href="catalog.html">Козырьки и навесы</a><a href="catalog.html">Решётки</a><a href="catalog.html">Мангалы и садовая ковка</a><a href="catalog.html">Мебель и интерьер</a>
       </div>
       <div>
-        <h4>Элементы и материалы</h4>
-        <a href="catalog.html#elements">Балясины и столбы</a><a href="catalog.html#elements">Пики, наконечники, заглушки</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Декоративные панели</a><a href="catalog.html#elements">Краски и патина</a><a href="catalog.html#elements">Прайс-лист в Excel</a>
+        <h4>Элементы и направления</h4>
+        <a href="catalog.html#elements">Балясины и столбы</a><a href="catalog.html#elements">Пики, наконечники, заглушки</a><a href="catalog.html#elements">Листья, цветы, виноград</a><a href="catalog.html#elements">Краски и патина</a><a href="catalog.html#elements">Прайс-лист в Excel</a><a href="catalog.html#elements">Интерьерный декор Glanzepol</a><a href="https://samen-kovka.ru" target="_blank" rel="nofollow noopener">Иранская ковка, сайт партнёра ↗</a>
       </div>
       <div>
         <h4>Покупателю</h4>

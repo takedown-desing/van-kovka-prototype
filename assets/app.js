@@ -341,6 +341,47 @@
     apply();
   });
 
+
+  /* Поиск по каталогу и артикулу: подсказки по мере ввода (в прототипе по списку примеров) */
+  var SEARCH = [
+    ['Кованые ворота и калитки', 'раздел, 27 эскизов', 'catalog.html'],
+    ['Кованые ворота AV-026 с калиткой', 'эскиз, от 12 500 ₽ за м²', 'product.html'],
+    ['Кованые заборы и ограждения', 'раздел, 54 эскиза', 'catalog.html'],
+    ['Перила и лестницы кованые', 'раздел, 36 эскизов', 'catalog.html'],
+    ['Козырьки и навесы кованые', 'раздел, 62 эскиза', 'catalog.html'],
+    ['Мангалы кованые', 'раздел, 25 эскизов', 'catalog.html'],
+    ['Балясина 5379', 'элемент, 570 ₽, в наличии', 'catalog.html#elements'],
+    ['Балясина 11.002', 'элемент, 470 ₽, в наличии', 'catalog.html#elements'],
+    ['Балясина композиционная 4813', 'элемент, 487 ₽, в наличии', 'catalog.html#elements'],
+    ['Начальный столб 5818', 'элемент, 1 092 ₽, в наличии', 'catalog.html#elements'],
+    ['Пика А9/12', 'элемент, в наличии', 'catalog.html#elements'],
+    ['Листья кованые', 'раздел элементов, 242 позиции', 'catalog.html#elements'],
+    ['Краски и патина', 'раздел элементов, 17 позиций', 'catalog.html#elements'],
+    ['Интерьерный декор Glanzepol', 'раздел, 227 позиций', 'catalog.html#elements'],
+    ['Распашные ворота в Домодедово', 'объект из портфолио', 'project.html'],
+    ['Замер, доставка и монтаж', 'условия', 'order.html'],
+    ['Контакты и схема проезда', 'страница', 'contacts.html']
+  ];
+  qsa('[data-search]').forEach(function (form) {
+    var inp = qs('input', form), drop = qs('.search-drop', form);
+    if (!inp || !drop) return;
+    function render() {
+      var q = inp.value.trim().toLowerCase();
+      if (!q) { drop.classList.remove('open'); return; }
+      var words = q.split(/\s+/);
+      var res = SEARCH.filter(function (r) { var t = (r[0] + ' ' + r[1]).toLowerCase(); return words.every(function (w) { return t.indexOf(w) > -1; }); }).slice(0, 6);
+      drop.innerHTML = res.length
+        ? res.map(function (r) { return '<a href="' + r[2] + '"><b>' + r[0] + '</b><span>' + r[1] + '</span></a>'; }).join('')
+        : '<div class="none">Ничего не найдено. Пришлите фото или артикул в WhatsApp, подберём вручную.</div>';
+      drop.classList.add('open');
+    }
+    inp.addEventListener('input', render);
+    inp.addEventListener('focus', render);
+    inp.addEventListener('keydown', function (e) { if (e.key === 'Escape') { drop.classList.remove('open'); inp.blur(); } });
+    d.addEventListener('click', function (e) { if (!form.contains(e.target)) drop.classList.remove('open'); });
+    form.addEventListener('submit', function (e) { var first = qs('a', drop); if (first) { e.preventDefault(); location.href = first.getAttribute('href'); } });
+  });
+
   /* Активная ссылка в панели прототипа */
   var path = location.pathname.split('/').pop();
   qsa('.proto-bar nav a').forEach(function (a) {
